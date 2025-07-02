@@ -1,0 +1,3 @@
+name	taxonomy_id	taxonomy_lvl	kraken_assigned_reads	added_reads	new_est_reads	fraction_total_reads
+Bacteria	2	D	15569480	21209	15590689	0.99505
+Eukaryota	2759	D	76719	770	77489	0.00495

@@ -1,0 +1,44 @@
+name	taxonomy_id	taxonomy_lvl	kraken_assigned_reads	added_reads	new_est_reads	fraction_total_reads
+Proteobacteria	1224	P	2307261	178863	2486124	0.53855
+Actinobacteria	201174	P	1567211	77113	1644324	0.35620
+Firmicutes	1239	P	65217	42684	107901	0.02337
+Chloroflexi	200795	P	15027	338	15365	0.00333
+Cyanobacteria	1117	P	13180	397	13577	0.00294
+Deinococcus-Thermus	1297	P	13135	840	13975	0.00303
+Armatimonadetes	67819	P	935	6	941	0.00020
+Tenericutes	544448	P	217	12	229	0.00005
+Planctomycetes	203682	P	155225	2285	157510	0.03412
+Verrucomicrobia	74201	P	17702	576	18278	0.00396
+Kiritimatiellaeota	134625	P	504	457	961	0.00021
+Chlamydiae	204428	P	177	3	180	0.00004
+Candidatus Omnitrophica	67812	P	136	0	136	0.00003
+Bacteroidetes	976	P	37222	894	38116	0.00826
+Chlorobi	1090	P	1478	64	1542	0.00033
+Ignavibacteriae	1134404	P	83	2	85	0.00002
+Balneolaeota	1936987	P	82	10	92	0.00002
+Gemmatimonadetes	142182	P	33078	2209	35287	0.00764
+Fibrobacteres	65842	P	62	1	63	0.00001
+Candidatus Cloacimonetes	456828	P	27	0	27	0.00001
+Acidobacteria	57723	P	52860	1970	54830	0.01188
+Nitrospirae	40117	P	5635	92	5727	0.00124
+Spirochaetes	203691	P	1271	79	1350	0.00029
+Synergistetes	508458	P	1058	103	1161	0.00025
+Candidatus Bipolaricaulota	67810	P	224	10	234	0.00005
+Candidatus Saccharibacteria	95818	P	136	75	211	0.00005
+Candidatus Absconditabacteria	221235	P	14	0	14	0.00000
+Thermotogae	200918	P	310	27	337	0.00007
+Aquificae	200783	P	276	5	281	0.00006
+Thermodesulfobacteria	200940	P	176	4	180	0.00004
+Calditrichaeota	1930617	P	126	1	127	0.00003
+Deferribacteres	200930	P	109	4	113	0.00002
+Fusobacteria	32066	P	102	19	121	0.00003
+Chrysiogenetes	200938	P	93	50	143	0.00003
+Elusimicrobia	74152	P	82	0	82	0.00002
+Coprothermobacterota	2138240	P	61	14	75	0.00002
+Caldiserica	67814	P	30	0	30	0.00001
+Dictyoglomi	68297	P	28	0	28	0.00001
+Atribacterota	67818	P	23	0	23	0.00001
+Ascomycota	4890	P	14146	141	14287	0.00310
+Basidiomycota	5204	P	895	28	923	0.00020
+Microsporidia	6029	P	13	0	13	0.00000
+Oomycota	4762	P	1088	179	1267	0.00027

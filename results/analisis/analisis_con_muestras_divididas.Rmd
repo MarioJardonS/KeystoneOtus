@@ -193,25 +193,30 @@ otus_tomate_aleatorio1 <- list()
 for (i in 1:10){
   otus_tomate_aleatorio1[[i]] <- read.csv( paste0("../central_otus/otus_centrales_tomate_aleatorio1_" , as.character(i) , ".csv" ) , row.names = 1)
 }
+
+otus_centrales_tomate2 <- append(otus_tomate_aleatorio1 , list(otus_tomate_desarrollo , otus_tomate_no_desarrollo, otus_tomate_totales ))
 ```
 
 La cantidad de OTUs detectados como clave en los submuestreos aleaorios se encuentra en un rango similar a la de los OTUs detectados con todas las muestras y con la primera división no aleatoria (37, 54, 24). 
 
 ```{r}
-taxa_tomate_aleatorio1 <- list()
+taxa_tomate_aleatorio2 <- list()
 numero_otus <- c()
-for (i in 1:10){
-  taxa_tomate_aleatorio1[[i]] <- rizosfera_bacterias[ intersect(row.names(rizosfera_bacterias), row.names(otus_tomate_aleatorio1[[i]])),]
-  x_i <-  length(row.names(otus_tomate_aleatorio1[[i]]))
-  print( paste0( "Se obtuvieron "  , as.character(x_i)  , " OTUs centrales en el submuestreo aleatorio " , as.character(i)  ) )
+for (i in 1:13){
+  taxa_tomate_aleatorio2[[i]] <- rizosfera_bacterias[ intersect(row.names(rizosfera_bacterias), row.names(otus_centrales_tomate2[[i]])),]
+  x_i <-  length(row.names(otus_centrales_tomate2[[i]]))
+  #print( paste0( "Se obtuvieron "  , as.character(x_i)  , " OTUs centrales en el submuestreo aleatorio " , as.character(i)  ) )
   numero_otus <- c(numero_otus , x_i)
-  write.csv( taxa_tomate_aleatorio1[[i]] ,  paste0("taxonomy_keystone_otus_tomate_aleatorio_", as.character(i)  , ".csv"))
+  #write.csv( taxa_tomate_aleatorio1[[i]] ,  paste0("taxonomy_keystone_otus_tomate_aleatorio_", as.character(i)  , ".csv"))
 }
-print(paste0("Su media fue ", as.character(mean(numero_otus))))
-print(paste0("Su mediana fue ", as.character(median(numero_otus))))
+#print(paste0("Su media fue ", as.character(mean(numero_otus))))
+#print(paste0("Su mediana fue ", as.character(median(numero_otus))))
 ```
+
+
+
 ```{r}
-taxa_tomate_aleatorio1[[11]] <- taxa_centrales_tomate[[3]]
+#taxa_tomate_aleatorio1[[11]] <- taxa_centrales_tomate[[3]]
 nombres_familias <- lista_nombres(taxa_tomate_aleatorio1 , "V7")
 data_familias <- matriz_incidencia(nombres_familias , taxa_tomate_aleatorio1 , "V7")
 colnames(data_familias) <- c(1:10 , "totales")
@@ -241,9 +246,9 @@ data_familias_comunes[ c("Acetobacteraceae","Pseudomonadaceae", "Burkholderiacea
 ```
 
 ```{r}
-nombres_generos <- lista_nombres(taxa_tomate_aleatorio1 , "V8")
-data_generos <- matriz_incidencia(nombres_generos , taxa_tomate_aleatorio1 , "V8")
-colnames(data_generos) <- c(1:10 , "totales")
+nombres_generos2 <- lista_nombres(taxa_tomate_aleatorio2 , "V8")
+data_generos2 <- matriz_incidencia(nombres_generos2 , taxa_tomate_aleatorio2 , "V8")
+colnames(data_generos2) <- c(1:10 , "desarrollo" , "no_desarrollo" , "totales")
 
 ```
 
@@ -323,4 +328,515 @@ for (i in 1:10){
 }
 ```
 
+```{r}
+data_aleatorio1 <- list()
+
+for (i in 1:10){
+  data_aleatorio1[[i]] <- read.csv( paste0("../otus_by_centrality/tomate_aleatorio1_" , as.character(i) , "_bydegree.csv" ) , row.names = 1)
+}
+
+data_dividido <- list( read.csv("../otus_by_centrality/tomate_desarrollo_bydegree.csv" , row.names = 1) ,  read.csv("../otus_by_centrality/tomate_no_desarrollo_bydegree.csv" , row.names = 1) , read.csv("../otus_by_centrality/table.from_chile_bydegree.csv" , row.names = 1)) 
+
+data2 <- append(data_aleatorio1 ,data_dividido)
+
+```
+
+
+
+```{r}
+#o_table <- function( otus){ o_table(otus[ , 1:(dim(otus_centrales[[1]])[2]-4) ] , taxa_are_rows = TRUE ) }
+
+otus_degree50 <- list()
+
+for (i in 1:(length(data2))){
+  
+  otus_degree50[[i]] <- data2[[i]][1:30 , ]
+  }
+
+
+```
+
+
+```{r}
+
+taxa_degree50_tomate <- list()
+for (i in 1:13){
+  taxa_degree50_tomate[[i]] <- rizosfera_bacterias[intersect( row.names(rizosfera_bacterias), row.names(otus_degree50[[i]])),]
+}
+```
+
+
+```{r}
+nombres_generos_degree50 <- lista_nombres(taxa_degree50_tomate , "V8")
+data_generos_degree50 <- matriz_incidencia(nombres_generos_degree50 , taxa_degree50_tomate , "V8")
+
+```
+
+```{r}
+
+jac <- function(x , y) { (sum(as.vector(x) * as.vector(y)))/sum( (((as.vector(x)) + as.vector(y)) %% 2)    +  (as.vector(x) * as.vector(y))  )  }
+
+
+#sim_a_medoide <- function(v , sim){ 
+
+sim_a_medoide <- function(v , sim){ 
+  sum_sim <- c()
+  for(i in 1:(length(v)) ){
+    sim_i <- c()
+    for (j in 1:length(v) ) {
+      
+      sim_i <- c(sim_i , sim(v[ , i] , v[ , j] ) )
+      
+    }
+  sum_sim_i <- sum(sim_i )
+  #print(sum_sim_i)
+  sum_sim <- c(sum_sim , sum_sim_i)
+  } 
+  x <- which(sum_sim == max(sum_sim)  )
+  return(sum_sim[x])
+}
+
+var_a_medoide <- function(v , sim){ 
+  sum_sim <- c()
+  var_sim <- c()
+  for(i in 1:(length(v)) ){
+    sim_i <- c()
+    for (j in 1:length(v) ) {
+      
+      sim_i <- c(sim_i , sim(v[ , i] , v[ , j] ) )
+      
+    }
+  sum_sim_i <- sum(sim_i )
+  var_sim_i <- mean(sim_i)
+  
+  sum_sim <- c(sum_sim , sum_sim_i)
+  var_sim <- c(var_sim , var_sim_i)
+  } 
+  x <- which(sum_sim == max(sum_sim)  )
+  return(var_sim[x])
+  }
+
+```
+
+```{r}
+
+
+```
+
+
+
+```{r}
+jac_deg50 <- c()
+
+for ( i in 1:12) {
+  for (j in (i + 1):13){ 
+     x <- jac( data_generos_degree50[ , i ] ,  data_generos_degree50[ , j]  )  
+    jac_deg50 <- c(jac_deg50 , x)
+    }
+  
+}
+
+```
+
+
+```{r}
+jac_mio <- c()
+
+for ( i in 1:12) {
+  for (j in (i + 1):13){ 
+     x <- jac( data_generos2[ , i ] ,  data_generos2[ , j]  )  
+    jac_mio <- c(jac_mio , x)
+    }
+  
+}
+
+```
+
+```{r}
+#o_table <- function( otus){ o_table(otus[ , 1:(dim(otus_centrales[[1]])[2]-4) ] , taxa_are_rows = TRUE ) }
+
+otus_degree100 <- list()
+
+for (i in 1:(length(data2))){
+  
+  otus_degree100[[i]] <- data2[[i]][1:100 , ]
+  }
+
+
+```
+
+
+```{r}
+
+taxa_degree100_tomate <- list()
+for (i in 1:13){
+  taxa_degree100_tomate[[i]] <- rizosfera_bacterias[intersect( row.names(rizosfera_bacterias), row.names(otus_degree100[[i]])),]
+}
+```
+
+
+```{r}
+nombres_generos_degree100 <- lista_nombres(taxa_degree100_tomate , "V8")
+data_generos_degree100 <- matriz_incidencia(nombres_generos_degree100 , taxa_degree100_tomate , "V8")
+
+```
+
+
+```{r}
+jac_deg100 <- c()
+
+for ( i in 1:12) {
+  for (j in (i + 1):13){ 
+     x <- jac( data_generos_degree100[ , i ] ,  data_generos_degree100[ , j]  )  
+    jac_deg100 <- c(jac_deg100 , x)
+    }
+  
+}
+
+print(summary(jac_deg100))
+print(var(jac_deg100))
+
+```
+
+```{r}
+#o_table <- function( otus){ o_table(otus[ , 1:(dim(otus_centrales[[1]])[2]-4) ] , taxa_are_rows = TRUE ) }
+
+otus_close30 <- list()
+
+for (i in 1:(length(data2))){
+  
+  otus_close30[[i]] <- data2[[i]][ order(data2[[i]][ , "closeness" ] , decreasing = TRUE ) ,  ][1:30 ,]
+  }
+
+
+```
+
+
+```{r}
+
+taxa_close30_tomate <- list()
+for (i in 1:13){
+  taxa_close30_tomate[[i]] <- rizosfera_bacterias[intersect( row.names(rizosfera_bacterias), row.names(otus_close30[[i]])),]
+}
+```
+
+
+```{r}
+nombres_generos_close30 <- lista_nombres(taxa_close30_tomate , "V8")
+data_generos_close30 <- matriz_incidencia(nombres_generos_close30 , taxa_close30_tomate , "V8")
+
+```
+
+
+```{r}
+jac_close30 <- c()
+
+for ( i in 1:12) {
+  for (j in (i + 1):13){ 
+     x <- jac( data_generos_close30[ , i ] ,  data_generos_close30[ , j]  )  
+    jac_close30 <- c(jac_close30 , x)
+    }
+  
+}
+
+print(summary(jac_close30))
+print(var(jac_close30))
+
+```
+
+
+```{r}
+#o_table <- function( otus){ o_table(otus[ , 1:(dim(otus_centrales[[1]])[2]-4) ] , taxa_are_rows = TRUE ) }
+
+otus_between30 <- list()
+
+for (i in 1:(length(data2))){
+  
+  otus_between30[[i]] <- data2[[i]][ order(data2[[i]][ , "betweenness" ] , decreasing = TRUE ) ,  ][1:30 ,]
+  }
+
+
+```
+
+
+```{r}
+
+taxa_between30_tomate <- list()
+for (i in 1:13){
+  taxa_between30_tomate[[i]] <- rizosfera_bacterias[intersect( row.names(rizosfera_bacterias), row.names(otus_between30[[i]])),]
+}
+```
+
+
+```{r}
+nombres_generos_between30 <- lista_nombres(taxa_between30_tomate , "V8")
+data_generos_between30 <- matriz_incidencia(nombres_generos_between30 , taxa_between30_tomate , "V8")
+
+```
+
+
+```{r}
+jac_between30 <- c()
+
+for ( i in 1:12) {
+  for (j in (i + 1):13){ 
+     x <- jac( data_generos_between30[ , i ] ,  data_generos_between30[ , j]  )  
+    jac_between30 <- c(jac_between30 , x)
+    }
+  
+}
+
+print(summary(jac_between30))
+print(var(jac_between30))
+
+```
+
+
+```{r}
+hdeg <- list()
+hclose <- list()
+hbetween <- list()
+
+for ( i in 1:13 ){
+  hdeg[[i]] <- which(data2[[i]][ , "degrees"] >= quantile(data2[[i]][ , "degrees"] , probs = seq(0, 1, 0.066667))[15])
+  hclose[[i]] <- which(data2[[i]][ , "closeness"] >= quantile(data2[[i]][ , "closeness"] , probs = seq(0, 1, 0.066667))[15])
+  hbetween[[i]] <- which(data2[[i]][ , "betweenness"] >= quantile(data2[[i]][ , "betweenness"] , probs = seq(0, 1, 0.066667))[15])
+}
+  
+  
+```
+
+```{r}
+otus_dc <- list()
+
+for ( i in 1:13 ){
+ otus_dc[[i]] <- data2[[i]][ intersect( hdeg[[i]] , hclose[[i]]) ,  ]
+   
+}
+```
+
+
+```{r}
+
+taxa_dc_tomate <- list()
+for (i in 1:13){
+  taxa_dc_tomate[[i]] <- rizosfera_bacterias[intersect( row.names(rizosfera_bacterias), row.names(otus_dc[[i]])),]
+}
+```
+
+
+```{r}
+nombres_generos_dc <- lista_nombres(taxa_dc_tomate , "V8")
+data_generos_dc <- matriz_incidencia(nombres_generos_dc , taxa_dc_tomate , "V8")
+
+```
+
+
+```{r}
+jac_dc <- c()
+
+for ( i in 1:12) {
+  for (j in (i + 1):13){ 
+     x <- jac( data_generos_dc[ , i ] ,  data_generos_dc[ , j]  )  
+    jac_dc <- c(jac_dc , x)
+    }
+  
+}
+
+print(summary(jac_dc))
+print(var(jac_dc))
+
+```
+
+```{r}
+otus_bc <- list()
+
+for ( i in 1:13 ){
+ otus_bc[[i]] <- data2[[i]][ intersect( hbetween[[i]] , hclose[[i]]) ,  ]
+   
+}
+```
+
+
+```{r}
+
+taxa_bc_tomate <- list()
+for (i in 1:13){
+  taxa_bc_tomate[[i]] <- rizosfera_bacterias[intersect( row.names(rizosfera_bacterias), row.names(otus_bc[[i]])),]
+}
+```
+
+
+```{r}
+nombres_generos_bc <- lista_nombres(taxa_dc_tomate , "V8")
+data_generos_bc <- matriz_incidencia(nombres_generos_bc , taxa_bc_tomate , "V8")
+
+```
+
+
+```{r}
+jac_bc <- c()
+
+for ( i in 1:12) {
+  for (j in (i + 1):13){ 
+     x <- jac( data_generos_bc[ , i ] ,  data_generos_bc[ , j]  )  
+    jac_bc <- c(jac_bc , x)
+    }
+  
+}
+
+print(summary(jac_bc))
+print(var(jac_bc))
+
+```
+
+```{r}
+otus_db <- list()
+
+for ( i in 1:13 ){
+ otus_db[[i]] <- data2[[i]][ intersect( hdeg[[i]] , hbetween[[i]]) ,  ]
+   
+}
+```
+
+
+```{r}
+
+taxa_db_tomate <- list()
+for (i in 1:13){
+  taxa_db_tomate[[i]] <- rizosfera_bacterias[intersect( row.names(rizosfera_bacterias), row.names(otus_db[[i]])),]
+}
+```
+
+
+```{r}
+nombres_generos_db <- lista_nombres(taxa_db_tomate , "V8")
+data_generos_db <- matriz_incidencia(nombres_generos_db , taxa_db_tomate , "V8")
+
+```
+
+
+```{r}
+jac_db <- c()
+
+for ( i in 1:12) {
+  for (j in (i + 1):13){ 
+     x <- jac( data_generos_db[ , i ] ,  data_generos_db[ , j]  )  
+    jac_db <- c(jac_db , x)
+    }
+  
+}
+
+print(summary(jac_db))
+print(var(jac_db))
+
+```
+
+```{r}
+media_col <- function(frame){
+  total <- c()
+  for ( i in 1:dim(frame)[2] ){
+    total <- c(total , sum(as.vector(frame[ , i] )))
+    
+  }
+  return(mean(total))
+}
+```
+
+```{r}
+mas_de_la_mitad <- function(data){
+  sumas <- c()
+  for (i in 1:(dim(data)[1])){
+    sumas <- c(sumas , sum(data[i , ]))
+  }
+  return(length(which(sumas > 6) ))
+}
+```
+
+```{r}
+library(statip)
+
+cv_data <- function(tabula){
+  cv_all <- c()
+
+  for (x in 1:(dim(tabula)[1])) {
+    #print(x)   
+    cv_x <- cv( as.numeric(tabula[x , ] ))
+    
+    cv_all <- c(cv_all , cv_x)
+    
+}
+  return(mean(cv_all))
+}
+```
+
+
+```{r}
+for(i in 1:13){
+  #print(dim(otus_bc[[i]]))
+  print(cv_data(otus_bc[[i]][ , 1:(dim(otus_bc[[i]])[2] - 4) ] ))
+  #print(cv_data(otus_bc[[i]][ , 1:(dim(otus_bc[[i]])[2] )- 4 ] ))
+}
+```
+
+
+```{r}
+for(i in 1:13){
+  #print(dim(otus_bc[[i]]))
+  print(cv_data(otus_dc[[i]][ , 1:(dim(otus_dc[[i]])[2] - 4) ] ))
+  #print(cv_data(otus_bc[[i]][ , 1:(dim(otus_bc[[i]])[2] )- 4 ] ))
+}
+```
+
+```{r}
+for(i in 1:13){
+  #print(dim(otus_bc[[i]]))
+  print(cv_data(otus_db[[i]][ , 1:(dim(otus_[[i]])[2] - 4) ] ))
+  #print(cv_data(otus_bc[[i]][ , 1:(dim(otus_bc[[i]])[2] )- 4 ] ))
+}
+```
+
+
+
+```{r}
+for(i in 1:13){
+  #print(dim(otus_bc[[i]]))
+  print(cv_data(otus_centrales_tomate2[[i]][ , 1:(dim(otus_centrales_tomate2[[i]])[2] - 4) ] ))
+  #print(cv_data(otus_bc[[i]][ , 1:(dim(otus_bc[[i]])[2] )- 4 ] ))
+}
+```
+
+
+```{r}
+print(sim_a_medoide(data_generos_db , jac))
+print(var_a_medoide(data_generos_db , jac))
+print(media_col(data_generos_db))
+print(mas_de_la_mitad(data_generos_db) / dim(data_generos_db)[1] )
+#print(dim(data_generos_db))
+
+print(sim_a_medoide(data_generos_dc , jac))
+print(var_a_medoide(data_generos_dc , jac))
+print(media_col(data_generos_dc))
+print(mas_de_la_mitad(data_generos_dc) / dim(data_generos_dc)[1] )
+
+
+print(sim_a_medoide(data_generos_bc , jac))
+print(var_a_medoide(data_generos_bc , jac))
+print(media_col(data_generos_bc))
+print(mas_de_la_mitad(data_generos_bc) / dim(data_generos_bc)[1] )
+
+#print(sim_a_medoide(data_generos_degree50 , jac))
+#print(dim(data_generos_degree50))
+
+#print(sim_a_medoide(data_generos_close30 , jac))
+#print(dim(data_generos_close30))
+
+#print(sim_a_medoide(data_generos_between30 , jac))
+#print(dim(data_generos_between30))
+
+print(sim_a_medoide(data_generos2 , jac))
+print(var_a_medoide(data_generos2 , jac))
+print(media_col(data_generos2))
+print(mas_de_la_mitad(data_generos2) / dim(data_generos2)[1] )
+```
 

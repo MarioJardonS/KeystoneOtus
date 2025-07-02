@@ -1,0 +1,44 @@
+name	taxonomy_id	taxonomy_lvl	kraken_assigned_reads	added_reads	new_est_reads	fraction_total_reads
+Proteobacteria	1224	P	4080133	227136	4307269	0.63759
+Actinobacteria	201174	P	1738148	72137	1810285	0.26797
+Firmicutes	1239	P	72841	54372	127213	0.01883
+Deinococcus-Thermus	1297	P	16943	641	17584	0.00260
+Cyanobacteria	1117	P	15061	434	15495	0.00229
+Chloroflexi	200795	P	11945	194	12139	0.00180
+Armatimonadetes	67819	P	1951	10	1961	0.00029
+Tenericutes	544448	P	415	24	439	0.00006
+Planctomycetes	203682	P	150288	1667	151955	0.02249
+Verrucomicrobia	74201	P	33437	883	34320	0.00508
+Kiritimatiellaeota	134625	P	567	438	1005	0.00015
+Chlamydiae	204428	P	356	4	360	0.00005
+Candidatus Omnitrophica	67812	P	146	0	146	0.00002
+Gemmatimonadetes	142182	P	114490	6037	120527	0.01784
+Bacteroidetes	976	P	58693	1155	59848	0.00886
+Chlorobi	1090	P	1973	70	2043	0.00030
+Balneolaeota	1936987	P	174	20	194	0.00003
+Ignavibacteriae	1134404	P	89	2	91	0.00001
+Fibrobacteres	65842	P	73	1	74	0.00001
+Candidatus Cloacimonetes	456828	P	62	1	63	0.00001
+Acidobacteria	57723	P	63560	1829	65389	0.00968
+Nitrospirae	40117	P	3268	43	3311	0.00049
+Spirochaetes	203691	P	1722	100	1822	0.00027
+Synergistetes	508458	P	1252	97	1349	0.00020
+Candidatus Saccharibacteria	95818	P	527	30	557	0.00008
+Candidatus Bipolaricaulota	67810	P	261	128	389	0.00006
+Candidatus Absconditabacteria	221235	P	17	0	17	0.00000
+Thermotogae	200918	P	375	42	417	0.00006
+Aquificae	200783	P	315	4	319	0.00005
+Deferribacteres	200930	P	189	4	193	0.00003
+Thermodesulfobacteria	200940	P	186	3	189	0.00003
+Calditrichaeota	1930617	P	165	1	166	0.00002
+Fusobacteria	32066	P	158	29	187	0.00003
+Chrysiogenetes	200938	P	102	42	144	0.00002
+Elusimicrobia	74152	P	85	0	85	0.00001
+Dictyoglomi	68297	P	35	0	35	0.00001
+Caldiserica	67814	P	31	0	31	0.00000
+Coprothermobacterota	2138240	P	30	5	35	0.00001
+Atribacterota	67818	P	25	0	25	0.00000
+Ascomycota	4890	P	14656	138	14794	0.00219
+Basidiomycota	5204	P	1237	47	1284	0.00019
+Microsporidia	6029	P	10	0	10	0.00000
+Oomycota	4762	P	1608	146	1754	0.00026

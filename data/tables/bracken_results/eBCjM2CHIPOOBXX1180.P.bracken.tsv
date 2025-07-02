@@ -1,0 +1,44 @@
+name	taxonomy_id	taxonomy_lvl	kraken_assigned_reads	added_reads	new_est_reads	fraction_total_reads
+Actinobacteria	201174	P	5092423	152230	5244653	0.42543
+Firmicutes	1239	P	573547	345671	919218	0.07456
+Cyanobacteria	1117	P	47924	767	48691	0.00395
+Deinococcus-Thermus	1297	P	35381	1006	36387	0.00295
+Chloroflexi	200795	P	34262	447	34709	0.00282
+Armatimonadetes	67819	P	2499	10	2509	0.00020
+Tenericutes	544448	P	793	52	845	0.00007
+Proteobacteria	1224	P	5115983	206488	5322471	0.43174
+Planctomycetes	203682	P	318021	3082	321103	0.02605
+Verrucomicrobia	74201	P	28393	613	29006	0.00235
+Kiritimatiellaeota	134625	P	1050	831	1881	0.00015
+Chlamydiae	204428	P	742	12	754	0.00006
+Candidatus Omnitrophica	67812	P	286	0	286	0.00002
+Gemmatimonadetes	142182	P	96292	3944	100236	0.00813
+Bacteroidetes	976	P	70224	1074	71298	0.00578
+Chlorobi	1090	P	3514	96	3610	0.00029
+Balneolaeota	1936987	P	249	25	274	0.00002
+Ignavibacteriae	1134404	P	216	4	220	0.00002
+Fibrobacteres	65842	P	117	1	118	0.00001
+Candidatus Cloacimonetes	456828	P	40	0	40	0.00000
+Acidobacteria	57723	P	81595	1423	83018	0.00673
+Nitrospirae	40117	P	15858	152	16010	0.00130
+Spirochaetes	203691	P	3169	114	3283	0.00027
+Synergistetes	508458	P	2881	159	3040	0.00025
+Candidatus Bipolaricaulota	67810	P	651	17	668	0.00005
+Candidatus Saccharibacteria	95818	P	349	172	521	0.00004
+Candidatus Absconditabacteria	221235	P	33	0	33	0.00000
+Thermotogae	200918	P	704	32	736	0.00006
+Aquificae	200783	P	583	5	588	0.00005
+Thermodesulfobacteria	200940	P	437	5	442	0.00004
+Fusobacteria	32066	P	342	49	391	0.00003
+Deferribacteres	200930	P	283	5	288	0.00002
+Calditrichaeota	1930617	P	270	1	271	0.00002
+Chrysiogenetes	200938	P	230	64	294	0.00002
+Elusimicrobia	74152	P	185	1	186	0.00002
+Coprothermobacterota	2138240	P	93	12	105	0.00001
+Caldiserica	67814	P	91	0	91	0.00001
+Dictyoglomi	68297	P	84	0	84	0.00001
+Atribacterota	67818	P	37	0	37	0.00000
+Ascomycota	4890	P	72247	921	73168	0.00594
+Basidiomycota	5204	P	2561	83	2644	0.00021
+Microsporidia	6029	P	26	0	26	0.00000
+Oomycota	4762	P	3207	545	3752	0.00030

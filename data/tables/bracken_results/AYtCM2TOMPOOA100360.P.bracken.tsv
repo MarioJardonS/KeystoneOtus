@@ -1,0 +1,44 @@
+name	taxonomy_id	taxonomy_lvl	kraken_assigned_reads	added_reads	new_est_reads	fraction_total_reads
+Actinobacteria	201174	P	10851517	449358	11300875	0.48887
+Firmicutes	1239	P	420927	182107	603034	0.02609
+Deinococcus-Thermus	1297	P	63067	2547	65614	0.00284
+Cyanobacteria	1117	P	57359	1527	58886	0.00255
+Chloroflexi	200795	P	49565	868	50433	0.00218
+Armatimonadetes	67819	P	3855	23	3878	0.00017
+Tenericutes	544448	P	1119	61	1180	0.00005
+Proteobacteria	1224	P	9181301	597832	9779133	0.42304
+Planctomycetes	203682	P	603988	7409	611397	0.02645
+Verrucomicrobia	74201	P	61098	1753	62851	0.00272
+Kiritimatiellaeota	134625	P	1923	1542	3465	0.00015
+Chlamydiae	204428	P	563	15	578	0.00003
+Candidatus Omnitrophica	67812	P	432	1	433	0.00002
+Bacteroidetes	976	P	154927	3645	158572	0.00686
+Chlorobi	1090	P	5504	187	5691	0.00025
+Balneolaeota	1936987	P	442	39	481	0.00002
+Ignavibacteriae	1134404	P	266	5	271	0.00001
+Gemmatimonadetes	142182	P	85147	4856	90003	0.00389
+Fibrobacteres	65842	P	198	3	201	0.00001
+Candidatus Cloacimonetes	456828	P	78	2	80	0.00000
+Acidobacteria	57723	P	181831	5891	187722	0.00812
+Nitrospirae	40117	P	17857	244	18101	0.00078
+Spirochaetes	203691	P	5310	247	5557	0.00024
+Synergistetes	508458	P	5217	429	5646	0.00024
+Candidatus Bipolaricaulota	67810	P	1174	47	1221	0.00005
+Candidatus Saccharibacteria	95818	P	395	140	535	0.00002
+Candidatus Absconditabacteria	221235	P	77	78	155	0.00001
+Thermotogae	200918	P	1479	95	1574	0.00007
+Aquificae	200783	P	1060	14	1074	0.00005
+Thermodesulfobacteria	200940	P	773	15	788	0.00003
+Deferribacteres	200930	P	498	15	513	0.00002
+Calditrichaeota	1930617	P	459	4	463	0.00002
+Chrysiogenetes	200938	P	425	192	617	0.00003
+Fusobacteria	32066	P	423	74	497	0.00002
+Elusimicrobia	74152	P	299	3	302	0.00001
+Coprothermobacterota	2138240	P	162	32	194	0.00001
+Caldiserica	67814	P	146	0	146	0.00001
+Dictyoglomi	68297	P	96	0	96	0.00000
+Atribacterota	67818	P	84	2	86	0.00000
+Ascomycota	4890	P	80771	910	81681	0.00353
+Basidiomycota	5204	P	4890	111	5001	0.00022
+Microsporidia	6029	P	25	0	25	0.00000
+Oomycota	4762	P	6614	715	7329	0.00032

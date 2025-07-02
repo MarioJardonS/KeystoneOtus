@@ -3,7 +3,7 @@
 
 #construcción de phyloseqs 
 #los argumentos son una tabla de muestras (totales o parciales) una taxonomía posiblemnte con más otus 
-#que la tabla, unos matadatos posiblemente con más muestras, y un tipo que tiene que estar en los metadatos
+#que la tabla, unos metadatos posiblemente con más muestras, y un tipo que tiene que estar en los metadatos
 #esta funcion está para aplicarse en scripts que comparen una tabla de muestras con su reporte de otus clave
 #o que comparen varios de estos reportes
 

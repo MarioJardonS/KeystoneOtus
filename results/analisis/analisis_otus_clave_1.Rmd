@@ -74,11 +74,18 @@ for (i in 1:3){
 
 
 ```{r}
-data_chile <- read.table("../../data/tables/table.from_chile.txt" , row.names = 1, header = TRUE , sep = "" )
+#data_chile <- read.table("../../data/tables/table.from_chile.txt" , row.names = 1, header = TRUE , sep = "" )
+#data_tomate <- read.csv("../../data/tables/tomate_desarrollo.csv" , row.names = 1, header = TRUE , sep = "" )
+#data_maiz <- read.table("../../data/tables/table.from_maiz.txt" , row.names = 1, header = TRUE , sep = "" )
+
+#data <- list( data_chile , data_tomate , data_maiz)
+
+data_chile <- read.csv("../otus_by_centrality/table.from_chile_bydegree.csv" , row.names = 1, header = TRUE)
 data_tomate <- read.csv("../../data/tables/tomate_desarrollo.csv" , row.names = 1, header = TRUE , sep = "" )
 data_maiz <- read.table("../../data/tables/table.from_maiz.txt" , row.names = 1, header = TRUE , sep = "" )
 
 data <- list( data_chile , data_tomate , data_maiz)
+
 
 ```
 
@@ -121,8 +128,8 @@ for (i in 1:3){
 taxa_centrales <- list()
 for (i in 1:3){
   taxa_centrales[[i]] <- rizosferas[[i]][ intersect( row.names(otus_centrales[[i]]), row.names(rizosferas[[i]]) ) ,]
-  print( paste0( "Se obtuvieron "  , length(intersect( row.names(otus_centrales[[i]]), row.names(rizosferas[[i]]) ))  , " OTUs (bacterias) centrales en las muestras de " , muestras[i] ) )
-  write.csv( taxa_centrales[[i]] ,  paste0("taxonomy_keystone_otus_", muestras[i] , ".csv"))
+  #print( paste0( "Se obtuvieron "  , length(intersect( row.names(otus_centrales[[i]]), row.names(rizosferas[[i]]) ))  , " OTUs (bacterias) centrales en las muestras de " , muestras[i] ) )
+  #write.csv( taxa_centrales[[i]] ,  paste0("taxonomy_keystone_otus_", muestras[i] , ".csv"))
   }
 ```
 
@@ -329,6 +336,106 @@ etapa <- sample_data(etapa)
 ```
 
 
+```{r}
+otus_degree_chile <- data[[1]][1:50,  ]
+
+o_table_degree_chile <- otu_table( otus_degree_chile[ ,  intersect(row.names(etapa) , colnames(otus_centrales[[1]]))] , taxa_are_rows = TRUE )
+
+phy_degree_chile <- phyloseq(otu_table = o_table_degree_chile , sample_data = etapa)
+phy_degree_chile <- transform_sample_counts(phy_degree_chile , function(x) x / sum(x) )
+meta_ord <- ordinate( phy_degree_chile , method = "PCoA", distance = "bray")
+plot_pcoa_degree <- plot_ordination(physeq = phy_degree_chile, ordination = meta_ord , color = "Phenology")
+plot_pcoa_degree
+
+
+```
+
+
+```{r}
+otus_closeness_chile <-   data[[1]][ order(data[[1]][ , 9 ] , decreasing = TRUE ) ,  ][1:50 ,]
+
+o_table_closeness_chile <- otu_table( otus_closeness_chile[ ,  intersect(row.names(etapa) , colnames(otus_centrales[[1]]))] , taxa_are_rows = TRUE )
+
+phy_closeness_chile <- phyloseq(otu_table = o_table_closeness_chile , sample_data = etapa)
+phy_closeness_chile <- transform_sample_counts(phy_closeness_chile , function(x) x / sum(x) )
+meta_ord <- ordinate( phy_closeness_chile , method = "PCoA", distance = "bray")
+plot_pcoa_closeness <- plot_ordination(physeq = phy_closeness_chile, ordination = meta_ord , color = "Phenology")
+plot_pcoa_closeness
+
+
+```
+
+```{r}
+otus_betweenness_chile <-   data[[1]][ order(data[[1]][ , 10 ] , decreasing = TRUE ) ,  ][1:50 ,]
+
+o_table_betweenness_chile <- otu_table( otus_betweenness_chile[ ,  intersect(row.names(etapa) , colnames(otus_centrales[[1]]))] , taxa_are_rows = TRUE )
+
+phy_betweenness_chile <- phyloseq(otu_table = o_table_betweenness_chile , sample_data = etapa)
+phy_betweenness_chile <- transform_sample_counts(phy_betweenness_chile , function(x) x / sum(x) )
+meta_ord <- ordinate( phy_betweenness_chile , method = "PCoA", distance = "bray")
+plot_pcoa_betweenness <- plot_ordination(physeq = phy_betweenness_chile, ordination = meta_ord , color = "Phenology")
+plot_pcoa_betweenness
+
+
+```
+
+```{r}
+hdeg <- which(data[[1]][ , 8] >= quantile(data[[1]][ , 8] , probs = seq(0, 1, 0.05))[20])
+hclose <- which(data[[1]][ , 9] >= quantile(data[[1]][ , 9] , probs = seq(0, 1, 0.05))[20])
+hbetween <- which(data[[1]][ , 10] >= quantile(data[[1]][ , 10] , probs = seq(0, 1, 0.05))[20])
+
+otus_dc_chile <- data[[1]][ intersect(hdeg, hclose) ,  ]
+
+o_table_dc_chile <- otu_table( otus_dc_chile[ ,  intersect(row.names(etapa) , colnames(otus_centrales[[1]]))] , taxa_are_rows = TRUE )
+
+phy_dc_chile <- phyloseq(otu_table = o_table_dc_chile , sample_data = etapa)
+phy_dc_chile <- transform_sample_counts(phy_dc_chile , function(x) x / sum(x) )
+meta_ord <- ordinate( phy_dc_chile , method = "PCoA", distance = "bray")
+plot_pcoa_dc <- plot_ordination(physeq = phy_dc_chile, ordination = meta_ord , color = "Phenology")
+plot_pcoa_dc
+
+
+
+```
+
+```{r}
+otus_db_chile <- data[[1]][ intersect(hdeg, hbetween) ,  ]
+
+o_table_db_chile <- otu_table( otus_db_chile[ ,  intersect(row.names(etapa) , colnames(otus_centrales[[1]]))] , taxa_are_rows = TRUE )
+
+phy_db_chile <- phyloseq(otu_table = o_table_db_chile , sample_data = etapa)
+phy_db_chile <- transform_sample_counts(phy_db_chile , function(x) x / sum(x) )
+meta_ord <- ordinate( phy_db_chile , method = "PCoA", distance = "bray")
+plot_pcoa_db <- plot_ordination(physeq = phy_db_chile, ordination = meta_ord , color = "Phenology")
+plot_pcoa_db
+```
+
+
+```{r}
+otus_cb_chile <- data[[1]][ intersect(hclose, hbetween) ,  ]
+
+o_table_cb_chile <- otu_table( otus_cb_chile[ ,  intersect(row.names(etapa) , colnames(otus_centrales[[1]]))] , taxa_are_rows = TRUE )
+
+phy_cb_chile <- phyloseq(otu_table = o_table_cb_chile , sample_data = etapa)
+phy_cb_chile <- transform_sample_counts(phy_cb_chile , function(x) x / sum(x) )
+meta_ord <- ordinate( phy_cb_chile , method = "PCoA", distance = "bray")
+plot_pcoa_cb <- plot_ordination(physeq = phy_cb_chile, ordination = meta_ord , color = "Phenology")
+plot_pcoa_cb
+```
+
+
+
+```{r}
+otus_dcb_chile <- data[[1]][ intersect(intersect(hclose, hbetween) , hdeg),  ]
+
+o_table_dcb_chile <- otu_table( otus_dcb_chile[ ,  intersect(row.names(etapa) , colnames(otus_centrales[[1]]))] , taxa_are_rows = TRUE )
+
+phy_dcb_chile <- phyloseq(otu_table = o_table_dcb_chile , sample_data = etapa)
+phy_dcb_chile <- transform_sample_counts(phy_dcb_chile , function(x) x / sum(x) )
+meta_ord <- ordinate( phy_dcb_chile , method = "PCoA", distance = "bray")
+plot_pcoa_dcb <- plot_ordination(physeq = phy_dcb_chile, ordination = meta_ord , color = "Phenology")
+plot_pcoa_dcb
+```
 
 
 ```{r}
@@ -484,7 +591,7 @@ Medians <- c()
 means <- c()
 for (i in 1:dim(phy_chile@otu_table@.Data)[2]){
   
-  Medians <- c(medians , median(phy_chile@otu_table@.Data[, i]))
+  Medians <- c(Medians , median(phy_chile@otu_table@.Data[, i]))
   
   }
 

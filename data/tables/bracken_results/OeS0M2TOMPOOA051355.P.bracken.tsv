@@ -1,0 +1,44 @@
+name	taxonomy_id	taxonomy_lvl	kraken_assigned_reads	added_reads	new_est_reads	fraction_total_reads
+Proteobacteria	1224	P	9510570	634037	10144607	0.48136
+Actinobacteria	201174	P	8350327	385049	8735376	0.41449
+Firmicutes	1239	P	264065	140793	404858	0.01921
+Cyanobacteria	1117	P	83003	1887	84890	0.00403
+Deinococcus-Thermus	1297	P	58740	2297	61037	0.00290
+Chloroflexi	200795	P	45746	768	46514	0.00221
+Armatimonadetes	67819	P	4617	27	4644	0.00022
+Tenericutes	544448	P	1166	137	1303	0.00006
+Planctomycetes	203682	P	715554	9573	725127	0.03441
+Verrucomicrobia	74201	P	66030	1878	67908	0.00322
+Kiritimatiellaeota	134625	P	1948	1590	3538	0.00017
+Chlamydiae	204428	P	1029	19	1048	0.00005
+Candidatus Omnitrophica	67812	P	428	1	429	0.00002
+Gemmatimonadetes	142182	P	230349	12955	243304	0.01154
+Bacteroidetes	976	P	166641	3104	169745	0.00805
+Chlorobi	1090	P	6034	214	6248	0.00030
+Balneolaeota	1936987	P	371	38	409	0.00002
+Ignavibacteriae	1134404	P	305	6	311	0.00001
+Fibrobacteres	65842	P	214	3	217	0.00001
+Candidatus Cloacimonetes	456828	P	122	2	124	0.00001
+Acidobacteria	57723	P	201574	5902	207476	0.00984
+Nitrospirae	40117	P	23528	314	23842	0.00113
+Spirochaetes	203691	P	5237	274	5511	0.00026
+Synergistetes	508458	P	4547	339	4886	0.00023
+Candidatus Bipolaricaulota	67810	P	897	35	932	0.00004
+Candidatus Saccharibacteria	95818	P	659	268	927	0.00004
+Candidatus Absconditabacteria	221235	P	53	0	53	0.00000
+Thermotogae	200918	P	1308	75	1383	0.00007
+Aquificae	200783	P	983	15	998	0.00005
+Thermodesulfobacteria	200940	P	723	13	736	0.00003
+Deferribacteres	200930	P	525	17	542	0.00003
+Calditrichaeota	1930617	P	521	4	525	0.00002
+Chrysiogenetes	200938	P	389	169	558	0.00003
+Fusobacteria	32066	P	386	63	449	0.00002
+Elusimicrobia	74152	P	278	2	280	0.00001
+Caldiserica	67814	P	157	0	157	0.00001
+Coprothermobacterota	2138240	P	145	28	173	0.00001
+Dictyoglomi	68297	P	136	0	136	0.00001
+Atribacterota	67818	P	89	2	91	0.00000
+Ascomycota	4890	P	101923	1456	103379	0.00491
+Basidiomycota	5204	P	4383	89	4472	0.00021
+Microsporidia	6029	P	39	0	39	0.00000
+Oomycota	4762	P	15114	581	15695	0.00074

@@ -1,0 +1,44 @@
+name	taxonomy_id	taxonomy_lvl	kraken_assigned_reads	added_reads	new_est_reads	fraction_total_reads
+Proteobacteria	1224	P	7733431	362075	8095506	0.57808
+Actinobacteria	201174	P	4553153	159372	4712525	0.33651
+Firmicutes	1239	P	101655	32809	134464	0.00960
+Cyanobacteria	1117	P	22882	520	23402	0.00167
+Deinococcus-Thermus	1297	P	21370	860	22230	0.00159
+Chloroflexi	200795	P	16367	231	16598	0.00119
+Armatimonadetes	67819	P	1449	7	1456	0.00010
+Tenericutes	544448	P	513	24	537	0.00004
+Planctomycetes	203682	P	435773	4468	440241	0.03144
+Verrucomicrobia	74201	P	79417	1257	80674	0.00576
+Kiritimatiellaeota	134625	P	810	625	1435	0.00010
+Chlamydiae	204428	P	291	16	307	0.00002
+Candidatus Omnitrophica	67812	P	161	0	161	0.00001
+Bacteroidetes	976	P	193522	2699	196221	0.01401
+Chlorobi	1090	P	2598	82	2680	0.00019
+Balneolaeota	1936987	P	197	19	216	0.00002
+Ignavibacteriae	1134404	P	154	3	157	0.00001
+Gemmatimonadetes	142182	P	56868	2696	59564	0.00425
+Fibrobacteres	65842	P	123	1	124	0.00001
+Candidatus Cloacimonetes	456828	P	26	0	26	0.00000
+Acidobacteria	57723	P	108797	3007	111804	0.00798
+Nitrospirae	40117	P	5265	61	5326	0.00038
+Spirochaetes	203691	P	2404	139	2543	0.00018
+Synergistetes	508458	P	1578	110	1688	0.00012
+Candidatus Saccharibacteria	95818	P	665	34	699	0.00005
+Candidatus Bipolaricaulota	67810	P	261	104	365	0.00003
+Candidatus Absconditabacteria	221235	P	24	0	24	0.00000
+Thermotogae	200918	P	458	17	475	0.00003
+Aquificae	200783	P	312	3	315	0.00002
+Fusobacteria	32066	P	259	35	294	0.00002
+Thermodesulfobacteria	200940	P	231	3	234	0.00002
+Deferribacteres	200930	P	202	4	206	0.00001
+Chrysiogenetes	200938	P	196	71	267	0.00002
+Calditrichaeota	1930617	P	196	1	197	0.00001
+Elusimicrobia	74152	P	130	1	131	0.00001
+Caldiserica	67814	P	68	0	68	0.00000
+Dictyoglomi	68297	P	34	0	34	0.00000
+Coprothermobacterota	2138240	P	34	5	39	0.00000
+Atribacterota	67818	P	24	0	24	0.00000
+Ascomycota	4890	P	84993	636	85629	0.00611
+Basidiomycota	5204	P	2139	53	2192	0.00016
+Microsporidia	6029	P	28	0	28	0.00000
+Oomycota	4762	P	2565	413	2978	0.00021

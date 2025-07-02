@@ -199,7 +199,7 @@ keys_vs_median <- rbind(medians , keys_vs_median)
 keys_vs_median <-  psmelt(otu_table(keys_vs_median  , taxa_are_rows = TRUE))
 
 plot <- ggplot(keys_vs_median , aes(x = Sample , y = Abundance , col = OTU , group = OTU))  + geom_line( ) + facet_wrap(~OTU)+
-  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+  theme(axis.text.x = element_text(angle = 45, hjust = 1 , size = 12))
 
 ggsave( paste0("../results/analisis/abundance_" , args[2] , "_key_otus_medians.png" ), plot ,device = "png")
 
@@ -227,7 +227,7 @@ plot <- ggplot(key_vs_no_key , aes(x = Sample , y= Abundance , color = Type  , g
                geom="crossbar", width=0.5) +
   stat_summary(fun="median", fun.args = list(mult=1), 
                geom="line", width=0.5) +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+  theme(axis.text.x = element_text(angle = 45, hjust = 1 , size = 12))
 
 ggsave(paste0("../results/analisis/mean_median_key_vs_not_key_" , args[2] , ".png") , plot , device = "png")
 
