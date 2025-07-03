@@ -18,11 +18,11 @@ library(stringr)
 
 
 #getwd()
-setwd("..")
+#setwd("..")
 
 #####DATOS#####
 
-data <- paste0("./data/tables/", args[1])
+data <- paste0("../data/tables/bracken_tables/", args[1])
 
 if (str_sub( data , -4 , -1) == ".csv" ){
   data <- read.csv(data , row.names = 1 , header = TRUE)
@@ -58,7 +58,7 @@ data <- data[filt,]
 
 
 ######CARGA DE RED Y AJUSTE A FILTRACIÓN DE OTUS######
-red <- paste0("./data/networks/", args[2])
+red <- paste0("../data/networks/", args[2])
 red <- read.csv(red)
 red = red[,1:3]#se asume la forma del archivo de red
 
@@ -156,9 +156,9 @@ data_between <- data[order(data$betweenness, decreasing = TRUE),]
 
 file <- args[3]
 
-write.csv(data_deg , paste0("./results/otus_by_centrality/",file,"_bydegree.csv") , row.names = TRUE)
-write.csv(data_close,paste0("./results/otus_by_centrality/",file,"_bycloseness.csv") , row.names = TRUE)
-write.csv(data_between, paste0("./results/otus_by_centrality/",file,"_bybetweenness.csv") , row.names = TRUE)
+write.csv(data_deg , paste0("../results/otus_by_centrality/",file,"_bydegree.csv") , row.names = TRUE)
+write.csv(data_close,paste0("../results/otus_by_centrality/",file,"_bycloseness.csv") , row.names = TRUE)
+write.csv(data_between, paste0("../results/otus_by_centrality/",file,"_bybetweenness.csv") , row.names = TRUE)
 
 report_1 <- args[4]
 
@@ -171,7 +171,7 @@ results_1 <- intersect(results_1 , lbetween)
 
 data_report_1 <- data[results_1,]
 
-write.csv(data_report_1 , paste0("./results/central_otus/",report_1) , row.names = TRUE)
+write.csv(data_report_1 , paste0("../results/central_otus/",report_1) , row.names = TRUE)
 
 
 
