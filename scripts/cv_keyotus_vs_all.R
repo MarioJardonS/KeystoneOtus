@@ -16,13 +16,15 @@ data <- paste0( "../data/tables/" , args[2] )
 key_otus <- read.csv(key_otus , row.names = 1 ) #se asume que es una tabla de salida del script ./first_analysis.R
 
 if (substr( data ,  length(data) - 3 , length(data)  ) == ".csv"){
-  data <- read.csv( data , row.names = 1 , header = TRUE )
+  data <- read.csv( data , row.names = 1 , header = TRUE , sep = ",")
 } else {
-  data <- read.table( data , row.names = 1 , header = TRUE , sep = "" )
+  data <- read.table( data , row.names = 1 , header = TRUE , sep = "," )
 }
-#print(head(data))
+
 #normalización de las distribuciones
 for(i in 1:dim(data)[2]){
+  print(data[ , i])
+  data[ , i] <- as.integer(as.vector(data[ , i]))
   data[ , i] <- data[ , i]/sum(data[ , i ])
   #print(data[ , i])
 }

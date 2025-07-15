@@ -18,13 +18,14 @@ measures <- paste0("../results/otus_by_centrality/" , args[3])
 key_otus <- read.csv(key_otus , row.names = 1 ) #se asume que es una tabla de salida del script ./first_analysis.R
 
 if (substr( data ,  length(data) - 3 , length(data)  ) == ".csv"){
-  data <- read.csv( data , row.names = 1 , header = TRUE )
+  data <- read.csv( data , row.names = 1 , header = TRUE , sep = "," )
 } else {
   data <- read.table( data , row.names = 1 , header = TRUE , sep = "" )
 }
 #print(head(data))
 #normalización de las distribuciones
 for(i in 1:dim(data)[2]){
+  data[ , i] <- as.integer(as.vector(data[ , i]))
   data[ , i] <- data[ , i]/sum(data[ , i ])
   #print(data[ , i])
 }
@@ -64,14 +65,14 @@ degree <- ggplot(comparison , mapping = aes(x = .data[["Type"]], y = .data[["deg
   geom_boxplot() +
   labs(y = "Degree", x = "Type")
 
-ggsave(paste0(args[2] , "_degree_key_min_cv.png") , plot = degree , device = png)
+ggsave(paste0(args[1] , "_degree_key_min_cv.png") , plot = degree , device = png)
 
 
 closeness <- ggplot(comparison , mapping = aes(x = .data[["Type"]], y = .data[["closeness"]])) + 
   geom_boxplot() +
   labs(y = "Closeness", x = "Type")
 
-ggsave(paste0(args[2] , "_closeness_key_min_cv.png") , plot = closeness , device = png)
+ggsave(paste0(args[1] , "_closeness_key_min_cv.png") , plot = closeness , device = png)
 
 
 
@@ -79,4 +80,4 @@ betweenness <- ggplot(comparison , mapping = aes(x = .data[["Type"]], y = .data[
   geom_boxplot() +
   labs(y = "Betweenness", x = "Type")
 
-ggsave(paste0(args[2] , "_betweenness_key_min_cv.png") , plot = betweenness , device = png)
+ggsave(paste0(args[1] , "_betweenness_key_min_cv.png") , plot = betweenness , device = png)
