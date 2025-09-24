@@ -18,7 +18,7 @@ key_otus <- read.csv(key_otus , row.names = 1 ) #se asume que es una tabla de sa
 if (substr( data ,  length(data) - 3 , length(data)  ) == ".csv"){
   data <- read.csv( data , row.names = 1 , header = TRUE , sep = ",")
 } else {
-  data <- read.table( data , row.names = 1 , header = TRUE , sep = "," )
+  data <- read.table( data , row.names = 1 , header = TRUE )
 }
 
 #normalización de las distribuciones
@@ -93,7 +93,7 @@ for(i in 1:dim(key_otus)[1]){
 plot_data <- data.frame( otu = row.names(key_otus) , coef_v = cv_key , Media = cv_all_mean , Media_Core = cv_core_mean)
 
 plot <- ggplot() + 
-  geom_line(data = plot_data , aes(x = otu , y = coef_v , group = 1)) +
+  geom_point(data = plot_data , aes(x = otu , y = coef_v , group = 1 , size = 5)) +
   geom_line(data = plot_data , aes(x = otu , y = Media , group = 1 , color = 'blue')) +
   geom_line(data = plot_data , aes(x = otu , y = Media_Core , group = 1 , color = 'red')) +
                        theme(axis.text.x = element_text(angle = 45, hjust = 1) )

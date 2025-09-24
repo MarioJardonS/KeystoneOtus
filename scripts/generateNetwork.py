@@ -21,10 +21,10 @@ numBootstraps   = 100
 loadNetworkFlag = False
 
 
-table = pd.read_csv("../data/tables/bracken_tables/" + sys.argv[1] , index_col = 0)
+table = pd.read_table( sys.argv[1] , index_col = 0)
 table = table.astype(float)
-
-print(table)
+table = table.transpose()
+#print(table)
 table.index = table.index.astype(str)
 
 #table = load_table(sys.argv[1])
@@ -37,7 +37,7 @@ outName = sys.argv[2]
 # https://biom-format.org/documentation/table_objects.html
 numTaxons = int(table.shape[0])
 numSamples = int(table.shape[1])
-print(numTaxons)
+#print(numTaxons)
 
 rawData = table
 statisticsFunctions.ReBoot(rawData)
