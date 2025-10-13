@@ -4,6 +4,7 @@ import pandas as pd
 import numpy as np
 from EmpiricalBrownsMethod import *
 import statsmodels
+from statsmodels.stats.multitest import fdrcorrection
 from joblib import Parallel, delayed
 import datetime
 
@@ -35,14 +36,17 @@ def ReBoot(df):
         sum = 0
         for c in df[col]:
             sum += c
+        
         for i in range(len(df[col])):
-            df[col][i] = df[col][i]/sum
+            
+            
+            df.iloc[i][col] = df.iloc[i][col]/sum
     return df
 
 def norm(df):
     for col in df.columns:
     	for j in range(len(col)):
-    	     df[col][j] = math.log(df[col][i] + 0.000001 )
+    	     df.loc[j , col] = math.log(df.loc[j ,col] + 0.000001 )
     
     return df	      
 
@@ -273,8 +277,8 @@ def PermutationTest(df, network, bootstrap =False, numPermutations = 10000, reBo
 #        bc = link[3]
 #        pvalsSpearman.append(sp)
 #        pvalsBrayCurtis.append(bc)
-    t, adjustedSpearman = statsmodels.stats.multitest.fdrcorrection(pvalsSpearman, is_sorted=False)
-    t, adjustedBrayCurtis = statsmodels.stats.multitest.fdrcorrection(pvalsBrayCurtis, is_sorted=False)
+    t, adjustedSpearman = fdrcorrection(pvalsSpearman, is_sorted=False)
+    t, adjustedBrayCurtis = fdrcorrection(pvalsBrayCurtis, is_sorted=False)
 
 # link updated format i, j, spearman, braycurtis, (pvalueSpearman, pvalueBrayCurtis, adjustedPvalSpearman, adjustedPvalBrayCurtis ), (pvalueSpearman, pvalueBrayCurtis, adjustedPvalSpearman, adjustedPvalBrayCurtis )
     for i in range(len(network)):
