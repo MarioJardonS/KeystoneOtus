@@ -8,8 +8,8 @@ library(phyloseq)
 library(ggplot2)
 
 ##carga de tablas
-key_otus <- paste0( "../results/central_otus/" , args[1] )
-data <- paste0( "../data/tables/" , args[2] )
+key_otus <- paste0( "../results/central_otus/" , args[1] , "_" , args[2] , "_keystone_otus.csv" )
+data <- paste0( "../data/tables/" , args[1] , "_" , args[2] , ".csv" )
 
 
 
@@ -99,4 +99,4 @@ plot <- ggplot() +
                        theme(axis.text.x = element_text(angle = 45, hjust = 1) )
 
 
-ggsave(paste0("coeficiente_varicion_" , args[1] , ".png") , plot = plot , device = "png")
+ggsave(paste0("../results/figures/coefficient_of_variation_" , args[1] , "_" , args[2] , "_keystone_otus" , ".png") , plot = plot , device = "png")

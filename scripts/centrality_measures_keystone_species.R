@@ -98,7 +98,7 @@ for (i in 1:dim(data)[1]) {
   
   v_i <- as.vector(data[i,1:(dim(data)[2]-1)])
   #el siguiente 1 es filtro
-  if (length(v_i [ v_i > 0 ]) > 1 ) {
+.  if (length(v_i [ v_i > 0 ]) > 1 ) {
     filt <- c(filt, i)
   }
 }

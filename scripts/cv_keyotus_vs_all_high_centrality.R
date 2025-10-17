@@ -9,8 +9,8 @@ library(ggplot2)
 
 ##carga de tablas
 
-measures <- paste0( "../results/otus_by_centrality/" , args[1] )
-data <- paste0( "../data/tables/" , args[2] )
+measures <- paste0( "../results/otus_by_centrality/" , args[1] , "_" , args[2] , "_centrality_measures.csv" )
+data <- paste0( "../data/tables/" , args[1] , "_" , args[2] , ".csv" )
 centrality <- args[3]
 
 
@@ -104,4 +104,4 @@ plot <- ggplot() +
                        theme(axis.text.x = element_text(angle = 45, hjust = 1) )
 
 
-ggsave(paste0("coeficient_varition_high_" , args[1],"_" , args[3] , ".png") , plot = plot , device = "png")
+ggsave(paste0("../results/figures/coefficient_of_variation_" , args[1],"_", args[2] ,"_high_"  args[3] , ".png") , plot = plot , device = "png")

@@ -21,7 +21,7 @@ numBootstraps   = 100
 loadNetworkFlag = False
 
 
-table = pd.read_csv( "../data/tables/" +   sys.argv[1] , index_col = 0)
+table = pd.read_csv( f"../data/tables/{sys.argv[1]}_{sys.argv[2]}.csv" , index_col = 0)
 table = table.astype(float)
 #table = table.transpose()
 #print(table)
@@ -31,7 +31,7 @@ table.index = table.index.astype(str)
 
 #el primer argumento debería ser la tabla de abundancia
 
-outName = sys.argv[2]
+outName = f"{sys.argv[1]}_{sys.argv[2]}"
 #el segundo argumento debería ser el inicio del nombre de salida para las tablas
 
 # https://biom-format.org/documentation/table_objects.html
@@ -50,9 +50,9 @@ network = list()
         
 network = statisticsFunctions.CalculateMetricsParallel(rawData)
 
-statisticsFunctions.printNetwork(network,f"../data/networks/{outName}_raw_network.csv")
+statisticsFunctions.printNetwork(network,f"../../networks/{outName}_raw_network.csv")
 
-statisticsFunctions.printNetworkGephi(network,list(rawData.index),f"../data/networks/{outName}_network")
+statisticsFunctions.printNetworkGephi(network,list(rawData.index),f"../../networks/{outName}_network.csv")
 
 #sys.exit()
 
@@ -62,12 +62,12 @@ print ( f"raw network: \t {finish-start}")
 
 statisticsFunctions.PermutationTest(rawData, network, numPermutations = numPermutations, reBoot = True)
 finish = datetime.datetime.now()
-statisticsFunctions.printNetwork(network,f"../data/networks/{outName}_network_PermTest.csv")
+statisticsFunctions.printNetwork(network,f"../../networks/{outName}_network_PermTest.csv")
 print ( f"PERMUTATION test: \t {finish-start}")
 
 
 statisticsFunctions.PermutationTest(rawData, network, bootstrap=True, numPermutations = numPermutations, reBoot = True)
 finish = datetime.datetime.now()
-statisticsFunctions.printNetwork(network,f"../data/networks/{outName}_network_complete.csv")
+statisticsFunctions.printNetwork(network,f"../../networks/{outName}_network_complete.csv")
 print ( f"BOOTSTRAP test: \t {finish-start}")
 

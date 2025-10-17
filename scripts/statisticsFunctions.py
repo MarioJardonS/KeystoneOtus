@@ -46,7 +46,7 @@ def ReBoot(df):
 def norm(df):
     for col in df.columns:
     	for j in range(len(col)):
-    	     df.loc[j , col] = math.log(df.loc[j ,col] + 0.000001 )
+    	    df.iloc[j][col] = math.log(df.iloc[j][col] + 0.000001 )
     
     return df	      
 
