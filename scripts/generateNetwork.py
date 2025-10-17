@@ -52,7 +52,7 @@ network = statisticsFunctions.CalculateMetricsParallel(rawData)
 
 statisticsFunctions.printNetwork(network,f"../../networks/{outName}_raw_network.csv")
 
-statisticsFunctions.printNetworkGephi(network,list(rawData.index),f"../../networks/{outName}_network.csv")
+statisticsFunctions.printNetworkGephi(network,list(rawData.index),f"../../networks/{outName}_network")
 
 #sys.exit()
 
