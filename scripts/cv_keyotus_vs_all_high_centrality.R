@@ -4,7 +4,7 @@ args = commandArgs(trailingOnly=TRUE)
 ##tabla de OTUs general, tabla de OTUs particulares (interesan los otus clave)
 
 library(statip)
-library(phyloseq)
+#library(phyloseq)
 library(ggplot2)
 
 ##carga de tablas
@@ -16,12 +16,12 @@ centrality <- args[3]
 
 measures <- read.csv(measures , row.names = 1 ) #se asume que es una tabla de salida del script ./first_analysis.R
 
-if (substr( data ,  length(data) - 3 , length(data)  ) == ".csv"){
+#if (substr( data ,  length(data) - 3 , length(data)  ) == ".csv"){
   data <- read.csv( data , row.names = 1 , header = TRUE )
-} else {
-  data <- read.table( data , row.names = 1 , header = TRUE , sep = "" )
-}
-#print(head(data))
+#} else {
+ # data <- read.table( data , row.names = 1 , header = TRUE , sep = "" )
+#}
+print(head(data))
 #normalización de las distribuciones
 for(i in 1:dim(data)[2]){
   data[ , i] <- data[ , i]/sum(data[ , i ])
@@ -104,4 +104,4 @@ plot <- ggplot() +
                        theme(axis.text.x = element_text(angle = 45, hjust = 1) )
 
 
-ggsave(paste0("../results/figures/coefficient_of_variation_" , args[1],"_", args[2] ,"_high_"  args[3] , ".png") , plot = plot , device = "png")
+ggsave(paste0("../results/figures/coefficient_of_variation_" , args[1],"_", args[2] ,"_high_" , args[3] , ".png") , plot = plot , device = "png")

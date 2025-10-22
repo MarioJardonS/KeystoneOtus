@@ -11,10 +11,10 @@ library(igraph)
 #library(ggplot2)
 #if (!require(apcluster)) install.packages('apcluster')
 #library(apcluster)
-if (!require(plyr)) install.packages('plyr')
-library(plyr)
-if (!require(stringr)) install.packages('stringr')
-library(stringr)
+#if (!require(plyr)) install.packages('plyr')
+#library(plyr)
+#if (!require(stringr)) install.packages('stringr')
+#library(stringr)
 
 
 #getwd()
@@ -24,15 +24,15 @@ library(stringr)
 
 data <- paste0("../data/tables/", args[1] , "_" , args[2] , ".csv")
 
-if (str_sub( data , -4 , -1) == ".csv" ){
-  data <- read.csv(data , row.names = 1 , header = TRUE)
-} else {
-  data <- read.table(data , row.names = 1, header = TRUE , sep = "" )  
-}
+#if (str_sub( data , -4 , -1) == ".csv" ){
+data <- read.csv(data , row.names = 1 , header = TRUE)
+#} else {
+ # data <- read.table(data , row.names = 1, header = TRUE , sep = "" )  
+#}
 
+#data <- as.numeric(data)
 
-
-
+print(dim(data))
 #Normalización
 for (i in 1:dim(data)[2]){
   data[,i] <- data[,i]/sum(data[,i])

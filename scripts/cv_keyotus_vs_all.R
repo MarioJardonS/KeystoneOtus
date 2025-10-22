@@ -4,7 +4,7 @@ args = commandArgs(trailingOnly=TRUE)
 ##tabla de OTUs general, tabla de OTUs particulares (interesan los otus clave)
 
 library(statip)
-library(phyloseq)
+#library(phyloseq)
 library(ggplot2)
 
 ##carga de tablas
@@ -15,11 +15,11 @@ data <- paste0( "../data/tables/" , args[1] , "_" , args[2] , ".csv" )
 
 key_otus <- read.csv(key_otus , row.names = 1 ) #se asume que es una tabla de salida del script ./first_analysis.R
 
-if (substr( data ,  length(data) - 3 , length(data)  ) == ".csv"){
-  data <- read.csv( data , row.names = 1 , header = TRUE , sep = ",")
-} else {
-  data <- read.table( data , row.names = 1 , header = TRUE )
-}
+#if (substr( data ,  length(data) - 3 , length(data)  ) == ".csv"){
+data <- read.csv( data , row.names = 1 , header = TRUE , sep = ",")
+#} else {
+ # data <- read.table( data , row.names = 1 , header = TRUE )
+#}
 
 #normalización de las distribuciones
 for(i in 1:dim(data)[2]){
