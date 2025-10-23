@@ -1,0 +1,55 @@
+[1] "Arachis_hypogaea_3_Rhizosphere_key"
+
+	Spearman's rank correlation rho
+
+data:  abundace_key_otus and diversity_community
+S = 64, p-value = 0.2911
+alternative hypothesis: true rho is greater than 0
+sample estimates:
+      rho 
+0.2380952 
+
+[1] "Arachis_hypogaea_3_Rhizosphere_degrees"
+
+	Spearman's rank correlation rho
+
+data:  abundace_key_otus and diversity_community
+S = 82, p-value = 0.4884
+alternative hypothesis: true rho is greater than 0
+sample estimates:
+       rho 
+0.02380952 
+
+[1] "Arachis_hypogaea_3_Rhizosphere_closeness"
+
+	Spearman's rank correlation rho
+
+data:  abundace_key_otus and diversity_community
+S = 76, p-value = 0.4201
+alternative hypothesis: true rho is greater than 0
+sample estimates:
+      rho 
+0.0952381 
+
+[1] "Arachis_hypogaea_3_Rhizosphere_betweenness"
+
+	Spearman's rank correlation rho
+
+data:  abundace_key_otus and diversity_community
+S = 50, p-value = 0.1634
+alternative hypothesis: true rho is greater than 0
+sample estimates:
+      rho 
+0.4047619 
+
+[1] "Arachis_hypogaea_3_Rhizosphere_key"
+
+	Spearman's rank correlation rho
+
+data:  abundace_key_otus and diversity_community
+S = 64, p-value = 0.2911
+alternative hypothesis: true rho is greater than 0
+sample estimates:
+      rho 
+0.2380952 
+

@@ -17,7 +17,7 @@ centrality <- args[3]
 measures <- read.csv(measures , row.names = 1 ) #se asume que es una tabla de salida del script ./first_analysis.R
 
 #if (substr( data ,  length(data) - 3 , length(data)  ) == ".csv"){
-  data <- read.csv( data , row.names = 1 , header = TRUE )
+data <- read.csv( data , row.names = 1 , header = TRUE )
 #} else {
  # data <- read.table( data , row.names = 1 , header = TRUE , sep = "" )
 #}
