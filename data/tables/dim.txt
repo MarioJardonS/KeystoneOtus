@@ -1,0 +1,59 @@
+nano , samples
+Agave_salmiana_Rhizosphere.csv
+22995 3 Agave_tequilana_Rhizosphere.csv
+22671 3 Arachis_hypogaea_1_Rhizosphere.csv
+100 9 Arachis_hypogaea_2_Rhizosphere.csv
+100 9Arachis_hypogaea_3_Rhizosphere.csv
+100 9Arachis_hypogaea_Rhizosphere.csv
+22761 9Capsicum_annuum_Rhizosphere.csv
+23436 17Coffea_stenophylla_Coffea_racemosa_Coffea_liberica_Rhizosphere.csv
+22428 2Glycine_max_Rhizosphere.csv
+22983 12Glycine_soja_Rhizosphere.csv
+23030 4Helianthus_annuus_Rhizosphere.csv
+22772 5Lactuca_sativa_L_Rhizosphere.csv
+23053 16Macroptilium_atropurpureum_Rhizosphere.csv
+22315 2maiz_toy.csv
+5 7Malus_domestica_Rhizosphere.csv
+23262 16Myrtillocactus_geometrizans_Rhizosphere.csv
+22967 3Opuntia_robusta_Rhizosphere.csv
+22969 3Oryza_sativa_Rhizosphere.csv
+23468 46Panax_ginseng_Rhizosphere.csv
+22953 8Panax_notoginseng_Rhizosphere.csv
+23191 16Persea_americana_Mill_Rhizosphere.csv
+23519 10Phaseolus_vulgaris_Rhizosphere.csv
+22450 3Sesbania_cannabina_Rhizosphere.csv
+22913 4Solanum_lycopersicum_Rhizosphere.csv
+24134 166Sorghum_bicolor_Rhizosphere.csv
+24068 51tomate_aleatorio1_10.csv
+8561 12tomate_aleatorio1_1.csv
+8561 12tomate_aleatorio1_1_network_complete.csv
+tomate_aleatorio1_1_network_PermTest.csv
+238170 8tomate_aleatorio1_2.csv
+8561 12tomate_aleatorio1_3.csv
+8561 12tomate_aleatorio1_3_network_complete.csv
+tomate_aleatorio1_3_network_PermTest.csv
+208047 8tomate_aleatorio1_4.csv
+8561 12tomate_aleatorio1_5.csv
+8561 12tomate_aleatorio1_5_network_complete.csv
+tomate_aleatorio1_5_network_PermTest.csv
+256390 8tomate_aleatorio1_6.csv
+8561 12tomate_aleatorio1_7.csv
+8561 12tomate_aleatorio1_8.csv
+8561 12tomate_aleatorio1_9.csv
+8561 12tomate_aleatorio2_10.csv
+8561 12tomate_aleatorio2_1.csv
+8561 12tomate_aleatorio2_2.csv
+8561 12tomate_aleatorio2_3.csv
+8561 12tomate_aleatorio2_4.csv
+8561 12tomate_aleatorio2_5.csv
+8561 12tomate_aleatorio2_6.csv
+8561 12tomate_aleatorio2_7.csv
+8561 12tomate_aleatorio2_8.csv
+8561 12tomate_aleatorio2_9.csv
+8561 12tomate_desarrollo.csv
+8561 15tomate_no_desarrollo.csv
+8561 9tomate_nuevo.csv
+13350 28Triticum_aestivum_Rhizosphere.csv
+23181 30Zea_mays_L._hybrid_Rhizosphere.csv
+23433 25Zea_mays_Rhizosphere.csv
+23987 44

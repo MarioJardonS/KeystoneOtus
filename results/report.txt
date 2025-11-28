@@ -53,3 +53,1208 @@ sample estimates:
       rho 
 0.2380952 
 
+[1] "Arachis_hypogaea_3_Rhizosphere_closeness"
+
+	Spearman's rank correlation rho
+
+data:  abundace_key_otus and diversity_community
+S = NA, p-value = NA
+alternative hypothesis: true rho is greater than 0
+sample estimates:
+rho 
+ NA 
+
+[1] "Arachis_hypogaea_3_Rhizosphere_degrees"
+[1] "Arachis_hypogaea_3_Rhizosphere_closeness"
+[1] "Arachis_hypogaea_3_Rhizosphere_degrees"
+[1] "Arachis_hypogaea_3_Rhizosphere_closeness"
+[1] "Arachis_hypogaea_3_Rhizosphere_betweenness"
+[1] "Arachis_hypogaea_3_Rhizosphere_degrees"
+[1] "Arachis_hypogaea_3_Rhizosphere_closeness"
+[1] "Arachis_hypogaea_3_Rhizosphere_betweenness"
+[1] "Arachis_hypogaea_3_Rhizosphere_key"
+
+	Spearman's rank correlation rho
+
+data:  abundace_key_otus and diversity_community
+S = NA, p-value = NA
+alternative hypothesis: true rho is greater than 0
+sample estimates:
+rho 
+ NA 
+
+[1] "Arachis_hypogaea_3_Rhizosphere_degrees"
+[1] "Arachis_hypogaea_3_Rhizosphere_closeness"
+[1] "Arachis_hypogaea_3_Rhizosphere_betweenness"
+[1] "Arachis_hypogaea_3_Rhizosphere_key"
+
+	Spearman's rank correlation rho
+
+data:  abundace_key_otus and diversity_community
+S = NA, p-value = NA
+alternative hypothesis: true rho is greater than 0
+sample estimates:
+rho 
+ NA 
+
+[1] "Arachis_hypogaea_3_Rhizosphere_degrees"
+[1] "Arachis_hypogaea_3_Rhizosphere_closeness"
+[1] "Arachis_hypogaea_3_Rhizosphere_betweenness"
+[1] "Arachis_hypogaea_3_Rhizosphere_key"
+
+	Spearman's rank correlation rho
+
+data:  abundace_key_otus and diversity_community
+S = NA, p-value = NA
+alternative hypothesis: true rho is greater than 0
+sample estimates:
+rho 
+ NA 
+
+[1] "Arachis_hypogaea_Rhizosphere_degrees"
+[1] "Arachis_hypogaea_Rhizosphere_closeness"
+[1] "Arachis_hypogaea_Rhizosphere_betweenness"
+[1] "Arachis_hypogaea_Rhizosphere_key"
+
+	Spearman's rank correlation rho
+
+data:  abundace_key_otus and diversity_community
+S = 78, p-value = 0.441
+alternative hypothesis: true rho is greater than 0
+sample estimates:
+       rho 
+0.07142857 
+
+[1] "Arachis_hypogaea_Rhizosphere_degrees"
+[1] "Arachis_hypogaea_Rhizosphere_closeness"
+[1] "Arachis_hypogaea_Rhizosphere_betweenness"
+[1] "Arachis_hypogaea_Rhizosphere_key"
+
+	Spearman's rank correlation rho
+
+data:  abundace_key_otus and diversity_community
+S = 78, p-value = 0.441
+alternative hypothesis: true rho is greater than 0
+sample estimates:
+       rho 
+0.07142857 
+
+[1] "Arachis_hypogaea_Rhizosphere_degrees"
+[1] "Arachis_hypogaea_Rhizosphere_closeness"
+[1] "Arachis_hypogaea_Rhizosphere_betweenness"
+[1] "Arachis_hypogaea_Rhizosphere_key"
+
+	Spearman's rank correlation rho
+
+data:  abundace_key_otus and diversity_community
+S = 78, p-value = 0.441
+alternative hypothesis: true rho is greater than 0
+sample estimates:
+       rho 
+0.07142857 
+
+      SRR17036901 SRR17036899 SRR17036897 SRR17036898 SRR17036900 SRR17036904
+NA             NA          NA          NA          NA          NA          NA
+NA.1           NA          NA          NA          NA          NA          NA
+NA.2           NA          NA          NA          NA          NA          NA
+NA.3           NA          NA          NA          NA          NA          NA
+NA.4           NA          NA          NA          NA          NA          NA
+NA.5           NA          NA          NA          NA          NA          NA
+NA.6           NA          NA          NA          NA          NA          NA
+NA.7           NA          NA          NA          NA          NA          NA
+NA.8           NA          NA          NA          NA          NA          NA
+NA.9           NA          NA          NA          NA          NA          NA
+NA.10          NA          NA          NA          NA          NA          NA
+NA.11          NA          NA          NA          NA          NA          NA
+NA.12          NA          NA          NA          NA          NA          NA
+NA.13          NA          NA          NA          NA          NA          NA
+NA.14          NA          NA          NA          NA          NA          NA
+NA.15          NA          NA          NA          NA          NA          NA
+NA.16          NA          NA          NA          NA          NA          NA
+NA.17          NA          NA          NA          NA          NA          NA
+NA.18          NA          NA          NA          NA          NA          NA
+NA.19          NA          NA          NA          NA          NA          NA
+NA.20          NA          NA          NA          NA          NA          NA
+NA.21          NA          NA          NA          NA          NA          NA
+NA.22          NA          NA          NA          NA          NA          NA
+NA.23          NA          NA          NA          NA          NA          NA
+NA.24          NA          NA          NA          NA          NA          NA
+NA.25          NA          NA          NA          NA          NA          NA
+NA.26          NA          NA          NA          NA          NA          NA
+NA.27          NA          NA          NA          NA          NA          NA
+NA.28          NA          NA          NA          NA          NA          NA
+NA.29          NA          NA          NA          NA          NA          NA
+NA.30          NA          NA          NA          NA          NA          NA
+NA.31          NA          NA          NA          NA          NA          NA
+NA.32          NA          NA          NA          NA          NA          NA
+NA.33          NA          NA          NA          NA          NA          NA
+NA.34          NA          NA          NA          NA          NA          NA
+NA.35          NA          NA          NA          NA          NA          NA
+NA.36          NA          NA          NA          NA          NA          NA
+NA.37          NA          NA          NA          NA          NA          NA
+NA.38          NA          NA          NA          NA          NA          NA
+NA.39          NA          NA          NA          NA          NA          NA
+NA.40          NA          NA          NA          NA          NA          NA
+NA.41          NA          NA          NA          NA          NA          NA
+NA.42          NA          NA          NA          NA          NA          NA
+NA.43          NA          NA          NA          NA          NA          NA
+NA.44          NA          NA          NA          NA          NA          NA
+NA.45          NA          NA          NA          NA          NA          NA
+NA.46          NA          NA          NA          NA          NA          NA
+      SRR17036902 SRR17036903
+NA             NA          NA
+NA.1           NA          NA
+NA.2           NA          NA
+NA.3           NA          NA
+NA.4           NA          NA
+NA.5           NA          NA
+NA.6           NA          NA
+NA.7           NA          NA
+NA.8           NA          NA
+NA.9           NA          NA
+NA.10          NA          NA
+NA.11          NA          NA
+NA.12          NA          NA
+NA.13          NA          NA
+NA.14          NA          NA
+NA.15          NA          NA
+NA.16          NA          NA
+NA.17          NA          NA
+NA.18          NA          NA
+NA.19          NA          NA
+NA.20          NA          NA
+NA.21          NA          NA
+NA.22          NA          NA
+NA.23          NA          NA
+NA.24          NA          NA
+NA.25          NA          NA
+NA.26          NA          NA
+NA.27          NA          NA
+NA.28          NA          NA
+NA.29          NA          NA
+NA.30          NA          NA
+NA.31          NA          NA
+NA.32          NA          NA
+NA.33          NA          NA
+NA.34          NA          NA
+NA.35          NA          NA
+NA.36          NA          NA
+NA.37          NA          NA
+NA.38          NA          NA
+NA.39          NA          NA
+NA.40          NA          NA
+NA.41          NA          NA
+NA.42          NA          NA
+NA.43          NA          NA
+NA.44          NA          NA
+NA.45          NA          NA
+NA.46          NA          NA
+[1] "Arachis_hypogaea_Rhizosphere_degrees"
+      SRR17036901 SRR17036899 SRR17036897 SRR17036898 SRR17036900 SRR17036904
+NA             NA          NA          NA          NA          NA          NA
+NA.1           NA          NA          NA          NA          NA          NA
+NA.2           NA          NA          NA          NA          NA          NA
+NA.3           NA          NA          NA          NA          NA          NA
+NA.4           NA          NA          NA          NA          NA          NA
+NA.5           NA          NA          NA          NA          NA          NA
+NA.6           NA          NA          NA          NA          NA          NA
+NA.7           NA          NA          NA          NA          NA          NA
+NA.8           NA          NA          NA          NA          NA          NA
+NA.9           NA          NA          NA          NA          NA          NA
+NA.10          NA          NA          NA          NA          NA          NA
+NA.11          NA          NA          NA          NA          NA          NA
+NA.12          NA          NA          NA          NA          NA          NA
+NA.13          NA          NA          NA          NA          NA          NA
+NA.14          NA          NA          NA          NA          NA          NA
+NA.15          NA          NA          NA          NA          NA          NA
+NA.16          NA          NA          NA          NA          NA          NA
+NA.17          NA          NA          NA          NA          NA          NA
+NA.18          NA          NA          NA          NA          NA          NA
+NA.19          NA          NA          NA          NA          NA          NA
+NA.20          NA          NA          NA          NA          NA          NA
+NA.21          NA          NA          NA          NA          NA          NA
+NA.22          NA          NA          NA          NA          NA          NA
+NA.23          NA          NA          NA          NA          NA          NA
+NA.24          NA          NA          NA          NA          NA          NA
+NA.25          NA          NA          NA          NA          NA          NA
+NA.26          NA          NA          NA          NA          NA          NA
+NA.27          NA          NA          NA          NA          NA          NA
+NA.28          NA          NA          NA          NA          NA          NA
+NA.29          NA          NA          NA          NA          NA          NA
+NA.30          NA          NA          NA          NA          NA          NA
+NA.31          NA          NA          NA          NA          NA          NA
+NA.32          NA          NA          NA          NA          NA          NA
+NA.33          NA          NA          NA          NA          NA          NA
+NA.34          NA          NA          NA          NA          NA          NA
+NA.35          NA          NA          NA          NA          NA          NA
+NA.36          NA          NA          NA          NA          NA          NA
+NA.37          NA          NA          NA          NA          NA          NA
+NA.38          NA          NA          NA          NA          NA          NA
+NA.39          NA          NA          NA          NA          NA          NA
+NA.40          NA          NA          NA          NA          NA          NA
+NA.41          NA          NA          NA          NA          NA          NA
+NA.42          NA          NA          NA          NA          NA          NA
+NA.43          NA          NA          NA          NA          NA          NA
+NA.44          NA          NA          NA          NA          NA          NA
+NA.45          NA          NA          NA          NA          NA          NA
+NA.46          NA          NA          NA          NA          NA          NA
+NA.47          NA          NA          NA          NA          NA          NA
+NA.48          NA          NA          NA          NA          NA          NA
+      SRR17036902 SRR17036903
+NA             NA          NA
+NA.1           NA          NA
+NA.2           NA          NA
+NA.3           NA          NA
+NA.4           NA          NA
+NA.5           NA          NA
+NA.6           NA          NA
+NA.7           NA          NA
+NA.8           NA          NA
+NA.9           NA          NA
+NA.10          NA          NA
+NA.11          NA          NA
+NA.12          NA          NA
+NA.13          NA          NA
+NA.14          NA          NA
+NA.15          NA          NA
+NA.16          NA          NA
+NA.17          NA          NA
+NA.18          NA          NA
+NA.19          NA          NA
+NA.20          NA          NA
+NA.21          NA          NA
+NA.22          NA          NA
+NA.23          NA          NA
+NA.24          NA          NA
+NA.25          NA          NA
+NA.26          NA          NA
+NA.27          NA          NA
+NA.28          NA          NA
+NA.29          NA          NA
+NA.30          NA          NA
+NA.31          NA          NA
+NA.32          NA          NA
+NA.33          NA          NA
+NA.34          NA          NA
+NA.35          NA          NA
+NA.36          NA          NA
+NA.37          NA          NA
+NA.38          NA          NA
+NA.39          NA          NA
+NA.40          NA          NA
+NA.41          NA          NA
+NA.42          NA          NA
+NA.43          NA          NA
+NA.44          NA          NA
+NA.45          NA          NA
+NA.46          NA          NA
+NA.47          NA          NA
+NA.48          NA          NA
+[1] "Arachis_hypogaea_Rhizosphere_closeness"
+      SRR17036901 SRR17036899 SRR17036897 SRR17036898 SRR17036900 SRR17036904
+NA             NA          NA          NA          NA          NA          NA
+NA.1           NA          NA          NA          NA          NA          NA
+NA.2           NA          NA          NA          NA          NA          NA
+NA.3           NA          NA          NA          NA          NA          NA
+NA.4           NA          NA          NA          NA          NA          NA
+NA.5           NA          NA          NA          NA          NA          NA
+NA.6           NA          NA          NA          NA          NA          NA
+NA.7           NA          NA          NA          NA          NA          NA
+NA.8           NA          NA          NA          NA          NA          NA
+NA.9           NA          NA          NA          NA          NA          NA
+NA.10          NA          NA          NA          NA          NA          NA
+NA.11          NA          NA          NA          NA          NA          NA
+NA.12          NA          NA          NA          NA          NA          NA
+NA.13          NA          NA          NA          NA          NA          NA
+NA.14          NA          NA          NA          NA          NA          NA
+NA.15          NA          NA          NA          NA          NA          NA
+NA.16          NA          NA          NA          NA          NA          NA
+NA.17          NA          NA          NA          NA          NA          NA
+NA.18          NA          NA          NA          NA          NA          NA
+NA.19          NA          NA          NA          NA          NA          NA
+NA.20          NA          NA          NA          NA          NA          NA
+NA.21          NA          NA          NA          NA          NA          NA
+NA.22          NA          NA          NA          NA          NA          NA
+NA.23          NA          NA          NA          NA          NA          NA
+NA.24          NA          NA          NA          NA          NA          NA
+NA.25          NA          NA          NA          NA          NA          NA
+NA.26          NA          NA          NA          NA          NA          NA
+NA.27          NA          NA          NA          NA          NA          NA
+NA.28          NA          NA          NA          NA          NA          NA
+NA.29          NA          NA          NA          NA          NA          NA
+NA.30          NA          NA          NA          NA          NA          NA
+NA.31          NA          NA          NA          NA          NA          NA
+NA.32          NA          NA          NA          NA          NA          NA
+NA.33          NA          NA          NA          NA          NA          NA
+NA.34          NA          NA          NA          NA          NA          NA
+NA.35          NA          NA          NA          NA          NA          NA
+NA.36          NA          NA          NA          NA          NA          NA
+NA.37          NA          NA          NA          NA          NA          NA
+NA.38          NA          NA          NA          NA          NA          NA
+NA.39          NA          NA          NA          NA          NA          NA
+NA.40          NA          NA          NA          NA          NA          NA
+NA.41          NA          NA          NA          NA          NA          NA
+NA.42          NA          NA          NA          NA          NA          NA
+NA.43          NA          NA          NA          NA          NA          NA
+NA.44          NA          NA          NA          NA          NA          NA
+NA.45          NA          NA          NA          NA          NA          NA
+NA.46          NA          NA          NA          NA          NA          NA
+NA.47          NA          NA          NA          NA          NA          NA
+NA.48          NA          NA          NA          NA          NA          NA
+      SRR17036902 SRR17036903
+NA             NA          NA
+NA.1           NA          NA
+NA.2           NA          NA
+NA.3           NA          NA
+NA.4           NA          NA
+NA.5           NA          NA
+NA.6           NA          NA
+NA.7           NA          NA
+NA.8           NA          NA
+NA.9           NA          NA
+NA.10          NA          NA
+NA.11          NA          NA
+NA.12          NA          NA
+NA.13          NA          NA
+NA.14          NA          NA
+NA.15          NA          NA
+NA.16          NA          NA
+NA.17          NA          NA
+NA.18          NA          NA
+NA.19          NA          NA
+NA.20          NA          NA
+NA.21          NA          NA
+NA.22          NA          NA
+NA.23          NA          NA
+NA.24          NA          NA
+NA.25          NA          NA
+NA.26          NA          NA
+NA.27          NA          NA
+NA.28          NA          NA
+NA.29          NA          NA
+NA.30          NA          NA
+NA.31          NA          NA
+NA.32          NA          NA
+NA.33          NA          NA
+NA.34          NA          NA
+NA.35          NA          NA
+NA.36          NA          NA
+NA.37          NA          NA
+NA.38          NA          NA
+NA.39          NA          NA
+NA.40          NA          NA
+NA.41          NA          NA
+NA.42          NA          NA
+NA.43          NA          NA
+NA.44          NA          NA
+NA.45          NA          NA
+NA.46          NA          NA
+NA.47          NA          NA
+NA.48          NA          NA
+[1] "Arachis_hypogaea_Rhizosphere_betweenness"
+[1] "Arachis_hypogaea_Rhizosphere_key"
+
+	Spearman's rank correlation rho
+
+data:  abundace_key_otus and diversity_community
+S = 78, p-value = 0.441
+alternative hypothesis: true rho is greater than 0
+sample estimates:
+       rho 
+0.07142857 
+
+      SRR17036901 SRR17036899 SRR17036897 SRR17036898 SRR17036900 SRR17036904
+NA             NA          NA          NA          NA          NA          NA
+NA.1           NA          NA          NA          NA          NA          NA
+NA.2           NA          NA          NA          NA          NA          NA
+NA.3           NA          NA          NA          NA          NA          NA
+NA.4           NA          NA          NA          NA          NA          NA
+NA.5           NA          NA          NA          NA          NA          NA
+NA.6           NA          NA          NA          NA          NA          NA
+NA.7           NA          NA          NA          NA          NA          NA
+NA.8           NA          NA          NA          NA          NA          NA
+NA.9           NA          NA          NA          NA          NA          NA
+NA.10          NA          NA          NA          NA          NA          NA
+NA.11          NA          NA          NA          NA          NA          NA
+NA.12          NA          NA          NA          NA          NA          NA
+NA.13          NA          NA          NA          NA          NA          NA
+NA.14          NA          NA          NA          NA          NA          NA
+NA.15          NA          NA          NA          NA          NA          NA
+NA.16          NA          NA          NA          NA          NA          NA
+NA.17          NA          NA          NA          NA          NA          NA
+NA.18          NA          NA          NA          NA          NA          NA
+NA.19          NA          NA          NA          NA          NA          NA
+NA.20          NA          NA          NA          NA          NA          NA
+NA.21          NA          NA          NA          NA          NA          NA
+NA.22          NA          NA          NA          NA          NA          NA
+NA.23          NA          NA          NA          NA          NA          NA
+NA.24          NA          NA          NA          NA          NA          NA
+NA.25          NA          NA          NA          NA          NA          NA
+NA.26          NA          NA          NA          NA          NA          NA
+NA.27          NA          NA          NA          NA          NA          NA
+NA.28          NA          NA          NA          NA          NA          NA
+NA.29          NA          NA          NA          NA          NA          NA
+NA.30          NA          NA          NA          NA          NA          NA
+NA.31          NA          NA          NA          NA          NA          NA
+NA.32          NA          NA          NA          NA          NA          NA
+NA.33          NA          NA          NA          NA          NA          NA
+NA.34          NA          NA          NA          NA          NA          NA
+NA.35          NA          NA          NA          NA          NA          NA
+NA.36          NA          NA          NA          NA          NA          NA
+NA.37          NA          NA          NA          NA          NA          NA
+NA.38          NA          NA          NA          NA          NA          NA
+NA.39          NA          NA          NA          NA          NA          NA
+NA.40          NA          NA          NA          NA          NA          NA
+NA.41          NA          NA          NA          NA          NA          NA
+NA.42          NA          NA          NA          NA          NA          NA
+NA.43          NA          NA          NA          NA          NA          NA
+NA.44          NA          NA          NA          NA          NA          NA
+NA.45          NA          NA          NA          NA          NA          NA
+NA.46          NA          NA          NA          NA          NA          NA
+      SRR17036902 SRR17036903
+NA             NA          NA
+NA.1           NA          NA
+NA.2           NA          NA
+NA.3           NA          NA
+NA.4           NA          NA
+NA.5           NA          NA
+NA.6           NA          NA
+NA.7           NA          NA
+NA.8           NA          NA
+NA.9           NA          NA
+NA.10          NA          NA
+NA.11          NA          NA
+NA.12          NA          NA
+NA.13          NA          NA
+NA.14          NA          NA
+NA.15          NA          NA
+NA.16          NA          NA
+NA.17          NA          NA
+NA.18          NA          NA
+NA.19          NA          NA
+NA.20          NA          NA
+NA.21          NA          NA
+NA.22          NA          NA
+NA.23          NA          NA
+NA.24          NA          NA
+NA.25          NA          NA
+NA.26          NA          NA
+NA.27          NA          NA
+NA.28          NA          NA
+NA.29          NA          NA
+NA.30          NA          NA
+NA.31          NA          NA
+NA.32          NA          NA
+NA.33          NA          NA
+NA.34          NA          NA
+NA.35          NA          NA
+NA.36          NA          NA
+NA.37          NA          NA
+NA.38          NA          NA
+NA.39          NA          NA
+NA.40          NA          NA
+NA.41          NA          NA
+NA.42          NA          NA
+NA.43          NA          NA
+NA.44          NA          NA
+NA.45          NA          NA
+NA.46          NA          NA
+[1] "Arachis_hypogaea_Rhizosphere_degrees"
+      SRR17036901 SRR17036899 SRR17036897 SRR17036898 SRR17036900 SRR17036904
+NA             NA          NA          NA          NA          NA          NA
+NA.1           NA          NA          NA          NA          NA          NA
+NA.2           NA          NA          NA          NA          NA          NA
+NA.3           NA          NA          NA          NA          NA          NA
+NA.4           NA          NA          NA          NA          NA          NA
+NA.5           NA          NA          NA          NA          NA          NA
+NA.6           NA          NA          NA          NA          NA          NA
+NA.7           NA          NA          NA          NA          NA          NA
+NA.8           NA          NA          NA          NA          NA          NA
+NA.9           NA          NA          NA          NA          NA          NA
+NA.10          NA          NA          NA          NA          NA          NA
+NA.11          NA          NA          NA          NA          NA          NA
+NA.12          NA          NA          NA          NA          NA          NA
+NA.13          NA          NA          NA          NA          NA          NA
+NA.14          NA          NA          NA          NA          NA          NA
+NA.15          NA          NA          NA          NA          NA          NA
+NA.16          NA          NA          NA          NA          NA          NA
+NA.17          NA          NA          NA          NA          NA          NA
+NA.18          NA          NA          NA          NA          NA          NA
+NA.19          NA          NA          NA          NA          NA          NA
+NA.20          NA          NA          NA          NA          NA          NA
+NA.21          NA          NA          NA          NA          NA          NA
+NA.22          NA          NA          NA          NA          NA          NA
+NA.23          NA          NA          NA          NA          NA          NA
+NA.24          NA          NA          NA          NA          NA          NA
+NA.25          NA          NA          NA          NA          NA          NA
+NA.26          NA          NA          NA          NA          NA          NA
+NA.27          NA          NA          NA          NA          NA          NA
+NA.28          NA          NA          NA          NA          NA          NA
+NA.29          NA          NA          NA          NA          NA          NA
+NA.30          NA          NA          NA          NA          NA          NA
+NA.31          NA          NA          NA          NA          NA          NA
+NA.32          NA          NA          NA          NA          NA          NA
+NA.33          NA          NA          NA          NA          NA          NA
+NA.34          NA          NA          NA          NA          NA          NA
+NA.35          NA          NA          NA          NA          NA          NA
+NA.36          NA          NA          NA          NA          NA          NA
+NA.37          NA          NA          NA          NA          NA          NA
+NA.38          NA          NA          NA          NA          NA          NA
+NA.39          NA          NA          NA          NA          NA          NA
+NA.40          NA          NA          NA          NA          NA          NA
+NA.41          NA          NA          NA          NA          NA          NA
+NA.42          NA          NA          NA          NA          NA          NA
+NA.43          NA          NA          NA          NA          NA          NA
+NA.44          NA          NA          NA          NA          NA          NA
+NA.45          NA          NA          NA          NA          NA          NA
+NA.46          NA          NA          NA          NA          NA          NA
+NA.47          NA          NA          NA          NA          NA          NA
+NA.48          NA          NA          NA          NA          NA          NA
+      SRR17036902 SRR17036903
+NA             NA          NA
+NA.1           NA          NA
+NA.2           NA          NA
+NA.3           NA          NA
+NA.4           NA          NA
+NA.5           NA          NA
+NA.6           NA          NA
+NA.7           NA          NA
+NA.8           NA          NA
+NA.9           NA          NA
+NA.10          NA          NA
+NA.11          NA          NA
+NA.12          NA          NA
+NA.13          NA          NA
+NA.14          NA          NA
+NA.15          NA          NA
+NA.16          NA          NA
+NA.17          NA          NA
+NA.18          NA          NA
+NA.19          NA          NA
+NA.20          NA          NA
+NA.21          NA          NA
+NA.22          NA          NA
+NA.23          NA          NA
+NA.24          NA          NA
+NA.25          NA          NA
+NA.26          NA          NA
+NA.27          NA          NA
+NA.28          NA          NA
+NA.29          NA          NA
+NA.30          NA          NA
+NA.31          NA          NA
+NA.32          NA          NA
+NA.33          NA          NA
+NA.34          NA          NA
+NA.35          NA          NA
+NA.36          NA          NA
+NA.37          NA          NA
+NA.38          NA          NA
+NA.39          NA          NA
+NA.40          NA          NA
+NA.41          NA          NA
+NA.42          NA          NA
+NA.43          NA          NA
+NA.44          NA          NA
+NA.45          NA          NA
+NA.46          NA          NA
+NA.47          NA          NA
+NA.48          NA          NA
+[1] "Arachis_hypogaea_Rhizosphere_closeness"
+      SRR17036901 SRR17036899 SRR17036897 SRR17036898 SRR17036900 SRR17036904
+NA             NA          NA          NA          NA          NA          NA
+NA.1           NA          NA          NA          NA          NA          NA
+NA.2           NA          NA          NA          NA          NA          NA
+NA.3           NA          NA          NA          NA          NA          NA
+NA.4           NA          NA          NA          NA          NA          NA
+NA.5           NA          NA          NA          NA          NA          NA
+NA.6           NA          NA          NA          NA          NA          NA
+NA.7           NA          NA          NA          NA          NA          NA
+NA.8           NA          NA          NA          NA          NA          NA
+NA.9           NA          NA          NA          NA          NA          NA
+NA.10          NA          NA          NA          NA          NA          NA
+NA.11          NA          NA          NA          NA          NA          NA
+NA.12          NA          NA          NA          NA          NA          NA
+NA.13          NA          NA          NA          NA          NA          NA
+NA.14          NA          NA          NA          NA          NA          NA
+NA.15          NA          NA          NA          NA          NA          NA
+NA.16          NA          NA          NA          NA          NA          NA
+NA.17          NA          NA          NA          NA          NA          NA
+NA.18          NA          NA          NA          NA          NA          NA
+NA.19          NA          NA          NA          NA          NA          NA
+NA.20          NA          NA          NA          NA          NA          NA
+NA.21          NA          NA          NA          NA          NA          NA
+NA.22          NA          NA          NA          NA          NA          NA
+NA.23          NA          NA          NA          NA          NA          NA
+NA.24          NA          NA          NA          NA          NA          NA
+NA.25          NA          NA          NA          NA          NA          NA
+NA.26          NA          NA          NA          NA          NA          NA
+NA.27          NA          NA          NA          NA          NA          NA
+NA.28          NA          NA          NA          NA          NA          NA
+NA.29          NA          NA          NA          NA          NA          NA
+NA.30          NA          NA          NA          NA          NA          NA
+NA.31          NA          NA          NA          NA          NA          NA
+NA.32          NA          NA          NA          NA          NA          NA
+NA.33          NA          NA          NA          NA          NA          NA
+NA.34          NA          NA          NA          NA          NA          NA
+NA.35          NA          NA          NA          NA          NA          NA
+NA.36          NA          NA          NA          NA          NA          NA
+NA.37          NA          NA          NA          NA          NA          NA
+NA.38          NA          NA          NA          NA          NA          NA
+NA.39          NA          NA          NA          NA          NA          NA
+NA.40          NA          NA          NA          NA          NA          NA
+NA.41          NA          NA          NA          NA          NA          NA
+NA.42          NA          NA          NA          NA          NA          NA
+NA.43          NA          NA          NA          NA          NA          NA
+NA.44          NA          NA          NA          NA          NA          NA
+NA.45          NA          NA          NA          NA          NA          NA
+NA.46          NA          NA          NA          NA          NA          NA
+NA.47          NA          NA          NA          NA          NA          NA
+NA.48          NA          NA          NA          NA          NA          NA
+      SRR17036902 SRR17036903
+NA             NA          NA
+NA.1           NA          NA
+NA.2           NA          NA
+NA.3           NA          NA
+NA.4           NA          NA
+NA.5           NA          NA
+NA.6           NA          NA
+NA.7           NA          NA
+NA.8           NA          NA
+NA.9           NA          NA
+NA.10          NA          NA
+NA.11          NA          NA
+NA.12          NA          NA
+NA.13          NA          NA
+NA.14          NA          NA
+NA.15          NA          NA
+NA.16          NA          NA
+NA.17          NA          NA
+NA.18          NA          NA
+NA.19          NA          NA
+NA.20          NA          NA
+NA.21          NA          NA
+NA.22          NA          NA
+NA.23          NA          NA
+NA.24          NA          NA
+NA.25          NA          NA
+NA.26          NA          NA
+NA.27          NA          NA
+NA.28          NA          NA
+NA.29          NA          NA
+NA.30          NA          NA
+NA.31          NA          NA
+NA.32          NA          NA
+NA.33          NA          NA
+NA.34          NA          NA
+NA.35          NA          NA
+NA.36          NA          NA
+NA.37          NA          NA
+NA.38          NA          NA
+NA.39          NA          NA
+NA.40          NA          NA
+NA.41          NA          NA
+NA.42          NA          NA
+NA.43          NA          NA
+NA.44          NA          NA
+NA.45          NA          NA
+NA.46          NA          NA
+NA.47          NA          NA
+NA.48          NA          NA
+[1] "Arachis_hypogaea_Rhizosphere_betweenness"
+ [1] "2419771" "273677"  "1950"    "1619308" "1736046" "1911"    "156977" 
+ [8] "35621"   "2735133" "202862"  "1967"    "68200"   "67581"   "3015161"
+[15] "2059884" "2781962" "2932247" "1795630" "2665642" "40988"   "1389020"
+[22] "53437"   "2035"    "2676871" "2875706" "40567"   "2837956" "2174846"
+[29] "3002640" "42197"   "2962047" "84595"   "53451"   "1690221" "1460244"
+[36] "3015149" "2760083" "66892"   "67345"   "2609253" "904291"  "743009" 
+[43] "47312"   "1648182" "234612"  "1268041" "1069221"
+         SRR17036901  SRR17036899  SRR17036897  SRR17036898  SRR17036900
+2419771 0.0002316571 0.0002160100 0.0004169835 0.0003662678 0.0003081120
+273677  0.0002952255 0.0002212291 0.0003576779 0.0003248035 0.0003215203
+1950    0.0002527039 0.0002085681 0.0003249270 0.0003411514 0.0003068084
+1619308 0.0002442138 0.0002054753 0.0003370242 0.0003062263 0.0003139781
+1736046 0.0002483518 0.0001783170 0.0003176245 0.0003038484 0.0003157473
+1911    0.0002480664 0.0002083748 0.0003154853 0.0003106105 0.0003151886
+156977  0.0002497787 0.0001695220 0.0003123135 0.0002762799 0.0002879064
+35621   0.0002398618 0.0001913646 0.0003111333 0.0003031796 0.0002919103
+2735133 0.0002388629 0.0001961004 0.0003089204 0.0003126912 0.0002796193
+202862  0.0002486372 0.0001716482 0.0003036095 0.0003019907 0.0002964728
+1967    0.0002319425 0.0001776405 0.0002991837 0.0002889124 0.0002947037
+68200   0.0002391483 0.0001816031 0.0002889306 0.0002798467 0.0002821334
+67581   0.0002387916 0.0001567643 0.0002878979 0.0002820760 0.0002562479
+3015161 0.0002136782 0.0001458430 0.0002847998 0.0002805898 0.0002829714
+2059884 0.0002143916 0.0001841159 0.0002783087 0.0002856428 0.0002851130
+2781962 0.0002043320 0.0001431368 0.0002827345 0.0002460362 0.0002436776
+2932247 0.0002607658 0.0001852757 0.0002808904 0.0002718957 0.0002739394
+1795630 0.0002131074 0.0001939741 0.0002741042 0.0002776917 0.0002709598
+2665642 0.0001918466 0.0001856623 0.0002563272 0.0002747937 0.0002517784
+40988   0.0001994805 0.0001884651 0.0002527128 0.0002746451 0.0002615553
+1389020 0.0002180302 0.0001567643 0.0002705635 0.0002342211 0.0002408842
+53437   0.0002081133 0.0001582141 0.0002699734 0.0002688490 0.0002524302
+2035    0.0002200992 0.0001595671 0.0002695308 0.0002655794 0.0002656523
+2676871 0.0002197425 0.0001645929 0.0002695308 0.0002637217 0.0002516853
+2875706 0.0001922747 0.0001500956 0.0002691620 0.0002641676 0.0002480539
+40567   0.0002021916 0.0001437167 0.0002682031 0.0002325863 0.0002325971
+2837956 0.0002147483 0.0001705851 0.0002661377 0.0002699636 0.0002677008
+2174846 0.0002001226 0.0001651728 0.0002651788 0.0002452931 0.0002538269
+3002640 0.0001975542 0.0001470028 0.0002641461 0.0002452188 0.0002468434
+42197   0.0001954139 0.0001463263 0.0002577287 0.0002380109 0.0002441431
+2962047 0.0002058302 0.0001530917 0.0002398780 0.0002588173 0.0002553167
+84595   0.0002127507 0.0001608236 0.0002431236 0.0002559936 0.0002251480
+53451   0.0001929168 0.0001661393 0.0002533767 0.0002420979 0.0002501024
+1690221 0.0002011928 0.0001651728 0.0002490984 0.0002530212 0.0002385563
+1460244 0.0001979109 0.0001717449 0.0002507212 0.0002484884 0.0002325040
+3015149 0.0001884934 0.0001225507 0.0002504999 0.0002342954 0.0002323177
+2760083 0.0001880653 0.0001767706 0.0002361161 0.0002516837 0.0002406979
+66892   0.0002003367 0.0001515453 0.0002498361 0.0002353358 0.0002299899
+67345   0.0001931308 0.0001327954 0.0002488771 0.0002444014 0.0002384632
+2609253 0.0001914899 0.0001721315 0.0002485821 0.0002287223 0.0002400461
+904291  0.0002120372 0.0001505788 0.0002468118 0.0002236693 0.0002367872
+743009  0.0001880653 0.0001614035 0.0002408369 0.0002091791 0.0002217959
+47312   0.0001958419 0.0001627565 0.0002403206 0.0002304314 0.0002336213
+1648182 0.0001819297 0.0001340519 0.0002310264 0.0002264930 0.0002240306
+234612  0.0001743671 0.0001413005 0.0002294036 0.0002285737 0.0002258929
+1268041 0.0001600981 0.0001455531 0.0002288135 0.0002044976 0.0001908823
+1069221 0.0001654490 0.0001630465 0.0002099302 0.0002227776 0.0002069909
+         SRR17036904  SRR17036902  SRR17036903
+2419771 0.0002064045 0.0002749708 0.0002578129
+273677  0.0002098924 0.0002873257 0.0002604856
+1950    0.0002049683 0.0002696335 0.0002457858
+1619308 0.0001988131 0.0002800116 0.0002542151
+1736046 0.0001913242 0.0002705231 0.0002362257
+1911    0.0001901958 0.0002783314 0.0002401320
+156977  0.0001566499 0.0002068706 0.0001875003
+35621   0.0001963510 0.0002842617 0.0002348894
+2735133 0.0001895803 0.0002639997 0.0002273852
+202862  0.0001754233 0.0002644939 0.0002145357
+1967    0.0001944018 0.0002656799 0.0002341698
+68200   0.0001884518 0.0002758604 0.0002256377
+67581   0.0001748078 0.0002435399 0.0002278992
+3015161 0.0001830147 0.0002535227 0.0002145357
+2059884 0.0001738845 0.0002502610 0.0002268713
+2781962 0.0001603431 0.0002249582 0.0001959296
+2932247 0.0002034295 0.0002635055 0.0002484585
+1795630 0.0001805526 0.0002246616 0.0002123770
+2665642 0.0001798345 0.0002171499 0.0002020974
+40988   0.0001648569 0.0002206092 0.0002115546
+1389020 0.0001469042 0.0002167545 0.0001684830
+53437   0.0001760388 0.0002256500 0.0002046673
+2035    0.0001760388 0.0002377084 0.0001890423
+2676871 0.0001639336 0.0002489761 0.0002091903
+2875706 0.0001416723 0.0002006437 0.0001902758
+40567   0.0001479301 0.0002076613 0.0001991163
+2837956 0.0001899906 0.0002543134 0.0002119658
+2174846 0.0001584965 0.0002203127 0.0001963408
+3002640 0.0001549060 0.0002302955 0.0001835941
+42197   0.0001437240 0.0001969866 0.0001858556
+2962047 0.0001646517 0.0002079578 0.0002076484
+84595   0.0001884518 0.0002201150 0.0001925373
+53451   0.0001441343 0.0002284175 0.0001882199
+1690221 0.0001593172 0.0002222895 0.0001880143
+1460244 0.0001550085 0.0002250570 0.0001902758
+3015149 0.0001345938 0.0002111207 0.0001790710
+2760083 0.0001573680 0.0002112195 0.0001793794
+66892   0.0001632155 0.0002084520 0.0002089847
+67345   0.0001602405 0.0002282199 0.0001783514
+2609253 0.0001606508 0.0002199174 0.0001943877
+904291  0.0001398257 0.0002022251 0.0001772207
+743009  0.0001222834 0.0001908586 0.0001649879
+47312   0.0001543930 0.0002004460 0.0001794822
+1648182 0.0001456731 0.0002030158 0.0001693054
+234612  0.0001434162 0.0001987658 0.0001669411
+1268041 0.0001364403 0.0001894749 0.0001769123
+1069221 0.0001469042 0.0001844341 0.0001704361
+[1] "Arachis_hypogaea_Rhizosphere_degrees"
+
+	Spearman's rank correlation rho
+
+data:  abundace_key_otus and diversity_community
+S = 86, p-value = 0.5326
+alternative hypothesis: true rho is greater than 0
+sample estimates:
+        rho 
+-0.02380952 
+
+ [1] "2709302" "379097"  "919"     "155978"  "3073902" "1485"    "226"    
+ [8] "1642646" "2259595" "551989"  "1758730" "916"     "1096"    "630"    
+[15] "1675036" "2596890" "55206"   "641"     "1674922" "2172098" "2571030"
+[22] "3073092" "82976"   "92942"   "1295642" "186814"  "199"     "2820280"
+[29] "546367"  "110662"  "1628059" "2875962" "98228"   "2507935" "2929494"
+[36] "376805"  "380393"  "1618022" "2814294" "2861765" "82801"   "1499687"
+[43] "490759"  "69221"   "86170"   "1643685" "146786"  "174633"  "198119" 
+         SRR17036901  SRR17036899  SRR17036897  SRR17036898  SRR17036900
+2709302 5.208182e-06 4.639141e-06 3.171819e-06 3.195276e-06 3.258966e-06
+379097  2.425729e-06 3.382707e-06 1.622791e-06 1.783410e-06 1.955380e-06
+919     5.208182e-06 5.219034e-06 1.253975e-06 2.080645e-06 2.234720e-06
+155978  4.494733e-06 6.958712e-06 3.319345e-06 3.566819e-06 4.003873e-06
+3073902 4.138008e-06 3.576005e-06 3.098056e-06 2.526497e-06 2.700286e-06
+1485    4.280698e-06 6.862063e-06 3.171819e-06 3.343893e-06 5.773026e-06
+226     3.781283e-06 3.769302e-06 1.991607e-06 2.229262e-06 3.258966e-06
+1642646 4.994148e-06 3.962600e-06 2.655476e-06 3.269584e-06 5.493686e-06
+2259595 4.566078e-06 6.668766e-06 2.507950e-06 4.235598e-06 5.586799e-06
+551989  3.852628e-06 6.185522e-06 3.098056e-06 3.641128e-06 3.445193e-06
+1758730 4.922803e-06 5.122385e-06 2.876766e-06 3.641128e-06 3.817646e-06
+916     3.495903e-06 5.895576e-06 3.393109e-06 2.972349e-06 4.376326e-06
+1096    4.780113e-06 4.059249e-06 3.319345e-06 2.452188e-06 3.072740e-06
+630     4.780113e-06 4.445844e-06 3.171819e-06 3.566819e-06 3.258966e-06
+1675036 3.210523e-06 2.996112e-06 2.581713e-06 4.830068e-06 3.445193e-06
+2596890 2.354384e-06 3.576005e-06 1.180212e-06 2.377880e-06 2.514060e-06
+55206   3.923973e-06 4.059249e-06 2.876766e-06 2.080645e-06 1.769153e-06
+641     4.280698e-06 5.025737e-06 2.950529e-06 4.681450e-06 2.607173e-06
+1674922 3.424558e-06 4.445844e-06 1.917844e-06 2.303571e-06 2.793400e-06
+2172098 2.568419e-06 5.895576e-06 2.360423e-06 1.783410e-06 3.352080e-06
+2571030 3.210523e-06 5.895576e-06 2.729240e-06 4.161289e-06 4.376326e-06
+3073092 3.353213e-06 5.315683e-06 3.540635e-06 3.418202e-06 2.327833e-06
+82976   3.709938e-06 5.219034e-06 2.876766e-06 3.343893e-06 4.283213e-06
+92942   3.852628e-06 3.576005e-06 2.065370e-06 3.120967e-06 3.258966e-06
+1295642 3.281868e-06 3.382707e-06 2.434187e-06 3.269584e-06 2.420946e-06
+186814  2.639764e-06 2.319571e-06 1.253975e-06 2.229262e-06 2.420946e-06
+199     3.495903e-06 4.349195e-06 2.655476e-06 2.749423e-06 2.234720e-06
+2820280 3.638593e-06 3.962600e-06 3.466872e-06 2.154953e-06 2.141606e-06
+546367  2.425729e-06 3.962600e-06 1.917844e-06 2.229262e-06 3.352080e-06
+110662  3.995318e-06 4.542493e-06 1.844081e-06 2.898041e-06 3.165853e-06
+1628059 2.996489e-06 4.929088e-06 2.876766e-06 1.709101e-06 3.538306e-06
+2875962 2.425729e-06 3.382707e-06 1.106448e-06 1.932027e-06 2.607173e-06
+98228   3.709938e-06 2.996112e-06 2.065370e-06 2.526497e-06 3.724533e-06
+2507935 3.067834e-06 2.802815e-06 2.065370e-06 2.526497e-06 3.724533e-06
+2929494 2.996489e-06 4.059249e-06 2.729240e-06 3.195276e-06 1.769153e-06
+376805  3.567248e-06 4.735790e-06 3.024292e-06 1.932027e-06 3.072740e-06
+380393  3.567248e-06 3.382707e-06 3.319345e-06 2.229262e-06 3.631419e-06
+1618022 2.140349e-06 3.479356e-06 1.106448e-06 1.634792e-06 3.538306e-06
+2814294 2.996489e-06 4.542493e-06 1.622791e-06 1.634792e-06 2.420946e-06
+2861765 2.069004e-06 2.706166e-06 1.180212e-06 1.932027e-06 1.769153e-06
+82801   2.782454e-06 3.286059e-06 1.032685e-06 1.857718e-06 1.582926e-06
+1499687 2.639764e-06 4.059249e-06 2.286660e-06 2.303571e-06 2.700286e-06
+490759  4.209353e-06 4.929088e-06 2.803003e-06 3.938363e-06 2.793400e-06
+69221   4.994148e-06 5.219034e-06 2.507950e-06 4.086980e-06 3.165853e-06
+86170   4.138008e-06 2.996112e-06 1.327738e-06 2.303571e-06 1.117360e-06
+1643685 3.281868e-06 5.122385e-06 2.212897e-06 3.566819e-06 2.700286e-06
+146786  2.711109e-06 5.315683e-06 3.098056e-06 3.195276e-06 4.469439e-06
+174633  3.923973e-06 3.769302e-06 1.844081e-06 3.046658e-06 2.420946e-06
+198119  5.493562e-06 5.315683e-06 3.024292e-06 3.789746e-06 5.307459e-06
+         SRR17036904  SRR17036902  SRR17036903
+2709302 5.847443e-06 2.965178e-06 5.037015e-06
+379097  7.488831e-06 2.075624e-06 6.578958e-06
+919     6.257790e-06 4.348928e-06 5.448200e-06
+155978  7.386244e-06 2.668660e-06 6.373366e-06
+3073902 7.386244e-06 3.953570e-06 6.784551e-06
+1485    7.078484e-06 5.337320e-06 6.887347e-06
+226     7.283657e-06 3.360535e-06 6.373366e-06
+1642646 6.770724e-06 3.953570e-06 6.373366e-06
+2259595 7.078484e-06 5.139642e-06 7.195736e-06
+551989  6.462964e-06 3.459374e-06 7.195736e-06
+1758730 6.257790e-06 3.558213e-06 5.242607e-06
+916     7.078484e-06 2.965178e-06 4.831422e-06
+1096    6.668137e-06 3.854731e-06 6.064977e-06
+630     5.847443e-06 3.162856e-06 5.037015e-06
+1675036 6.052617e-06 2.075624e-06 5.345404e-06
+2596890 6.565550e-06 4.151249e-06 4.420238e-06
+55206   6.052617e-06 3.360535e-06 6.476162e-06
+641     5.847443e-06 3.064017e-06 6.270570e-06
+1674922 6.257790e-06 3.261696e-06 5.550996e-06
+2172098 6.052617e-06 2.470982e-06 6.167773e-06
+2571030 5.334510e-06 3.558213e-06 6.064977e-06
+3073092 6.257790e-06 3.064017e-06 5.448200e-06
+82976   5.744857e-06 4.941963e-06 6.167773e-06
+92942   6.155203e-06 4.250088e-06 5.139811e-06
+1295642 6.052617e-06 1.383750e-06 5.756588e-06
+186814  6.052617e-06 2.470982e-06 5.037015e-06
+199     5.847443e-06 2.273303e-06 4.934219e-06
+2820280 4.513816e-06 2.965178e-06 5.859385e-06
+546367  4.924163e-06 1.482589e-06 5.859385e-06
+110662  4.513816e-06 2.668660e-06 5.037015e-06
+1628059 4.924163e-06 1.877946e-06 5.756588e-06
+2875962 5.437096e-06 1.976785e-06 5.756588e-06
+98228   5.642270e-06 2.075624e-06 4.831422e-06
+2507935 4.924163e-06 2.075624e-06 5.242607e-06
+2929494 5.231923e-06 1.383750e-06 4.317441e-06
+376805  5.231923e-06 2.075624e-06 4.317441e-06
+380393  4.924163e-06 3.261696e-06 3.700664e-06
+1618022 5.026749e-06 1.877946e-06 3.906256e-06
+2814294 3.180188e-06 1.976785e-06 4.831422e-06
+2861765 4.616403e-06 1.877946e-06 4.420238e-06
+82801   3.590535e-06 1.383750e-06 4.523034e-06
+1499687 4.103469e-06 1.186071e-06 4.111849e-06
+490759  6.052617e-06 3.360535e-06 9.662845e-06
+69221   8.412111e-06 4.151249e-06 6.064977e-06
+86170   8.412111e-06 3.162856e-06 5.139811e-06
+1643685 8.206938e-06 4.645445e-06 7.504124e-06
+146786  8.001764e-06 3.854731e-06 4.523034e-06
+174633  7.899178e-06 2.965178e-06 3.906256e-06
+198119  7.796591e-06 3.162856e-06 6.887347e-06
+[1] "Arachis_hypogaea_Rhizosphere_closeness"
+
+	Spearman's rank correlation rho
+
+data:  abundace_key_otus and diversity_community
+S = 68, p-value = 0.3323
+alternative hypothesis: true rho is greater than 0
+sample estimates:
+      rho 
+0.1904762 
+
+ [1] "1612551" "2798577" "905"     "2983219" "291990"  "61434"   "37482"  
+ [8] "3050324" "417574"  "13769"   "2714934" "2725563" "1796613" "42255"  
+[15] "544580"  "2811108" "2956707" "1498228" "2831896" "3042300" "2763062"
+[22] "1485"    "1758730" "630"     "186814"  "2937774" "2864203" "2814294"
+[29] "72361"   "2059875" "2109593" "28231"   "1292359" "3050243" "234827" 
+[36] "312285"  "2768834" "2320"    "69221"   "1400865" "2528007" "66228"  
+[43] "29311"   "2486855" "2656554" "2864206" "2177"    "1710539" "2094021"
+         SRR17036901  SRR17036899  SRR17036897  SRR17036898  SRR17036900
+1612551 9.132156e-06 4.639141e-06 1.431007e-05 1.404435e-05 1.284964e-05
+2798577 1.048771e-05 9.761527e-06 1.010556e-05 1.263249e-05 1.080115e-05
+905     6.706427e-06 5.702278e-06 7.966429e-06 9.660136e-06 6.052366e-06
+2983219 4.066663e-06 4.735790e-06 6.048585e-06 9.362901e-06 5.679913e-06
+291990  7.205841e-06 3.672654e-06 4.204504e-06 6.985021e-06 4.841893e-06
+61434   6.849117e-06 3.769302e-06 5.089663e-06 5.944699e-06 4.190099e-06
+37482   5.778942e-06 5.025737e-06 5.015900e-06 5.573155e-06 4.376326e-06
+3050324 2.140349e-06 1.256434e-06 9.589220e-07 1.263249e-06 1.582926e-06
+417574  1.640934e-06 1.159785e-06 9.589220e-07 1.263249e-06 1.210473e-06
+13769   2.625495e-05 1.652694e-05 2.795626e-05 2.771716e-05 2.467503e-05
+2714934 3.959646e-05 3.025107e-05 4.573320e-05 4.986116e-05 3.938693e-05
+2725563 3.667131e-05 2.628847e-05 4.521686e-05 4.525402e-05 4.013184e-05
+1796613 1.141519e-06 3.865951e-07 7.376323e-07 6.687786e-07 9.311332e-07
+42255   6.421047e-05 4.233217e-05 5.318329e-05 6.457429e-05 5.605422e-05
+544580  5.786077e-05 4.155898e-05 5.576500e-05 5.409676e-05 5.884762e-05
+2811108 4.894265e-05 2.947788e-05 5.281447e-05 5.862959e-05 4.711534e-05
+2956707 3.567248e-07 1.932976e-07 7.376323e-08 2.972349e-07 3.724533e-07
+1498228 4.280698e-07 0.000000e+00 4.425794e-07 3.715437e-07 9.311332e-08
+2831896 4.280698e-07 1.932976e-07 5.163426e-07 4.458524e-07 8.380199e-07
+3042300 4.994148e-07 7.731902e-07 2.950529e-07 3.715437e-07 6.517932e-07
+2763062 5.707597e-07 1.932976e-07 3.688162e-07 3.715437e-07 5.586799e-07
+1485    4.280698e-06 6.862063e-06 3.171819e-06 3.343893e-06 5.773026e-06
+1758730 4.922803e-06 5.122385e-06 2.876766e-06 3.641128e-06 3.817646e-06
+630     4.780113e-06 4.445844e-06 3.171819e-06 3.566819e-06 3.258966e-06
+186814  2.639764e-06 2.319571e-06 1.253975e-06 2.229262e-06 2.420946e-06
+2937774 1.997659e-06 1.739678e-06 2.212897e-06 1.634792e-06 2.514060e-06
+2864203 3.067834e-06 1.836327e-06 1.844081e-06 3.492511e-06 1.955380e-06
+2814294 2.996489e-06 4.542493e-06 1.622791e-06 1.634792e-06 2.420946e-06
+72361   1.569589e-06 2.029624e-06 9.589220e-07 1.040322e-06 1.303586e-06
+2059875 1.448303e-05 9.568229e-06 1.578533e-05 1.954320e-05 2.188163e-05
+2109593 1.405496e-05 9.181634e-06 1.821952e-05 1.530760e-05 1.368766e-05
+28231   1.612396e-05 5.315683e-06 1.158083e-05 1.322695e-05 8.007746e-06
+1292359 5.707597e-07 1.932976e-07 4.425794e-07 5.944699e-07 4.655666e-07
+3050243 6.421047e-07 1.932976e-07 2.212897e-07 4.458524e-07 2.793400e-07
+234827  4.994148e-07 0.000000e+00 1.475265e-07 4.458524e-07 1.862266e-07
+312285  1.876373e-05 1.391742e-05 2.220273e-05 2.563651e-05 2.383701e-05
+2768834 2.325846e-05 1.488391e-05 2.448939e-05 2.363018e-05 1.936757e-05
+2320    6.849117e-06 3.286059e-06 6.933744e-06 6.316243e-06 8.193972e-06
+69221   4.994148e-06 5.219034e-06 2.507950e-06 4.086980e-06 3.165853e-06
+1400865 5.136838e-06 3.769302e-06 5.753532e-06 4.532833e-06 5.400573e-06
+2528007 8.775431e-06 8.505093e-06 5.237189e-06 8.025343e-06 8.007746e-06
+66228   8.490051e-06 5.315683e-06 1.025309e-05 9.511518e-06 1.117360e-05
+29311   8.768296e-05 4.561822e-05 1.291594e-04 1.381399e-04 7.821519e-05
+2486855 1.056619e-04 7.963860e-05 1.185375e-04 1.232039e-04 1.193713e-04
+2656554 1.141519e-06 4.832439e-07 3.688162e-07 5.201611e-07 8.380199e-07
+2864206 1.212864e-06 6.765415e-07 4.425794e-07 9.660136e-07 4.655666e-07
+2177    2.140349e-07 0.000000e+00 1.475265e-07 1.486175e-07 1.862266e-07
+1710539 3.859763e-05 2.203592e-05 2.537455e-05 2.816301e-05 3.156542e-05
+2094021 2.461401e-05 1.411072e-05 3.267711e-05 3.648559e-05 3.026183e-05
+         SRR17036904  SRR17036902  SRR17036903
+1612551 1.025867e-05 9.982765e-06 1.305512e-05
+2798577 1.323369e-05 8.895534e-06 1.490545e-05
+905     9.643152e-06 7.610623e-06 1.099920e-05
+2983219 6.873311e-06 4.843124e-06 6.681754e-06
+291990  1.282334e-05 4.843124e-06 8.737679e-06
+61434   1.241299e-05 5.930356e-06 1.048521e-05
+37482   1.077161e-05 5.534999e-06 1.099920e-05
+3050324 2.256908e-06 1.976785e-06 2.158721e-06
+417574  2.872428e-06 3.953570e-07 1.439147e-06
+13769   2.913463e-05 2.540169e-05 3.114726e-05
+2714934 3.395621e-05 4.536722e-05 4.307162e-05
+2725563 4.103469e-05 3.953570e-05 4.152967e-05
+1796613 2.154321e-06 9.883926e-07 1.439147e-06
+42255   6.124427e-05 6.632114e-05 7.771394e-05
+544580  4.606144e-05 5.307668e-05 5.684631e-05
+2811108 5.242182e-05 4.002990e-05 5.139811e-05
+2956707 4.103469e-07 9.883926e-08 7.195736e-07
+1498228 4.103469e-07 0.000000e+00 3.083887e-07
+2831896 1.231041e-06 3.953570e-07 8.223698e-07
+3042300 6.155203e-07 9.883926e-08 1.233555e-06
+2763062 8.206938e-07 3.953570e-07 1.130758e-06
+1485    7.078484e-06 5.337320e-06 6.887347e-06
+1758730 6.257790e-06 3.558213e-06 5.242607e-06
+630     5.847443e-06 3.162856e-06 5.037015e-06
+186814  6.052617e-06 2.470982e-06 5.037015e-06
+2937774 3.898296e-06 1.976785e-06 5.756588e-06
+2864203 4.206056e-06 2.569821e-06 5.550996e-06
+2814294 3.180188e-06 1.976785e-06 4.831422e-06
+72361   4.411229e-06 1.581428e-06 2.672702e-06
+2059875 1.682422e-05 1.314562e-05 1.973687e-05
+2109593 1.231041e-05 1.482589e-05 1.983967e-05
+28231   1.466990e-05 1.037812e-05 1.778375e-05
+1292359 8.206938e-07 4.941963e-07 1.027962e-06
+3050243 7.181071e-07 1.976785e-07 8.223698e-07
+234827  8.206938e-07 1.976785e-07 2.055924e-07
+312285  1.990182e-05 1.532009e-05 2.559626e-05
+2768834 2.000441e-05 2.184348e-05 2.888574e-05
+2320    5.950030e-06 8.796694e-06 8.634883e-06
+69221   8.412111e-06 4.151249e-06 6.064977e-06
+1400865 4.924163e-06 4.348928e-06 5.859385e-06
+2528007 1.590094e-05 9.093212e-06 1.223275e-05
+66228   9.335392e-06 7.808302e-06 1.079360e-05
+29311   1.087419e-04 8.292614e-05 1.368218e-04
+2486855 1.030997e-04 1.208804e-04 1.218135e-04
+2656554 1.025867e-06 3.953570e-07 1.233555e-06
+2864206 2.564668e-06 9.883926e-07 1.130758e-06
+2177    7.181071e-07 5.930356e-07 5.139811e-07
+1710539 3.036567e-05 2.599473e-05 3.289479e-05
+2094021 2.113287e-05 2.599473e-05 3.104446e-05
+[1] "Arachis_hypogaea_Rhizosphere_betweenness"
+
+	Spearman's rank correlation rho
+
+data:  abundace_key_otus and diversity_community
+S = 56, p-value = 0.2139
+alternative hypothesis: true rho is greater than 0
+sample estimates:
+      rho 
+0.3333333 
+
+ [1] "81461"   "198483"  "32067"   "2963939" "93681"   "43662"   "2562892"
+ [8] "1280"    "1930071" "1748242" "2954086" "28065"   "55601"   "2867025"
+[15] "1525"    "2282475" "160808"  "311400"  "3027470"
+[1] "Arachis_hypogaea_Rhizosphere_keystone"
+
+	Spearman's rank correlation rho
+
+data:  abundace_key_otus and diversity_community
+S = 78, p-value = 0.441
+alternative hypothesis: true rho is greater than 0
+sample estimates:
+       rho 
+0.07142857 
+
+ [1] "1612551" "2798577" "905"     "2983219" "291990"  "61434"   "37482"  
+ [8] "3050324" "417574"  "13769"   "2714934" "2725563" "1796613" "42255"  
+[15] "544580"  "2811108" "2956707" "1498228" "2831896" "3042300" "2763062"
+[22] "1485"    "1758730" "630"     "186814"  "2937774" "2864203" "2814294"
+[29] "72361"   "2059875" "2109593" "28231"   "1292359" "3050243" "234827" 
+[36] "312285"  "2768834" "2320"    "69221"   "1400865" "2528007" "66228"  
+[43] "29311"   "2486855" "2656554" "2864206" "2177"    "1710539" "2094021"
+         SRR17036901  SRR17036899  SRR17036897  SRR17036898  SRR17036900
+1612551 9.132156e-06 4.639141e-06 1.431007e-05 1.404435e-05 1.284964e-05
+2798577 1.048771e-05 9.761527e-06 1.010556e-05 1.263249e-05 1.080115e-05
+905     6.706427e-06 5.702278e-06 7.966429e-06 9.660136e-06 6.052366e-06
+2983219 4.066663e-06 4.735790e-06 6.048585e-06 9.362901e-06 5.679913e-06
+291990  7.205841e-06 3.672654e-06 4.204504e-06 6.985021e-06 4.841893e-06
+61434   6.849117e-06 3.769302e-06 5.089663e-06 5.944699e-06 4.190099e-06
+37482   5.778942e-06 5.025737e-06 5.015900e-06 5.573155e-06 4.376326e-06
+3050324 2.140349e-06 1.256434e-06 9.589220e-07 1.263249e-06 1.582926e-06
+417574  1.640934e-06 1.159785e-06 9.589220e-07 1.263249e-06 1.210473e-06
+13769   2.625495e-05 1.652694e-05 2.795626e-05 2.771716e-05 2.467503e-05
+2714934 3.959646e-05 3.025107e-05 4.573320e-05 4.986116e-05 3.938693e-05
+2725563 3.667131e-05 2.628847e-05 4.521686e-05 4.525402e-05 4.013184e-05
+1796613 1.141519e-06 3.865951e-07 7.376323e-07 6.687786e-07 9.311332e-07
+42255   6.421047e-05 4.233217e-05 5.318329e-05 6.457429e-05 5.605422e-05
+544580  5.786077e-05 4.155898e-05 5.576500e-05 5.409676e-05 5.884762e-05
+2811108 4.894265e-05 2.947788e-05 5.281447e-05 5.862959e-05 4.711534e-05
+2956707 3.567248e-07 1.932976e-07 7.376323e-08 2.972349e-07 3.724533e-07
+1498228 4.280698e-07 0.000000e+00 4.425794e-07 3.715437e-07 9.311332e-08
+2831896 4.280698e-07 1.932976e-07 5.163426e-07 4.458524e-07 8.380199e-07
+3042300 4.994148e-07 7.731902e-07 2.950529e-07 3.715437e-07 6.517932e-07
+2763062 5.707597e-07 1.932976e-07 3.688162e-07 3.715437e-07 5.586799e-07
+1485    4.280698e-06 6.862063e-06 3.171819e-06 3.343893e-06 5.773026e-06
+1758730 4.922803e-06 5.122385e-06 2.876766e-06 3.641128e-06 3.817646e-06
+630     4.780113e-06 4.445844e-06 3.171819e-06 3.566819e-06 3.258966e-06
+186814  2.639764e-06 2.319571e-06 1.253975e-06 2.229262e-06 2.420946e-06
+2937774 1.997659e-06 1.739678e-06 2.212897e-06 1.634792e-06 2.514060e-06
+2864203 3.067834e-06 1.836327e-06 1.844081e-06 3.492511e-06 1.955380e-06
+2814294 2.996489e-06 4.542493e-06 1.622791e-06 1.634792e-06 2.420946e-06
+72361   1.569589e-06 2.029624e-06 9.589220e-07 1.040322e-06 1.303586e-06
+2059875 1.448303e-05 9.568229e-06 1.578533e-05 1.954320e-05 2.188163e-05
+2109593 1.405496e-05 9.181634e-06 1.821952e-05 1.530760e-05 1.368766e-05
+28231   1.612396e-05 5.315683e-06 1.158083e-05 1.322695e-05 8.007746e-06
+1292359 5.707597e-07 1.932976e-07 4.425794e-07 5.944699e-07 4.655666e-07
+3050243 6.421047e-07 1.932976e-07 2.212897e-07 4.458524e-07 2.793400e-07
+234827  4.994148e-07 0.000000e+00 1.475265e-07 4.458524e-07 1.862266e-07
+312285  1.876373e-05 1.391742e-05 2.220273e-05 2.563651e-05 2.383701e-05
+2768834 2.325846e-05 1.488391e-05 2.448939e-05 2.363018e-05 1.936757e-05
+2320    6.849117e-06 3.286059e-06 6.933744e-06 6.316243e-06 8.193972e-06
+69221   4.994148e-06 5.219034e-06 2.507950e-06 4.086980e-06 3.165853e-06
+1400865 5.136838e-06 3.769302e-06 5.753532e-06 4.532833e-06 5.400573e-06
+2528007 8.775431e-06 8.505093e-06 5.237189e-06 8.025343e-06 8.007746e-06
+66228   8.490051e-06 5.315683e-06 1.025309e-05 9.511518e-06 1.117360e-05
+29311   8.768296e-05 4.561822e-05 1.291594e-04 1.381399e-04 7.821519e-05
+2486855 1.056619e-04 7.963860e-05 1.185375e-04 1.232039e-04 1.193713e-04
+2656554 1.141519e-06 4.832439e-07 3.688162e-07 5.201611e-07 8.380199e-07
+2864206 1.212864e-06 6.765415e-07 4.425794e-07 9.660136e-07 4.655666e-07
+2177    2.140349e-07 0.000000e+00 1.475265e-07 1.486175e-07 1.862266e-07
+1710539 3.859763e-05 2.203592e-05 2.537455e-05 2.816301e-05 3.156542e-05
+2094021 2.461401e-05 1.411072e-05 3.267711e-05 3.648559e-05 3.026183e-05
+         SRR17036904  SRR17036902  SRR17036903
+1612551 1.025867e-05 9.982765e-06 1.305512e-05
+2798577 1.323369e-05 8.895534e-06 1.490545e-05
+905     9.643152e-06 7.610623e-06 1.099920e-05
+2983219 6.873311e-06 4.843124e-06 6.681754e-06
+291990  1.282334e-05 4.843124e-06 8.737679e-06
+61434   1.241299e-05 5.930356e-06 1.048521e-05
+37482   1.077161e-05 5.534999e-06 1.099920e-05
+3050324 2.256908e-06 1.976785e-06 2.158721e-06
+417574  2.872428e-06 3.953570e-07 1.439147e-06
+13769   2.913463e-05 2.540169e-05 3.114726e-05
+2714934 3.395621e-05 4.536722e-05 4.307162e-05
+2725563 4.103469e-05 3.953570e-05 4.152967e-05
+1796613 2.154321e-06 9.883926e-07 1.439147e-06
+42255   6.124427e-05 6.632114e-05 7.771394e-05
+544580  4.606144e-05 5.307668e-05 5.684631e-05
+2811108 5.242182e-05 4.002990e-05 5.139811e-05
+2956707 4.103469e-07 9.883926e-08 7.195736e-07
+1498228 4.103469e-07 0.000000e+00 3.083887e-07
+2831896 1.231041e-06 3.953570e-07 8.223698e-07
+3042300 6.155203e-07 9.883926e-08 1.233555e-06
+2763062 8.206938e-07 3.953570e-07 1.130758e-06
+1485    7.078484e-06 5.337320e-06 6.887347e-06
+1758730 6.257790e-06 3.558213e-06 5.242607e-06
+630     5.847443e-06 3.162856e-06 5.037015e-06
+186814  6.052617e-06 2.470982e-06 5.037015e-06
+2937774 3.898296e-06 1.976785e-06 5.756588e-06
+2864203 4.206056e-06 2.569821e-06 5.550996e-06
+2814294 3.180188e-06 1.976785e-06 4.831422e-06
+72361   4.411229e-06 1.581428e-06 2.672702e-06
+2059875 1.682422e-05 1.314562e-05 1.973687e-05
+2109593 1.231041e-05 1.482589e-05 1.983967e-05
+28231   1.466990e-05 1.037812e-05 1.778375e-05
+1292359 8.206938e-07 4.941963e-07 1.027962e-06
+3050243 7.181071e-07 1.976785e-07 8.223698e-07
+234827  8.206938e-07 1.976785e-07 2.055924e-07
+312285  1.990182e-05 1.532009e-05 2.559626e-05
+2768834 2.000441e-05 2.184348e-05 2.888574e-05
+2320    5.950030e-06 8.796694e-06 8.634883e-06
+69221   8.412111e-06 4.151249e-06 6.064977e-06
+1400865 4.924163e-06 4.348928e-06 5.859385e-06
+2528007 1.590094e-05 9.093212e-06 1.223275e-05
+66228   9.335392e-06 7.808302e-06 1.079360e-05
+29311   1.087419e-04 8.292614e-05 1.368218e-04
+2486855 1.030997e-04 1.208804e-04 1.218135e-04
+2656554 1.025867e-06 3.953570e-07 1.233555e-06
+2864206 2.564668e-06 9.883926e-07 1.130758e-06
+2177    7.181071e-07 5.930356e-07 5.139811e-07
+1710539 3.036567e-05 2.599473e-05 3.289479e-05
+2094021 2.113287e-05 2.599473e-05 3.104446e-05
+[1] "Arachis_hypogaea_Rhizosphere_betweenness"
+
+	Spearman's rank correlation rho
+
+data:  abundace_key_otus and diversity_community
+S = 56, p-value = 0.2139
+alternative hypothesis: true rho is greater than 0
+sample estimates:
+      rho 
+0.3333333 
+
+ [1] "81461"   "198483"  "32067"   "2963939" "93681"   "43662"   "2562892"
+ [8] "1280"    "1930071" "1748242" "2954086" "28065"   "55601"   "2867025"
+[15] "1525"    "2282475" "160808"  "311400"  "3027470"
+[1] "Arachis_hypogaea_Rhizosphere_keystone"
+
+	Spearman's rank correlation rho
+
+data:  abundace_key_otus and diversity_community
+S = 78, p-value = 0.441
+alternative hypothesis: true rho is greater than 0
+sample estimates:
+       rho 
+0.07142857 
+
