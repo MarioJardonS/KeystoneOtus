@@ -195,3 +195,68 @@ sample estimates:
 
 character(0)
 character(0)
+ [1] "1862145" "53362"   "1042"    "55395"   "1701758" "3038545" "304378" 
+ [8] "391905"  "1914233" "2798724" "1608957" "1817965" "2838850" "2820278"
+[15] "1482074" "2984843" "29539"   "546871"  "2782678" "32"      "2220096"
+[22] "1630693" "2528022" "2651334" "256618"  "1988"    "2202827" "1582356"
+[29] "3041435" "206389"  "2968085" "483545"  "1041"    "447588"  "2760308"
+[36] "2871820" "1298"    "2233999" "113"     "588673"  "1881061" "682998" 
+[43] "1069"    "2004797" "2748098" "2527984" "1550733" "161492"  "2952477"
+[1] "Panax_ginseng_Rhizosphere_degrees"
+
+	Spearman's rank correlation rho
+
+data:  abundace_key_otus and diversity_community
+S = 2, p-value = 0.001389
+alternative hypothesis: true rho is greater than 0
+sample estimates:
+      rho 
+0.9642857 
+
+ [1] "1884905" "2775246" "2878915" "1752063" "544645"  "1563222" "2820280"
+ [8] "1986204" "2986424" "568386"  "712157"  "1102"    "1548602" "2714594"
+[15] "2071710" "1679002" "1681"    "2592817" "387661"  "65551"   "104102" 
+[22] "126734"  "2305987" "331648"  "1702221" "3031125" "33943"   "2291"   
+[29] "1736674" "1836467" "2213202" "1852970" "880"     "1050638" "1436084"
+[36] "511745"  "99598"   "2161677" "2081702" "497726"  "762954"  "1709477"
+[43] "2654325" "2675229" "833"     "3065396" "2518989" "379899"  "2870839"
+[1] "Panax_ginseng_Rhizosphere_closeness"
+
+	Spearman's rank correlation rho
+
+data:  abundace_key_otus and diversity_community
+S = 10, p-value = 0.01706
+alternative hypothesis: true rho is greater than 0
+sample estimates:
+      rho 
+0.8214286 
+
+ [1] "1659192" "2956463" "315393"  "2719911" "1884905" "2818390" "43305"  
+ [8] "1408204" "1835724" "1982098" "2006145" "2107"    "2579791" "2731220"
+[15] "2929515" "85034"   "2037915" "1279031" "2715679" "160808"  "2810348"
+[22] "1211642" "125593"  "1840528" "2841283" "2955351" "1883379" "265522" 
+[29] "2675059" "115987"  "182709"  "1982895" "285530"  "2024615" "2282475"
+[36] "3072978" "2822846" "249188"  "3031125" "1100"    "1868793" "1712654"
+[43] "2711328" "19"      "2017483" "143361"  "1691"    "1209493" "1033"   
+[1] "Panax_ginseng_Rhizosphere_betweenness"
+
+	Spearman's rank correlation rho
+
+data:  abundace_key_otus and diversity_community
+S = 68, p-value = 0.7026
+alternative hypothesis: true rho is greater than 0
+sample estimates:
+       rho 
+-0.2142857 
+
+[1] "Panax_ginseng_Rhizosphere_keystone"
+
+	Spearman's rank correlation rho
+
+data:  abundace_key_otus and diversity_community
+S = 4, p-value = 0.003373
+alternative hypothesis: true rho is greater than 0
+sample estimates:
+      rho 
+0.9285714 
+
