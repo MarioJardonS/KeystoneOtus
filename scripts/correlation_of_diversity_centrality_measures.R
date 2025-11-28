@@ -25,7 +25,7 @@ umbral <- which( key_otus[ , args[3]] > umbral )
 key_otus <- row.names(key_otus)[umbral]
 key_otus
 key_otus <- community[ key_otus ,   ]
-  print(key_otus)
+#  print(key_otus)
 
 
 

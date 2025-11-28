@@ -23,7 +23,7 @@ data <- read.csv( data , row.names = 1 , header = TRUE , sep = ",")
 
 #normalización de las distribuciones
 for(i in 1:dim(data)[2]){
-  print(data[ , i])
+#  print(data[ , i])
   data[ , i] <- as.integer(as.vector(data[ , i]))
   data[ , i] <- data[ , i]/sum(data[ , i ])
   #print(data[ , i])

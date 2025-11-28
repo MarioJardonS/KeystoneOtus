@@ -19,7 +19,7 @@ for (i in 1:dim(community)[2]){
 
 key_otus <- paste0( "../results/central_otus/" , args[1] , "_" , args[2] ,"_keystone_otus.csv" )
 key_otus <- read.csv(key_otus , row.names = 1)
-print(row.names(key_otus))
+#print(row.names(key_otus))
 key_otus <- community[ row.names(key_otus) ,   ]
   
 

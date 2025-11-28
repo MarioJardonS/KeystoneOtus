@@ -1,4 +1,5 @@
 #!/bin/bash
+echo $1 
 
 Rscript putative_keystone.R $1 $2 
 
