@@ -14,14 +14,10 @@ data <- paste0( "../data/tables/" , args[1] , "_" , args[2] , ".csv" )
 centrality <- args[3]
 
 
-measures <- read.csv(measures , row.names = 1 ) #se asume que es una tabla de salida del script ./first_analysis.R
+measures <- read.csv(measures , row.names = 1 ) 
 
-#if (substr( data ,  length(data) - 3 , length(data)  ) == ".csv"){
 data <- read.csv( data , row.names = 1 , header = TRUE )
-#} else {
- # data <- read.table( data , row.names = 1 , header = TRUE , sep = "" )
-#}
-print(head(data))
+
 #normalización de las distribuciones
 for(i in 1:dim(data)[2]){
   data[ , i] <- data[ , i]/sum(data[ , i ])
@@ -52,15 +48,17 @@ for (x in 1:dim(data)[1]) {
   #print(is.numeric(as.numeric(data[x,])))
   cv_x <- cv(as.numeric(data[x , ]) )
   #rint(data[x , ])
-  cv_all <- c(cv_all , cv_x)
-  #if(is.na(cv_x) == FALSE){
-   # print(cv_x)
-  #}
+
+  
+  if(is.na(cv_x) == FALSE){
+   cv_all <- c(cv_all , cv_x)  
+
+  }
 }
 
 
 cv_all_mean <- mean(cv_all)
-
+print(cv_all_mean)
 #lo anterior, pero con los core
 cv_core <- c()
 for (x in 1:dim(data_core)[1]) {
@@ -77,10 +75,12 @@ for (x in 1:dim(data_core)[1]) {
 
 cv_core_mean <- mean(cv_core)
 
+print(cv_core_mean)
+#comparación de cada uno de los coeficientes de variación de los otus clave y del coeficiente promed
 
-#comparación de cada uno de los coeficientes de variación de los otus clave y lel coeficiente promed
-
-high_centrality <- which(measures[ , centrality] >= quantile(measures[ ,centrality] , probs = seq(0, 1, 0.01))[100])
+#high_centrality <- which(measures[ , centrality] >= quantile(measures[ ,centrality] , probs = seq(0, 1, 0.01))[100])
+high_centrality <- sort(measures[ , centrality] , decreasing = TRUE)[100]
+high_centrality <- which(measures[ , centrality] > high_centrality)
 high_centrality <- measures[ high_centrality , ]
 
 cv_high_centrality <- c()

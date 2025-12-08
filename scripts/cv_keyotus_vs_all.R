@@ -53,9 +53,9 @@ for (x in 1:dim(data)[1]) {
   #print(is.numeric(as.numeric(data[x,])))
   cv_x <- cv(as.numeric(data[x , ]) )
   #rint(data[x , ])
-  cv_all <- c(cv_all , cv_x)
-  #if(is.na(cv_x) == FALSE){
-   # print(cv_x)
+  #cv_all <- c(cv_all , cv_x)
+  if(is.na(cv_x) == FALSE){
+   cv_all <- c(cv_all , cv_x)
   #}
 }
 
