@@ -13,7 +13,7 @@ data <- paste0( "../data/tables/" , args[1] , "_" , args[2] , ".csv" )
 
 
 
-key_otus <- read.csv(key_otus , row.names = 1 ) #se asume que es una tabla de salida del script ./first_analysis.R
+key_otus <- read.csv(key_otus , row.names = 1 )
 
 #if (substr( data ,  length(data) - 3 , length(data)  ) == ".csv"){
 data <- read.csv( data , row.names = 1 , header = TRUE , sep = ",")
@@ -56,7 +56,7 @@ for (x in 1:dim(data)[1]) {
   #cv_all <- c(cv_all , cv_x)
   if(is.na(cv_x) == FALSE){
    cv_all <- c(cv_all , cv_x)
-  #}
+  }
 }
 
 
