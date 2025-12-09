@@ -98,7 +98,7 @@ for(i in 1:dim(high_centrality)[1]){
 plot_data <- data.frame( otu = row.names(high_centrality) , coef_v = cv_high_centrality , Media = cv_all_mean , Media_Core = cv_core_mean)
 
 plot <- ggplot() + 
-  geom_line(data = plot_data , aes(x = otu , y = coef_v , group = 1)) +
+  geom_point(data = plot_data , aes(x = otu , y = coef_v , group = 1 , size = 5)) +
   geom_line(data = plot_data , aes(x = otu , y = Media , group = 1 , color = 'blue')) +
   geom_line(data = plot_data , aes(x = otu , y = Media_Core , group = 1 , color = 'red')) +
                        theme(axis.text.x = element_text(angle = 45, hjust = 1) )
