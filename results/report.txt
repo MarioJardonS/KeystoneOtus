@@ -1,3 +1,4 @@
+
  [1] "2419771" "273677"  "1950"    "1619308" "1736046" "1911"    "156977" 
  [8] "35621"   "2735133" "202862"  "1967"    "68200"   "67581"   "3015161"
 [15] "2059884" "2781962" "2932247" "1795630" "2665642" "40988"   "1389020"
@@ -195,6 +196,41 @@ sample estimates:
 
 character(0)
 character(0)
+character(0)
+[1] "Myrtillocactus_geometrizans_Rhizosphere_closeness"
+
+	Spearman's rank correlation rho
+
+data:  abundace_key_otus and diversity_community
+S = NA, p-value = NA
+alternative hypothesis: true rho is greater than 0
+sample estimates:
+rho 
+ NA 
+
+character(0)
+[1] "Myrtillocactus_geometrizans_Rhizosphere_betweenness"
+
+	Spearman's rank correlation rho
+
+data:  abundace_key_otus and diversity_community
+S = NA, p-value = NA
+alternative hypothesis: true rho is greater than 0
+sample estimates:
+rho 
+ NA 
+
+[1] "Myrtillocactus_geometrizans_Rhizosphere_keystone"
+
+	Spearman's rank correlation rho
+
+data:  abundace_key_otus and diversity_community
+S = NA, p-value = NA
+alternative hypothesis: true rho is greater than 0
+sample estimates:
+rho 
+ NA 
+
  [1] "1862145" "53362"   "1042"    "55395"   "1701758" "3038545" "304378" 
  [8] "391905"  "1914233" "2798724" "1608957" "1817965" "2838850" "2820278"
 [15] "1482074" "2984843" "29539"   "546871"  "2782678" "32"      "2220096"
@@ -259,4 +295,329 @@ alternative hypothesis: true rho is greater than 0
 sample estimates:
       rho 
 0.9285714 
+
+ [1] "2823043" "1829"    "405212"  "61624"   "2662065" "2927875" "200252" 
+ [8] "1136941" "2742602" "128"     "1123043" "1211322" "2609257" "2831662"
+[15] "73919"   "47759"   "1437453" "446660"  "187491"  "445930"  "2692125"
+[22] "1552990" "1333523" "1335746" "2733571" "310783"  "32046"   "223392" 
+[29] "83564"   "225326"  "2856555" "2607656" "225194"  "1619153" "2881056"
+[36] "2968083" "2654547" "2816956" "47312"   "108010"  "67345"   "767452" 
+[43] "2575440" "2760083" "2966192" "2999062"
+[1] "Panax_notoginseng_Rhizosphere_degrees"
+
+	Spearman's rank correlation rho
+
+data:  abundace_key_otus and diversity_community
+S = 36, p-value < 2.2e-16
+alternative hypothesis: true rho is greater than 0
+sample estimates:
+      rho 
+0.9357143 
+
+ [1] "2933872" "285983"  "247480"  "571915"  "206662"  "1400865" "282402" 
+ [8] "35787"   "2483360" "1852373" "139438"  "1852377" "200991"  "2912188"
+[15] "3047030" "1563"    "32207"   "45656"   "53419"   "2950245" "712538" 
+[22] "2109593" "712116"  "880"     "1400864" "1702221" "2041044" "2499157"
+[29] "890"     "933262"  "1508419" "1050635" "294699"  "296745"  "1096"   
+[36] "1401"    "2974039" "252966"  "2709403" "2729421" "837"     "2795031"
+[43] "1712410" "1796646" "1173026" "1548602" "180"     "376490"  "89153"  
+[1] "Panax_notoginseng_Rhizosphere_closeness"
+
+	Spearman's rank correlation rho
+
+data:  abundace_key_otus and diversity_community
+S = 62, p-value < 2.2e-16
+alternative hypothesis: true rho is greater than 0
+sample estimates:
+      rho 
+0.8892857 
+
+ [1] "3026425" "1089121" "1109713" "1240483" "2419948" "2913506" "2948800"
+ [8] "1660076" "1983742" "1993630" "2006134" "2560406" "2732017" "2955239"
+[15] "2955564" "87791"   "2675791" "2742195" "2812759" "2955377" "36855"  
+[22] "563177"  "712623"  "83191"   "1980944" "209052"  "2159"    "229155" 
+[29] "2956641" "2989768" "3047815" "3051417" "10665"   "1636618" "999883" 
+[36] "1183239" "1348611" "90243"   "472834"  "2742601" "55802"   "191393" 
+[43] "184064"  "32025"   "2935450" "2956710" "648998"  "2843756" "2846436"
+[1] "Panax_notoginseng_Rhizosphere_betweenness"
+
+	Spearman's rank correlation rho
+
+data:  abundace_key_otus and diversity_community
+S = 302, p-value = 0.04303
+alternative hypothesis: true rho is greater than 0
+sample estimates:
+      rho 
+0.4607143 
+
+[1] "Panax_notoginseng_Rhizosphere_keystone"
+
+	Spearman's rank correlation rho
+
+data:  abundace_key_otus and diversity_community
+S = 62, p-value < 2.2e-16
+alternative hypothesis: true rho is greater than 0
+sample estimates:
+      rho 
+0.8892857 
+
+ [1] "218208"  "472181"  "2811788" "2505977" "1550024" "75293"   "121872" 
+ [8] "324057"  "2963939" "2785785" "48074"   "3031727" "35814"   "237609" 
+[15] "2819280" "635"     "71655"   "82996"   "1821621" "936456"  "131081" 
+[22] "2697043" "349221"  "405"     "393662"  "38284"   "61858"   "169435" 
+[29] "577"     "2320270" "2781022" "29489"   "253239"  "1111069" "2907159"
+[36] "437505"  "3029061" "2488665" "56956"   "2994661" "3074146" "19"     
+[43] "2562282" "2866592" "797277"  "1100"   
+[1] "Persea_americana_Mill_Rhizosphere_degrees"
+
+	Spearman's rank correlation rho
+
+data:  abundace_key_otus and diversity_community
+S = 16, p-value = 0.002254
+alternative hypothesis: true rho is greater than 0
+sample estimates:
+      rho 
+0.8666667 
+
+ [1] "70863"   "1031538" "1497681" "101192"  "202950"  "2994078" "28169"  
+ [8] "2675230" "483913"  "174"     "2803864" "1789224" "351679"  "2267253"
+[15] "418008"  "79209"   "2864206" "2714110" "203"     "911092"  "2748863"
+[22] "1536770" "293091"  "3042300" "3070995" "132920"  "1366"    "1632866"
+[29] "255247"  "2929796" "2065312" "570278"  "885581"  "40216"   "1623"   
+[36] "1637975" "39491"   "2746932" "28171"   "1796616" "246167"  "2746060"
+[43] "116090"  "2592382" "418240"  "96232"   "1481914" "1581557" "2743001"
+[1] "Persea_americana_Mill_Rhizosphere_closeness"
+
+	Spearman's rank correlation rho
+
+data:  abundace_key_otus and diversity_community
+S = 52, p-value = 0.06029
+alternative hypothesis: true rho is greater than 0
+sample estimates:
+      rho 
+0.5666667 
+
+ [1] "2734279" "110103"  "187217"  "2560407" "2955343" "658666"  "97195"  
+ [8] "2846185" "2885983" "2955575" "542343"  "2937790" "710648"  "1560339"
+[15] "10497"   "1884916" "1643950" "2163016" "2916693" "2956015" "1982901"
+[22] "1348611" "1849031" "2848881" "2948772" "2948936" "74700"   "2734229"
+[29] "1983118" "190063"  "2159"    "2590021" "2856338" "1474867" "1982102"
+[36] "1985340" "2560256" "2560504" "2762329" "50339"   "2734254" "2845184"
+[43] "2734065" "2766781" "2844485" "2846398" "288021"  "3030529" "1984787"
+[1] "Persea_americana_Mill_Rhizosphere_betweenness"
+
+	Spearman's rank correlation rho
+
+data:  abundace_key_otus and diversity_community
+S = 24, p-value = 0.006914
+alternative hypothesis: true rho is greater than 0
+sample estimates:
+rho 
+0.8 
+
+[1] "Persea_americana_Mill_Rhizosphere_keystone"
+
+	Spearman's rank correlation rho
+
+data:  abundace_key_otus and diversity_community
+S = 28, p-value = 0.01069
+alternative hypothesis: true rho is greater than 0
+sample estimates:
+      rho 
+0.7666667 
+
+ [1] "2604158" "2773299" "2235"    "74426"   "2587163" "57497"   "158080" 
+ [8] "159346"  "2773308" "1353136" "2930199" "1299"    "2733488" "432329" 
+[15] "404432"  "1716143" "641491"  "2917691" "2587847" "274"     "879"    
+[22] "901"     "292800"  "3017783" "68909"   "63561"   "2907343" "1267768"
+[29] "3036127" "1075"    "2293838" "659350"  "1897729" "186192"  "2202254"
+[36] "59930"   "1064539" "980427"  "1609966" "1564506" "2953657" "2796927"
+[43] "182210"  "3048007" "3029084" "62140"   "2734634" "638849" 
+[1] "Sorghum_bicolor_Rhizosphere_degrees"
+
+	Spearman's rank correlation rho
+
+data:  abundace_key_otus and diversity_community
+S = 1136, p-value < 2.2e-16
+alternative hypothesis: true rho is greater than 0
+sample estimates:
+      rho 
+0.9454502 
+
+ [1] "698828"  "2606626" "2163011" "421"     "132132"  "2917832" "302406" 
+ [8] "1914861" "2579935" "2500533" "1457365" "1097"    "1748242" "42353"  
+[15] "703"     "29494"   "2724468" "2976983" "45655"   "3070658" "38313"  
+[22] "2738883" "2304594" "2602067" "2743"    "3035471" "85072"   "1538553"
+[29] "281093"  "712710"  "204042"  "1076588" "29510"   "2769486" "2601894"
+[36] "2490858" "437505"  "1619313" "2070369" "154046"  "241368"  "2171755"
+[43] "875171"  "1280948" "2562282" "441209"  "556"     "2866573" "1249552"
+[1] "Sorghum_bicolor_Rhizosphere_closeness"
+
+	Spearman's rank correlation rho
+
+data:  abundace_key_otus and diversity_community
+S = 782, p-value < 2.2e-16
+alternative hypothesis: true rho is greater than 0
+sample estimates:
+     rho 
+0.962449 
+
+ [1] "726"     "1915309" "713"     "727"     "1530123" "2518971" "28087"  
+ [8] "668"     "1196083" "1970738" "1824638" "412034"  "2913614" "28108"  
+[15] "485447"  "2596890" "254246"  "34062"   "2291597" "247333"  "2759707"
+[22] "703"     "672"     "2735563" "2840468" "2979324" "2886938" "1872084"
+[29] "511"     "3022676" "376805"  "673"     "171"     "45656"   "630"    
+[36] "2743"    "252514"  "252307"  "204042"  "576610"  "454601"  "1917421"
+[43] "328812"  "2570911" "81682"   "370111"  "1664069" "3043332" "857417" 
+[1] "Sorghum_bicolor_Rhizosphere_betweenness"
+
+	Spearman's rank correlation rho
+
+data:  abundace_key_otus and diversity_community
+S = 2922, p-value < 2.2e-16
+alternative hypothesis: true rho is greater than 0
+sample estimates:
+      rho 
+0.8596879 
+
+[1] "Sorghum_bicolor_Rhizosphere_keystone"
+
+	Spearman's rank correlation rho
+
+data:  abundace_key_otus and diversity_community
+S = 3832, p-value < 2.2e-16
+alternative hypothesis: true rho is greater than 0
+sample estimates:
+      rho 
+0.8159904 
+
+ [1] "2653857" "47850"   "40318"   "76731"   "1804986" "47875"   "2020"   
+ [8] "2018025" "2704468" "2867410" "83681"   "2742132" "2749844" "3015154"
+[15] "67385"   "283811"  "3075199" "710111"  "1725411" "2705012" "85012"  
+[22] "73044"   "2126346" "2900152" "2917725" "1969"    "2684469" "53462"  
+[29] "1927"    "3016086" "2548456" "29303"   "2499145" "2294034" "1795"   
+[36] "1552759" "1038928" "2720714" "1849967" "2496836" "68214"   "3057122"
+[43] "1890"    "1950"    "3015149" "2879846" "2942449" "1977088" "68223"  
+[1] "Triticum_aestivum_Rhizosphere_degrees"
+
+	Spearman's rank correlation rho
+
+data:  abundace_key_otus and diversity_community
+S = 5834, p-value = 0.9908
+alternative hypothesis: true rho is greater than 0
+sample estimates:
+       rho 
+-0.4369458 
+
+ [1] "1637869" "2782568" "897"     "2604537" "1634516" "1827195" "2907154"
+ [8] "1850093" "239759"  "189691"  "2528017" "3032592" "3051137" "2674997"
+[15] "2735433" "93218"   "1503054" "130049"  "1016987" "412963"  "2547601"
+[22] "482"     "2502843" "881"     "2961599" "2850561" "2829500" "2780074"
+[29] "1176536" "1903704" "204037"  "1458426" "926"     "1603606" "656178" 
+[36] "656179"  "342113"  "2763071" "1323948" "190721"  "329"     "2890321"
+[43] "57975"   "311231"  "267128"  "279113"  "2937787" "1740163" "2927975"
+[1] "Triticum_aestivum_Rhizosphere_closeness"
+
+	Spearman's rank correlation rho
+
+data:  abundace_key_otus and diversity_community
+S = 460, p-value = 2.912e-07
+alternative hypothesis: true rho is greater than 0
+sample estimates:
+      rho 
+0.8866995 
+
+ [1] "1016"    "1218801" "1620816" "2681766" "2592345" "938406"  "400092" 
+ [8] "2694930" "291644"  "308865"  "1769012" "2058175" "196013"  "970"    
+[15] "1637869" "651822"  "388950"  "332999"  "894"     "897"     "2604537"
+[22] "1827195" "3033386" "2251"    "239759"  "189691"  "2961595" "130049" 
+[29] "881"     "2961599" "2743090" "2850561" "1729695" "370038"  "3031126"
+[36] "475662"  "2841594" "2795215" "2079227" "190721"  "46913"   "267128" 
+[43] "1920"    "3033808" "2991075" "3069708" "187137"  "1894"    "2865673"
+[1] "Triticum_aestivum_Rhizosphere_betweenness"
+
+	Spearman's rank correlation rho
+
+data:  abundace_key_otus and diversity_community
+S = 644, p-value = 5.235e-07
+alternative hypothesis: true rho is greater than 0
+sample estimates:
+      rho 
+0.8413793 
+
+[1] "Triticum_aestivum_Rhizosphere_keystone"
+
+	Spearman's rank correlation rho
+
+data:  abundace_key_otus and diversity_community
+S = 1120, p-value = 7.928e-06
+alternative hypothesis: true rho is greater than 0
+sample estimates:
+      rho 
+0.7241379 
+
+ [1] "1778"    "722731"  "1729695" "1725"    "2293838" "712122"  "2080419"
+ [8] "146919"  "2609253" "2665642" "187137"  "2894310" "1652028" "1795630"
+[15] "2051957" "234612"  "185642"  "2929795" "47312"   "1903186" "2575923"
+[22] "1270"    "132473"  "2760083" "2994664" "3069708" "1829"    "556288" 
+[29] "2999062" "436397"  "1331682" "200252"  "2014"    "120959"  "2660554"
+[36] "556499"  "43669"   "111015"  "1748"    "53635"   "1930058" "2857058"
+[43] "309887"  "1004901" "191493"  "37923"   "188770"  "1660"    "1749"   
+[1] "Zea_mays_L._hybrid_Rhizosphere_degrees"
+
+	Spearman's rank correlation rho
+
+data:  abundace_key_otus and diversity_community
+S = 2682, p-value = 0.7831
+alternative hypothesis: true rho is greater than 0
+sample estimates:
+      rho 
+-0.166087 
+
+ [1] "2810562" "158822"  "2217913" "204461"  "2584944" "2932251" "487184" 
+ [8] "2906514" "442"     "2584940" "483547"  "1446467" "2886821" "3041098"
+[15] "1177"    "1986146" "2815309" "218208"  "636"     "1162"    "1334193"
+[22] "265960"  "872"     "29542"   "2600177" "2016196" "3050898" "43306"  
+[29] "1281578" "1748965" "571177"  "2733487" "2508289" "2081970" "1382803"
+[36] "2675878" "2008795" "758782"  "63561"   "1463165" "1637869" "947919" 
+[43] "2704463" "297"     "2502781" "92942"   "2358"    "174633"  "352"    
+[1] "Zea_mays_L._hybrid_Rhizosphere_closeness"
+
+	Spearman's rank correlation rho
+
+data:  abundace_key_otus and diversity_community
+S = 1158, p-value = 0.007309
+alternative hypothesis: true rho is greater than 0
+sample estimates:
+      rho 
+0.4965217 
+
+ [1] "226"     "1481665" "568386"  "1882918" "2685834" "246"     "1909699"
+ [8] "838"     "1134405" "2596890" "28072"   "40576"   "2724191" "264686" 
+[15] "95641"   "2728023" "3015983" "2608982" "2490452" "2932251" "442"    
+[22] "1510150" "483547"  "564064"  "53246"   "1679444" "2016196" "3034024"
+[29] "307486"  "35814"   "2866311" "2698684" "758782"  "1637869" "2704463"
+[36] "2502781" "2994951" "2946555" "2358"    "1973486" "174633"  "938406" 
+[43] "2019"    "1603606" "870903"  "2771430" "1940612" "2847992" "413"    
+[1] "Zea_mays_L._hybrid_Rhizosphere_betweenness"
+
+	Spearman's rank correlation rho
+
+data:  abundace_key_otus and diversity_community
+S = 730, p-value = 0.0001696
+alternative hypothesis: true rho is greater than 0
+sample estimates:
+      rho 
+0.6826087 
+
+[1] "Zea_mays_L._hybrid_Rhizosphere_keystone"
+
+	Spearman's rank correlation rho
+
+data:  abundace_key_otus and diversity_community
+S = 2694, p-value = 0.7903
+alternative hypothesis: true rho is greater than 0
+sample estimates:
+       rho 
+-0.1713043 
 

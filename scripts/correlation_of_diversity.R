@@ -14,6 +14,18 @@ for (i in 1:dim(community)[2]){
   community[ , i] <- community[ , i]/sum(community[ , i ])
 }
 
+present <- c()
+
+for(i in 1:dim(community)[1]){
+  if(sum(community[i ,]) > 0){
+    present <- c(present , i)
+}
+}
+
+community <- community[present, ]
+
+
+
 #Trabajo con subconjunto "clave"
 
 
