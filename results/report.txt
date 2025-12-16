@@ -1243,3 +1243,50 @@ sample estimates:
        rho 
 -0.1713043 
 
+character(0)
+[1] "Malus_domestica_Rhizosphere_degrees"
+
+	Spearman's rank correlation rho
+
+data:  abundace_key_otus and diversity_community
+S = NA, p-value = NA
+alternative hypothesis: true rho is greater than 0
+sample estimates:
+rho 
+ NA 
+
+character(0)
+[1] "Malus_domestica_Rhizosphere_closeness"
+
+	Spearman's rank correlation rho
+
+data:  abundace_key_otus and diversity_community
+S = NA, p-value = NA
+alternative hypothesis: true rho is greater than 0
+sample estimates:
+rho 
+ NA 
+
+character(0)
+[1] "Malus_domestica_Rhizosphere_betweenness"
+
+	Spearman's rank correlation rho
+
+data:  abundace_key_otus and diversity_community
+S = NA, p-value = NA
+alternative hypothesis: true rho is greater than 0
+sample estimates:
+rho 
+ NA 
+
+[1] "Malus_domestica_Rhizosphere_keystone"
+
+	Spearman's rank correlation rho
+
+data:  abundace_key_otus and diversity_community
+S = NA, p-value = NA
+alternative hypothesis: true rho is greater than 0
+sample estimates:
+rho 
+ NA 
+
