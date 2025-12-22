@@ -1,6 +1,6 @@
 #!/bin/bash
 
-python generateNetworkParallel_no_permutation.py $1 $2
+#python generateNetworkParallel_no_permutation.py $1 $2
 
 touch ../results/otus_by_centrality/${1}_${2}_centrality_measures.csv
 
