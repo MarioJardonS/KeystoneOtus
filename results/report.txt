@@ -1420,3 +1420,68 @@ sample estimates:
         rho 
 -0.02857143 
 
+ [1] "2777185" "79209"   "2746230" "2744027" "44250"   "1472767" "2801997"
+ [8] "2067065" "28183"   "2911514" "29370"   "31909"   "1644130" "3070215"
+[15] "69968"   "2980027" "60217"   "1582439" "260554"  "2930213" "2700081"
+[22] "1848904" "1584"    "3015170" "3028318" "199441"  "1099853" "2924033"
+[29] "184755"  "52694"   "342950"  "3050112" "2972483" "2259673" "3028315"
+[36] "2497989" "457083"  "1239415" "2932256" "384636"  "2593652" "1798225"
+[43] "2777186" "1316596" "1851148"
+[1] "Capsicum_annuum_Rhizosphere_degrees"
+
+	Spearman's rank correlation rho
+
+data:  abundace_key_otus and diversity_community
+S = 900, p-value = 0.8915
+alternative hypothesis: true rho is greater than 0
+sample estimates:
+       rho 
+-0.3235294 
+
+ [1] "1921087" "1536769" "1986204" "2950245" "2138101" "641148"  "562959" 
+ [8] "1462996" "195250"  "296745"  "139438"  "2527971" "483547"  "913107" 
+[15] "181663"  "1561005" "2950604" "168384"  "260364"  "1815583" "2917832"
+[22] "2576756" "1536771" "1125966" "971"     "2810347" "2528020" "2908839"
+[29] "45462"   "111501"  "89153"   "160386"  "1401"    "2809707" "2697043"
+[36] "1473112" "189425"  "3069118" "487"     "1422"    "397865"  "714067" 
+[43] "2507162" "1796620" "55779"   "3065396" "2479767" "2878915" "81408"  
+[1] "Capsicum_annuum_Rhizosphere_closeness"
+
+	Spearman's rank correlation rho
+
+data:  abundace_key_otus and diversity_community
+S = 472, p-value = 0.1243
+alternative hypothesis: true rho is greater than 0
+sample estimates:
+      rho 
+0.3058824 
+
+ [1] "1220717" "129726"  "2985323" "3050252" "2560484" "182180"  "2864207"
+ [8] "2734195" "1381597" "84107"   "1127515" "1715860" "890"     "1819725"
+[15] "316279"  "1131703" "691963"  "2733098" "2843764" "1982902" "2483366"
+[22] "2955349" "2956015" "1858563" "1982358" "173566"  "2955990" "875170" 
+[29] "1129"    "10702"   "1075398" "1912324" "390641"  "53945"   "74829"  
+[36] "31953"   "2036037" "227388"  "1170711" "1982880" "2734192" "2854257"
+[43] "2565558" "1869339" "63743"   "1070314" "278132"  "1198456" "55080"  
+[1] "Capsicum_annuum_Rhizosphere_betweenness"
+
+	Spearman's rank correlation rho
+
+data:  abundace_key_otus and diversity_community
+S = 198, p-value = 0.001449
+alternative hypothesis: true rho is greater than 0
+sample estimates:
+      rho 
+0.7088235 
+
+[1] "Capsicum_annuum_Rhizosphere_keystone"
+
+	Spearman's rank correlation rho
+
+data:  abundace_key_otus and diversity_community
+S = 848, p-value = 0.8254
+alternative hypothesis: true rho is greater than 0
+sample estimates:
+       rho 
+-0.2470588 
+
