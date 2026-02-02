@@ -95,7 +95,7 @@ ggsave(paste0("../results/figures/correlation_beta_diversity_" , args[4] , "_" ,
 
 
 #print(cor(abundace_key_otus , diversity_community , method = "spearman"))
-print(paste0(args[1] , "_" , args[2] , "_keystone"))
+print(paste0(args[4] , "_" , args[3] , "_keystone"))
 print(cor.test(product_of_abundance , composition_change , alternative = "less" , method = "spearman"))
 #distribution <- c()
 

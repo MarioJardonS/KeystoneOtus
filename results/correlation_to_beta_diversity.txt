@@ -1,0 +1,957 @@
+ [1] "77643"   "395965"  "1285901" "2528642" "75385"   "84595"   "556499" 
+ [8] "61624"   "2642922" "286727"  "2382165" "1969806" "272568"  "309887" 
+[15] "1712261" "36818"   "1768108" "2051553" "414996"  "68246"   "36809"  
+[22] "42197"   "1639348" "257708"  "2792603" "1940"    "228602"  "502394" 
+[29] "349124"  "2014542" "1270"    "1133546" "2662260" "1470176" "444597" 
+[36] "2202826" "1248727" "191493"  "2663846" "340345"  "53635"   "1286322"
+[43] "2170729" "2202254"
+[1] "chile_degrees_keystone"
+
+	Spearman's rank correlation rho
+
+data:  product_of_abundance and composition_change
+S = 2404, p-value = 0.004596
+alternative hypothesis: true rho is less than 0
+sample estimates:
+      rho 
+-0.561039 
+
+ [1] "981385"  "626937"  "1408159" "156976"  "55213"   "1814290" "40567"  
+ [8] "93378"   "154046"  "1615494" "290633"  "95641"   "323261"  "105559" 
+[15] "57320"   "45663"   "824"     "1528099" "1930071" "1815583" "146786" 
+[22] "28091"   "104623"  "680"     "204"     "648996"  "1310165" "1354302"
+[29] "320778"  "1809"    "161895"  "210"     "1526571" "82977"   "1761794"
+[36] "2640322" "577309"  "5690"    "1573720" "2614679" "84030"   "1671721"
+[43] "2161677" "948519"  "258224"  "155978"  "1936021" "174633" 
+[1] "chile_closeness_keystone"
+
+	Spearman's rank correlation rho
+
+data:  product_of_abundance and composition_change
+S = 2632, p-value = 0.0002317
+alternative hypothesis: true rho is less than 0
+sample estimates:
+       rho 
+-0.7090909 
+
+ [1] "1679444" "981385"  "1408159" "93378"   "241368"  "1932004" "290633" 
+ [8] "2518495" "1930071" "10365"   "375929"  "680"     "1918945" "1354302"
+[15] "33028"   "1809"    "161895"  "2321114" "129958"  "1632019" "2733155"
+[22] "1303"    "374162"  "5690"    "2614679" "84030"   "2683645" "529709" 
+[29] "759620"  "39483"   "880158"  "2003316" "1936021" "2594042" "444923" 
+[36] "470933"  "2301302" "79885"   "1629"    "1224145" "508451"  "2627481"
+[43] "2500132" "187452"  "2004647" "79601"   "227945"  "54262"   "1623295"
+[1] "chile_betweenness_keystone"
+
+	Spearman's rank correlation rho
+
+data:  product_of_abundance and composition_change
+S = 2278, p-value = 0.01469
+alternative hypothesis: true rho is less than 0
+sample estimates:
+       rho 
+-0.4792208 
+
+ [1] "351604"  "172827"  "184917"  "1197717" "83564"   "2773299" "2634974"
+ [8] "1816183" "641491"  "33871"   "2643836" "218208"  "2587844" "446660" 
+[15] "1870985" "74426"   "853"     "2650499" "63561"   "29543"   "894"    
+[22] "699433"  "1407499" "216816"  "2796139" "2730359" "2247"    "84112"  
+[29] "29542"   "1198301" "416273"  "84110"   "59930"   "899"     "2079535"
+[36] "1771309" "44010"   "1182571" "2678688" "2624677" "2648975" "2648737"
+[43] "69823"   "35746"   "119484"  "2638792" "292800" 
+[1] "tomate_degrees_keystone"
+
+	Spearman's rank correlation rho
+
+data:  product_of_abundance and composition_change
+S = 3735654, p-value < 2.2e-16
+alternative hypothesis: true rho is less than 0
+sample estimates:
+       rho 
+-0.8184028 
+
+ [1] "351604"  "172827"  "1197717" "33871"   "2643836" "218208"  "2796139"
+ [8] "29542"   "84110"   "876"     "253239"  "2704463" "2718"    "313985" 
+[15] "901"     "181663"  "158822"  "1353891" "218936"  "880073"  "19"     
+[22] "2608981" "2003188" "129338"  "471514"  "239935"  "1842532" "195950" 
+[29] "297"     "511062"  "1094342" "930805"  "1630135" "657387"  "61647"  
+[36] "421628"  "1192854" "548"     "1178482" "1906738" "2527971" "122"    
+[43] "2488665" "1808979" "2584944" "2528007" "1389004" "1679444" "2785785"
+[1] "tomate_closeness_keystone"
+
+	Spearman's rank correlation rho
+
+data:  product_of_abundance and composition_change
+S = 3687376, p-value < 2.2e-16
+alternative hypothesis: true rho is less than 0
+sample estimates:
+       rho 
+-0.7949025 
+
+ [1] "1353891" "2047767" "45663"   "32046"   "1536648" "100715"  "2624044"
+ [8] "1909699" "2677223" "1188228" "161154"  "2590016" "155978"  "745277" 
+[15] "190192"  "83219"   "301301"  "1434191" "703"     "1219035" "2021862"
+[22] "2759707" "2774875" "1874317" "2562661" "863"     "241421"  "2718938"
+[29] "178606"  "53501"   "1597"    "717231"  "246969"  "1294262" "53442"  
+[36] "363408"  "1471399" "292691"  "180230"  "553981"  "280472"  "290174" 
+[43] "76831"   "143222"  "1465"    "42422"   "1570"    "104267"  "583345" 
+[1] "tomate_betweenness_keystone"
+
+	Spearman's rank correlation rho
+
+data:  product_of_abundance and composition_change
+S = 2600662, p-value = 2.26e-05
+alternative hypothesis: true rho is less than 0
+sample estimates:
+       rho 
+-0.2659232 
+
+ [1] "2773299" "83564"   "1873716" "2725477" "106634"  "119484"  "2587844"
+ [8] "2812648" "274493"  "2638792" "119"     "2528027" "2211211" "432329" 
+[15] "1639348" "1417228" "2014542" "239935"  "2681310" "266265"  "435"    
+[22] "686340"  "2527978" "2699430" "1771309" "483547"  "376489"  "51101"  
+[29] "243233"  "1307763" "1211322" "1712261" "266"     "2636738" "1434191"
+[36] "44742"   "1281578" "1335613" "152480"  "187272"  "2583377" "2740807"
+[43] "561184"  "370038"  "427923"  "1715989" "1260251" "29288"  
+[1] "maiz_degrees_keystone"
+
+	Spearman's rank correlation rho
+
+data:  product_of_abundance and composition_change
+S = 6376, p-value = 5.106e-06
+alternative hypothesis: true rho is less than 0
+sample estimates:
+       rho 
+-0.7449371 
+
+ [1] "84030"   "61646"   "291990"  "2252"    "1871021" "304207"  "1500686"
+ [8] "648996"  "2545798" "1415568" "2785912" "2490851" "1134403" "2741499"
+[15] "1763998" "574697"  "358766"  "2735563" "1179675" "55213"   "2293"   
+[22] "267363"  "2246"    "2080757" "1123366" "681157"  "1874277" "2624044"
+[29] "573413"  "2238"    "577"     "1778678" "5690"    "1307"    "1161942"
+[36] "1175444" "1972431" "114277"  "824"     "1613"    "1778675" "2183582"
+[43] "537"     "1173032" "251698"  "320778"  "1238"    "105559"  "1526571"
+[1] "maiz_closeness_keystone"
+
+	Spearman's rank correlation rho
+
+data:  product_of_abundance and composition_change
+S = 6178, p-value = 3.64e-05
+alternative hypothesis: true rho is less than 0
+sample estimates:
+       rho 
+-0.6907499 
+
+ [1] "2252"    "430914"  "304207"  "2527976" "45663"   "2545798" "2608920"
+ [8] "164451"  "137545"  "400065"  "53346"   "1315282" "2490851" "2305987"
+[15] "1527493" "1858656" "1246"    "1763998" "88233"   "157688"  "1582"   
+[22] "246969"  "166486"  "1179675" "2711221" "109328"  "1913578" "681157" 
+[29] "2071710" "375929"  "357804"  "1305"    "1689"    "1778678" "5690"   
+[36] "131112"  "2648079" "45658"   "1637841" "2635519" "82985"   "637389" 
+[43] "252967"  "1283313" "320778"  "342610"  "28250"   "121277"  "2015370"
+[1] "maiz_betweenness_keystone"
+
+	Spearman's rank correlation rho
+
+data:  product_of_abundance and composition_change
+S = 5242, p-value = 0.01087
+alternative hypothesis: true rho is less than 0
+sample estimates:
+       rho 
+-0.4345922 
+
+Fatal error: cannot open file 'correlation_of_beta_diversity_centrality_measures.R': No such file or directory
+Fatal error: cannot open file 'correlation_of_beta_diversity_centrality_measures.R': No such file or directory
+Fatal error: cannot open file 'correlation_of_beta_diversity_centrality_measures.R': No such file or directory
+Fatal error: cannot open file 'correlation_of_beta_diversity_centrality_measures.R': No such file or directory
+Fatal error: cannot open file 'correlation_of_beta_diversity_centrality_measures.R': No such file or directory
+Fatal error: cannot open file 'correlation_of_beta_diversity_centrality_measures.R': No such file or directory
+Fatal error: cannot open file 'correlation_of_beta_diversity_centrality_measures.R': No such file or directory
+Fatal error: cannot open file 'correlation_of_beta_diversity_centrality_measures.R': No such file or directory
+Fatal error: cannot open file 'correlation_of_beta_diversity_centrality_measures.R': No such file or directory
+Fatal error: cannot open file 'correlation_of_beta_diversity_centrality_measures.R': No such file or directory
+Fatal error: cannot open file 'correlation_of_beta_diversity_centrality_measures.R': No such file or directory
+Fatal error: cannot open file 'correlation_of_beta_diversity_centrality_measures.R': No such file or directory
+ [1] "2777185" "79209"   "2746230" "2744027" "44250"   "1472767" "2801997"
+ [8] "2067065" "28183"   "2911514" "29370"   "31909"   "1644130" "3070215"
+[15] "69968"   "2980027" "60217"   "1582439" "260554"  "2930213" "2700081"
+[22] "1848904" "1584"    "3015170" "3028318" "199441"  "1099853" "2924033"
+[29] "184755"  "52694"   "342950"  "3050112" "2972483" "2259673" "3028315"
+[36] "2497989" "457083"  "1239415" "2932256" "384636"  "2593652" "1798225"
+[43] "2777186" "1316596" "1851148"
+[1] "Capsicum_annuum_Rhizosphere_keystone"
+
+	Spearman's rank correlation rho
+
+data:  product_of_abundance and composition_change
+S = 330924, p-value = 0.052
+alternative hypothesis: true rho is less than 0
+sample estimates:
+       rho 
+-0.1491215 
+
+ [1] "2758037" "290053"  "28090"   "2650157" "449"     "1743159" "131112" 
+ [8] "1903694" "2546359" "2564040" "111500"  "2133944" "332186"  "68200"  
+[15] "61648"   "2599305" "485448"  "1986146" "1335746" "3058963" "38300"  
+[22] "66892"   "1736046" "2837956" "1842532" "927"     "2795687" "157"    
+[29] "241368"  "1249552" "2697027" "1566351" "483547"  "2583374" "539813" 
+[36] "254247"  "53946"   "1280380" "28112"   "135613"  "198620"  "2822410"
+[43] "1173101" "2715131" "62322"   "199"     "2761580" "1456591" "40216"  
+[1] "Glycine_max_Rhizosphere_keystone"
+
+	Spearman's rank correlation rho
+
+data:  product_of_abundance and composition_change
+S = 22598, p-value = 0.9119
+alternative hypothesis: true rho is less than 0
+sample estimates:
+      rho 
+0.1847763 
+
+ [1] "2070347" "2499145" "3030210" "2763006" "2749844" "2742132" "3018339"
+ [8] "2684468" "2508722" "2964669" "455344"  "66425"   "2585716" "1914"   
+[15] "66892"   "1977088" "46351"   "51201"   "3028804" "571913"  "2684469"
+[22] "1881"    "2900152" "659012"  "2136401" "2720714" "47875"   "2596828"
+[29] "362257"  "3062449" "2987751" "261654"  "1771"    "212765"  "3053466"
+[36] "2914159" "1333528" "1901"    "3062779" "3075197" "2761578" "68223"  
+[43] "202862"  "356851"  "2020377" "388357"  "553510"  "2837956" "28047"  
+[1] "Lactuca_sativa_L_Rhizosphere_keystone"
+
+	Spearman's rank correlation rho
+
+data:  product_of_abundance and composition_change
+S = 220566, p-value = 0.07228
+alternative hypothesis: true rho is less than 0
+sample estimates:
+       rho 
+-0.1433029 
+
+ [1] "2742136" "1038928" "280236"  "2585716" "684552"  "40566"   "1176198"
+ [8] "1967"    "632569"  "204891"  "2721173" "2942449" "1169025" "2933290"
+[15] "3075198" "2838850" "3033811" "131568"  "2842453" "675864"  "1641402"
+[22] "1888"    "1901"    "2984338" "1179673" "3062779" "68212"   "2968085"
+[29] "2282738" "209247"  "2825844" "2654547" "1915"    "66892"   "2750011"
+[36] "38300"   "665007"  "42197"   "2599401" "28894"   "2962047" "2063"   
+[43] "2203205" "2760083" "1442032" "67345"   "1136941" "2758710"
+[1] "Malus_domestica_Rhizosphere_keystone"
+
+	Spearman's rank correlation rho
+
+data:  product_of_abundance and composition_change
+S = 279954, p-value = 8.968e-07
+alternative hypothesis: true rho is less than 0
+sample estimates:
+       rho 
+-0.4511404 
+
+ [1] "2290923" "157592"  "1881016" "37487"   "1906741" "2608999" "2726185"
+ [8] "377615"  "1897729" "2494234" "3051137" "71999"   "69823"   "2587849"
+[15] "2202254" "2981137" "1105204" "682798"  "1245526" "2740807" "53412"  
+[22] "1108595" "57480"   "1389922" "2059672" "332249"  "106634"  "404432" 
+[29] "2737050" "1694"    "980427"  "74426"   "645"     "1644056" "1644061"
+[36] "200252"  "502394"  "2999062" "80869"   "36805"   "317577"  "1225769"
+[43] "353"     "1851544" "2024551" "39775"   "2604832" "2597701"
+[1] "Oryza_sativa_Rhizosphere_keystone"
+
+	Spearman's rank correlation rho
+
+data:  product_of_abundance and composition_change
+S = 59800518, p-value = 1
+alternative hypothesis: true rho is less than 0
+sample estimates:
+      rho 
+0.6302135 
+
+ [1] "1862145" "53362"   "1042"    "55395"   "1701758" "3038545" "304378" 
+ [8] "391905"  "1914233" "2798724" "1608957" "1817965" "2838850" "2820278"
+[15] "1482074" "2984843" "29539"   "546871"  "2782678" "32"      "2220096"
+[22] "1630693" "2528022" "2651334" "256618"  "1988"    "2202827" "1582356"
+[29] "3041435" "206389"  "2968085" "483545"  "1041"    "447588"  "2760308"
+[36] "2871820" "1298"    "2233999" "113"     "588673"  "1881061" "682998" 
+[43] "1069"    "2004797" "2748098" "2527984" "1550733" "161492"  "2952477"
+[1] "Panax_ginseng_Rhizosphere_keystone"
+
+	Spearman's rank correlation rho
+
+data:  product_of_abundance and composition_change
+S = 960, p-value = 0.954
+alternative hypothesis: true rho is less than 0
+sample estimates:
+      rho 
+0.3766234 
+
+ [1] "2823043" "1829"    "405212"  "61624"   "2662065" "2927875" "200252" 
+ [8] "1136941" "2742602" "128"     "1123043" "1211322" "2609257" "2831662"
+[15] "73919"   "47759"   "1437453" "446660"  "187491"  "445930"  "2692125"
+[22] "1552990" "1333523" "1335746" "2733571" "310783"  "32046"   "223392" 
+[29] "83564"   "225326"  "2856555" "2607656" "225194"  "1619153" "2881056"
+[36] "2968083" "2654547" "2816956" "47312"   "108010"  "67345"   "767452" 
+[43] "2575440" "2760083" "2966192" "2999062"
+[1] "Panax_notoginseng_Rhizosphere_keystone"
+
+	Spearman's rank correlation rho
+
+data:  product_of_abundance and composition_change
+S = 171238, p-value = 0.8734
+alternative hypothesis: true rho is less than 0
+sample estimates:
+      rho 
+0.1123886 
+
+ [1] "218208"  "472181"  "2811788" "2505977" "1550024" "75293"   "121872" 
+ [8] "324057"  "2963939" "2785785" "48074"   "3031727" "35814"   "237609" 
+[15] "2819280" "635"     "71655"   "82996"   "1821621" "936456"  "131081" 
+[22] "2697043" "349221"  "405"     "393662"  "38284"   "61858"   "169435" 
+[29] "577"     "2320270" "2781022" "29489"   "253239"  "1111069" "2907159"
+[36] "437505"  "3029061" "2488665" "56956"   "2994661" "3074146" "19"     
+[43] "2562282" "2866592" "797277"  "1100"   
+[1] "Persea_americana_Mill_Rhizosphere_keystone"
+
+	Spearman's rank correlation rho
+
+data:  product_of_abundance and composition_change
+S = 10946, p-value = 0.006958
+alternative hypothesis: true rho is less than 0
+sample estimates:
+       rho 
+-0.4087516 
+
+ [1] "2604158" "2773299" "2235"    "74426"   "2587163" "57497"   "158080" 
+ [8] "159346"  "2773308" "1353136" "2930199" "1299"    "2733488" "432329" 
+[15] "404432"  "1716143" "641491"  "2917691" "2587847" "274"     "879"    
+[22] "901"     "292800"  "3017783" "68909"   "63561"   "2907343" "1267768"
+[29] "3036127" "1075"    "2293838" "659350"  "1897729" "186192"  "2202254"
+[36] "59930"   "1064539" "980427"  "1609966" "1564506" "2953657" "2796927"
+[43] "182210"  "3048007" "3029084" "62140"   "2734634" "638849" 
+[1] "Sorghum_bicolor_Rhizosphere_keystone"
+
+	Spearman's rank correlation rho
+
+data:  product_of_abundance and composition_change
+S = 533846800, p-value < 2.2e-16
+alternative hypothesis: true rho is less than 0
+sample estimates:
+       rho 
+-0.7424484 
+
+ [1] "2653857" "47850"   "40318"   "76731"   "1804986" "47875"   "2020"   
+ [8] "2018025" "2704468" "2867410" "83681"   "2742132" "2749844" "3015154"
+[15] "67385"   "283811"  "3075199" "710111"  "1725411" "2705012" "85012"  
+[22] "73044"   "2126346" "2900152" "2917725" "1969"    "2684469" "53462"  
+[29] "1927"    "3016086" "2548456" "29303"   "2499145" "2294034" "1795"   
+[36] "1552759" "1038928" "2720714" "1849967" "2496836" "68214"   "3057122"
+[43] "1890"    "1950"    "3015149" "2879846" "2942449" "1977088" "68223"  
+[1] "Triticum_aestivum_Rhizosphere_keystone"
+
+	Spearman's rank correlation rho
+
+data:  product_of_abundance and composition_change
+S = 10058730, p-value = 0.976
+alternative hypothesis: true rho is less than 0
+sample estimates:
+       rho 
+0.09818193 
+
+ [1] "1778"    "722731"  "1729695" "1725"    "2293838" "712122"  "2080419"
+ [8] "146919"  "2609253" "2665642" "187137"  "2894310" "1652028" "1795630"
+[15] "2051957" "234612"  "185642"  "2929795" "47312"   "1903186" "2575923"
+[22] "1270"    "132473"  "2760083" "2994664" "3069708" "1829"    "556288" 
+[29] "2999062" "436397"  "1331682" "200252"  "2014"    "120959"  "2660554"
+[36] "556499"  "43669"   "111015"  "1748"    "53635"   "1930058" "2857058"
+[43] "309887"  "1004901" "191493"  "37923"   "188770"  "1660"    "1749"   
+[1] "Zea_mays_L._hybrid_Rhizosphere_keystone"
+
+	Spearman's rank correlation rho
+
+data:  product_of_abundance and composition_change
+S = 4909310, p-value = 3.025e-12
+alternative hypothesis: true rho is less than 0
+sample estimates:
+       rho 
+-0.4010388 
+
+ [1] "1921087" "1536769" "1986204" "2950245" "2138101" "641148"  "562959" 
+ [8] "1462996" "195250"  "296745"  "139438"  "2527971" "483547"  "913107" 
+[15] "181663"  "1561005" "2950604" "168384"  "260364"  "1815583" "2917832"
+[22] "2576756" "1536771" "1125966" "971"     "2810347" "2528020" "2908839"
+[29] "45462"   "111501"  "89153"   "160386"  "1401"    "2809707" "2697043"
+[36] "1473112" "189425"  "3069118" "487"     "1422"    "397865"  "714067" 
+[43] "2507162" "1796620" "55779"   "3065396" "2479767" "2878915" "81408"  
+[1] "Capsicum_annuum_Rhizosphere_keystone"
+
+	Spearman's rank correlation rho
+
+data:  product_of_abundance and composition_change
+S = 440510, p-value = 3.49e-10
+alternative hypothesis: true rho is less than 0
+sample estimates:
+       rho 
+-0.5296548 
+
+ [1] "2231053" "2758037" "537"     "190893"  "2904129" "2316383" "1737490"
+ [8] "2518989" "180"     "290053"  "1380604" "373994"  "28090"   "453161" 
+[15] "1074311" "493"     "2998559" "529884"  "108981"  "2051"    "632773" 
+[22] "1884913" "1833852" "2971264" "1903694" "2853432" "2546359" "553239" 
+[29] "2516559" "2564040" "111500"  "2133944" "332186"  "2487074" "1922217"
+[36] "2599305" "65700"   "485448"  "556054"  "452"     "2872157" "1442554"
+[43] "2715131" "62322"   "1578"    "2761580" "718"     "85402"   "40216"  
+[1] "Glycine_max_Rhizosphere_keystone"
+
+	Spearman's rank correlation rho
+
+data:  product_of_abundance and composition_change
+S = 12732, p-value = 1
+alternative hypothesis: true rho is less than 0
+sample estimates:
+      rho 
+0.5406926 
+
+ [1] "1569"    "1954172" "2741553" "28112"   "60137"   "2751171" "76890"  
+ [8] "2547598" "1017"    "2952525" "1134405" "1173586" "42858"   "2233542"
+[15] "1636423" "1891207" "29498"   "490759"  "2651972" "553239"  "1868325"
+[22] "2599305" "84642"   "135616"  "2665646" "3051121" "3036945" "984207" 
+[29] "2956824" "1752064" "2881377" "1118202" "2893469" "2894156" "158841" 
+[36] "2546356" "487"     "407035"  "224012"  "2724191" "2494701" "1727196"
+[43] "1871021" "2569541" "2913621" "146786"  "661191"  "2815577" "1042156"
+[1] "Lactuca_sativa_L_Rhizosphere_keystone"
+
+	Spearman's rank correlation rho
+
+data:  product_of_abundance and composition_change
+S = 310222, p-value < 2.2e-16
+alternative hypothesis: true rho is less than 0
+sample estimates:
+       rho 
+-0.6080344 
+
+ [1] "2864208" "702745"  "1402861" "352858"  "1566358" "1376"    "683737" 
+ [8] "685565"  "2763672" "754409"  "2924031" "1621989" "471"     "379097" 
+[15] "860353"  "2751313" "1592728" "2913620" "29394"   "28184"   "2916802"
+[22] "172713"  "1891207" "885040"  "3075222" "79885"   "81416"   "2528593"
+[29] "2879114" "2697030" "3043332" "29485"   "2763670" "2546356" "2569541"
+[36] "1784713" "33934"   "1675036" "40544"   "1639"    "28173"   "474394" 
+[43] "261964"  "1264"    "29375"   "351671"  "1589"    "1500254" "2908648"
+[1] "Malus_domestica_Rhizosphere_keystone"
+
+	Spearman's rank correlation rho
+
+data:  product_of_abundance and composition_change
+S = 281736, p-value = 5.229e-07
+alternative hypothesis: true rho is less than 0
+sample estimates:
+       rho 
+-0.4603774 
+
+ [1] "970"     "58180"   "32062"   "129338"  "2909669" "353800"  "1134687"
+ [8] "2785909" "1921087" "933080"  "715179"  "2842349" "69223"   "281093" 
+[15] "2741953" "1051"    "1219"    "395922"  "670"     "833"     "2703885"
+[22] "2813780" "1526571" "2545798" "47917"   "210"     "2812647" "672"    
+[29] "46355"   "2739061" "67825"   "1891675" "2741301" "221341"  "137584" 
+[36] "162209"  "129817"  "847"     "1981174" "1536772" "1163710" "1805933"
+[43] "63612"   "1406"    "1458307" "43658"   "33074"   "2509456" "676"    
+[1] "Oryza_sativa_Rhizosphere_keystone"
+
+	Spearman's rank correlation rho
+
+data:  product_of_abundance and composition_change
+S = 64377564, p-value = 1
+alternative hypothesis: true rho is less than 0
+sample estimates:
+      rho 
+0.6019106 
+
+ [1] "1884905" "2775246" "2878915" "1752063" "544645"  "1563222" "2820280"
+ [8] "1986204" "2986424" "568386"  "712157"  "1102"    "1548602" "2714594"
+[15] "2071710" "1679002" "1681"    "2592817" "387661"  "65551"   "104102" 
+[22] "126734"  "2305987" "331648"  "1702221" "3031125" "33943"   "2291"   
+[29] "1736674" "1836467" "2213202" "1852970" "880"     "1050638" "1436084"
+[36] "511745"  "99598"   "2161677" "2081702" "497726"  "762954"  "1709477"
+[43] "2654325" "2675229" "833"     "3065396" "2518989" "379899"  "2870839"
+[1] "Panax_ginseng_Rhizosphere_keystone"
+
+	Spearman's rank correlation rho
+
+data:  product_of_abundance and composition_change
+S = 1318, p-value = 0.7361
+alternative hypothesis: true rho is less than 0
+sample estimates:
+      rho 
+0.1441558 
+
+ [1] "2933872" "285983"  "247480"  "571915"  "206662"  "1400865" "282402" 
+ [8] "35787"   "2483360" "1852373" "139438"  "1852377" "200991"  "2912188"
+[15] "3047030" "1563"    "32207"   "45656"   "53419"   "2950245" "712538" 
+[22] "2109593" "712116"  "880"     "1400864" "1702221" "2041044" "2499157"
+[29] "890"     "933262"  "1508419" "1050635" "294699"  "296745"  "1096"   
+[36] "1401"    "2974039" "252966"  "2709403" "2729421" "837"     "2795031"
+[43] "1712410" "1796646" "1173026" "1548602" "180"     "376490"  "89153"  
+[1] "Panax_notoginseng_Rhizosphere_keystone"
+
+	Spearman's rank correlation rho
+
+data:  product_of_abundance and composition_change
+S = 169504, p-value = 0.8915
+alternative hypothesis: true rho is less than 0
+sample estimates:
+      rho 
+0.1213767 
+
+ [1] "70863"   "1031538" "1497681" "101192"  "202950"  "2994078" "28169"  
+ [8] "2675230" "483913"  "174"     "2803864" "1789224" "351679"  "2267253"
+[15] "418008"  "79209"   "2864206" "2714110" "203"     "911092"  "2748863"
+[22] "1536770" "293091"  "3042300" "3070995" "132920"  "1366"    "1632866"
+[29] "255247"  "2929796" "2065312" "570278"  "885581"  "40216"   "1623"   
+[36] "1637975" "39491"   "2746932" "28171"   "1796616" "246167"  "2746060"
+[43] "116090"  "2592382" "418240"  "96232"   "1481914" "1581557" "2743001"
+[1] "Persea_americana_Mill_Rhizosphere_keystone"
+
+	Spearman's rank correlation rho
+
+data:  product_of_abundance and composition_change
+S = 11388, p-value = 0.002299
+alternative hypothesis: true rho is less than 0
+sample estimates:
+       rho 
+-0.4656371 
+
+ [1] "698828"  "2606626" "2163011" "421"     "132132"  "2917832" "302406" 
+ [8] "1914861" "2579935" "2500533" "1457365" "1097"    "1748242" "42353"  
+[15] "703"     "29494"   "2724468" "2976983" "45655"   "3070658" "38313"  
+[22] "2738883" "2304594" "2602067" "2743"    "3035471" "85072"   "1538553"
+[29] "281093"  "712710"  "204042"  "1076588" "29510"   "2769486" "2601894"
+[36] "2490858" "437505"  "1619313" "2070369" "154046"  "241368"  "2171755"
+[43] "875171"  "1280948" "2562282" "441209"  "556"     "2866573" "1249552"
+[1] "Sorghum_bicolor_Rhizosphere_keystone"
+
+	Spearman's rank correlation rho
+
+data:  product_of_abundance and composition_change
+S = 514315306, p-value < 2.2e-16
+alternative hypothesis: true rho is less than 0
+sample estimates:
+       rho 
+-0.6786986 
+
+ [1] "1637869" "2782568" "897"     "2604537" "1634516" "1827195" "2907154"
+ [8] "1850093" "239759"  "189691"  "2528017" "3032592" "3051137" "2674997"
+[15] "2735433" "93218"   "1503054" "130049"  "1016987" "412963"  "2547601"
+[22] "482"     "2502843" "881"     "2961599" "2850561" "2829500" "2780074"
+[29] "1176536" "1903704" "204037"  "1458426" "926"     "1603606" "656178" 
+[36] "656179"  "342113"  "2763071" "1323948" "190721"  "329"     "2890321"
+[43] "57975"   "311231"  "267128"  "279113"  "2937787" "1740163" "2927975"
+[1] "Triticum_aestivum_Rhizosphere_keystone"
+
+	Spearman's rank correlation rho
+
+data:  product_of_abundance and composition_change
+S = 16025954, p-value < 2.2e-16
+alternative hypothesis: true rho is less than 0
+sample estimates:
+       rho 
+-0.4368111 
+
+ [1] "2810562" "158822"  "2217913" "204461"  "2584944" "2932251" "487184" 
+ [8] "2906514" "442"     "2584940" "483547"  "1446467" "2886821" "3041098"
+[15] "1177"    "1986146" "2815309" "218208"  "636"     "1162"    "1334193"
+[22] "265960"  "872"     "29542"   "2600177" "2016196" "3050898" "43306"  
+[29] "1281578" "1748965" "571177"  "2733487" "2508289" "2081970" "1382803"
+[36] "2675878" "2008795" "758782"  "63561"   "1463165" "1637869" "947919" 
+[43] "2704463" "297"     "2502781" "92942"   "2358"    "174633"  "352"    
+[1] "Zea_mays_L._hybrid_Rhizosphere_keystone"
+
+	Spearman's rank correlation rho
+
+data:  product_of_abundance and composition_change
+S = 4183314, p-value = 0.0006161
+alternative hypothesis: true rho is less than 0
+sample estimates:
+       rho 
+-0.1938511 
+
+ [1] "1220717" "129726"  "2985323" "3050252" "2560484" "182180"  "2864207"
+ [8] "2734195" "1381597" "84107"   "1127515" "1715860" "890"     "1819725"
+[15] "316279"  "1131703" "691963"  "2733098" "2843764" "1982902" "2483366"
+[22] "2955349" "2956015" "1858563" "1982358" "173566"  "2955990" "875170" 
+[29] "1129"    "10702"   "1075398" "1912324" "390641"  "53945"   "74829"  
+[36] "31953"   "2036037" "227388"  "1170711" "1982880" "2734192" "2854257"
+[43] "2565558" "1869339" "63743"   "1070314" "278132"  "1198456" "55080"  
+[1] "Capsicum_annuum_Rhizosphere_keystone"
+
+	Spearman's rank correlation rho
+
+data:  product_of_abundance and composition_change
+S = 337562, p-value = 0.03007
+alternative hypothesis: true rho is less than 0
+sample estimates:
+       rho 
+-0.1721717 
+
+ [1] "2565304" "2762819" "1028752" "43674"   "1353136" "277"     "2976335"
+ [8] "1249552" "3020832" "2735321" "286130"  "332157"  "2026885" "2778055"
+[15] "292486"  "994696"  "28112"   "69656"   "83554"   "1299429" "2128"   
+[22] "1853690" "43660"   "519472"  "1582"    "2745558" "1129771" "574697" 
+[29] "1365176" "83560"   "938288"  "1085644" "144"     "1340"    "1755811"
+[36] "56812"   "1074467" "1449781" "2732587" "3050244" "1232667" "394751" 
+[43] "35818"   "123824"  "2822410" "1954172" "106654"  "3070656" "762660" 
+[1] "Glycine_max_Rhizosphere_keystone"
+
+	Spearman's rank correlation rho
+
+data:  product_of_abundance and composition_change
+S = 17880, p-value = 0.9959
+alternative hypothesis: true rho is less than 0
+sample estimates:
+      rho 
+0.3549784 
+
+ [1] "543886"  "1982903" "2948781" "2948963" "2955983" "2956319" "2982871"
+ [8] "1420727" "2232"    "46254"   "54526"   "650003"  "2778067" "447897" 
+[15] "108150"  "2800128" "46239"   "2170745" "2177"    "1982567" "116598" 
+[22] "2267655" "2560625" "2939131" "3050271" "2759660" "2890407" "558016" 
+[29] "782"     "269259"  "522262"  "1505597" "1281486" "1623295" "29391"  
+[36] "1263"    "1632019" "1765964" "1789226" "198832"  "1273541" "1883377"
+[43] "1913655" "1921407" "2560539" "2820710" "2834247" "2956327" "1982093"
+[1] "Lactuca_sativa_L_Rhizosphere_keystone"
+
+	Spearman's rank correlation rho
+
+data:  product_of_abundance and composition_change
+S = 301502, p-value = 2.107e-10
+alternative hypothesis: true rho is less than 0
+sample estimates:
+       rho 
+-0.5628343 
+
+ [1] "3049075" "2676755" "1476754" "2924031" "1891207" "79885"   "1291540"
+ [8] "2320"    "1982086" "2763670" "60520"   "1855910" "47735"   "299308" 
+[15] "2939494" "1741"    "1579"    "241244"  "3048188" "269259"  "2956579"
+[22] "41980"   "2972483" "1980674" "2358187" "2873269" "1245"    "449520" 
+[29] "216946"  "2176"    "2767879" "3050254" "1702238" "203492"  "2801918"
+[36] "69655"   "133448"  "3027470" "54297"   "1720344" "39152"   "2842201"
+[43] "375175"  "1176482" "2738852" "1623280" "2732590" "2929495" "1070314"
+[1] "Malus_domestica_Rhizosphere_keystone"
+
+	Spearman's rank correlation rho
+
+data:  product_of_abundance and composition_change
+S = 270994, p-value = 1.093e-05
+alternative hypothesis: true rho is less than 0
+sample estimates:
+       rho 
+-0.4046962 
+
+ [1] "2794998" "1346"    "754516"  "1602"    "2593672" "1884634" "89586"  
+ [8] "1379"    "2479367" "2738844" "420952"  "674"     "291644"  "2995161"
+[15] "2029983" "28453"   "496056"  "496057"  "430522"  "165696"  "1907"   
+[22] "2211211" "1690221" "2838156" "333966"  "3015163" "2203210" "1508451"
+[29] "79328"   "188770"  "2812647" "797291"  "2880218" "2571748" "2571747"
+[36] "3034358" "2768068" "2493676" "148447"  "2878153" "1926494" "2126346"
+[43] "2571749" "1176587" "84567"   "1437453" "661488"  "93219"   "1503055"
+[1] "Oryza_sativa_Rhizosphere_keystone"
+
+	Spearman's rank correlation rho
+
+data:  product_of_abundance and composition_change
+S = 168694982, p-value = 0.08742
+alternative hypothesis: true rho is less than 0
+sample estimates:
+        rho 
+-0.04315363 
+
+ [1] "1659192" "2956463" "315393"  "2719911" "1884905" "2818390" "43305"  
+ [8] "1408204" "1835724" "1982098" "2006145" "2107"    "2579791" "2731220"
+[15] "2929515" "85034"   "2037915" "1279031" "2715679" "160808"  "2810348"
+[22] "1211642" "125593"  "1840528" "2841283" "2955351" "1883379" "265522" 
+[29] "2675059" "115987"  "182709"  "1982895" "285530"  "2024615" "2282475"
+[36] "3072978" "2822846" "249188"  "3031125" "1100"    "1868793" "1712654"
+[43] "2711328" "19"      "2017483" "143361"  "1691"    "1209493" "1033"   
+[1] "Panax_ginseng_Rhizosphere_keystone"
+
+	Spearman's rank correlation rho
+
+data:  product_of_abundance and composition_change
+S = 2150, p-value = 0.03826
+alternative hypothesis: true rho is less than 0
+sample estimates:
+       rho 
+-0.3961039 
+
+ [1] "3026425" "1089121" "1109713" "1240483" "2419948" "2913506" "2948800"
+ [8] "1660076" "1983742" "1993630" "2006134" "2560406" "2732017" "2955239"
+[15] "2955564" "87791"   "2675791" "2742195" "2812759" "2955377" "36855"  
+[22] "563177"  "712623"  "83191"   "1980944" "209052"  "2159"    "229155" 
+[29] "2956641" "2989768" "3047815" "3051417" "10665"   "1636618" "999883" 
+[36] "1183239" "1348611" "90243"   "472834"  "2742601" "55802"   "191393" 
+[43] "184064"  "32025"   "2935450" "2956710" "648998"  "2843756" "2846436"
+[1] "Panax_notoginseng_Rhizosphere_keystone"
+
+	Spearman's rank correlation rho
+
+data:  product_of_abundance and composition_change
+S = 135260, p-value = 0.999
+alternative hypothesis: true rho is less than 0
+sample estimates:
+      rho 
+0.2988804 
+
+ [1] "2734279" "110103"  "187217"  "2560407" "2955343" "658666"  "97195"  
+ [8] "2846185" "2885983" "2955575" "542343"  "2937790" "710648"  "1560339"
+[15] "10497"   "1884916" "1643950" "2163016" "2916693" "2956015" "1982901"
+[22] "1348611" "1849031" "2848881" "2948772" "2948936" "74700"   "2734229"
+[29] "1983118" "190063"  "2159"    "2590021" "2856338" "1474867" "1982102"
+[36] "1985340" "2560256" "2560504" "2762329" "50339"   "2734254" "2845184"
+[43] "2734065" "2766781" "2844485" "2846398" "288021"  "3030529" "1984787"
+[1] "Persea_americana_Mill_Rhizosphere_keystone"
+
+	Spearman's rank correlation rho
+
+data:  product_of_abundance and composition_change
+S = 12318, p-value = 0.0001159
+alternative hypothesis: true rho is less than 0
+sample estimates:
+       rho 
+-0.5853282 
+
+ [1] "726"     "1915309" "713"     "727"     "1530123" "2518971" "28087"  
+ [8] "668"     "1196083" "1970738" "1824638" "412034"  "2913614" "28108"  
+[15] "485447"  "2596890" "254246"  "34062"   "2291597" "247333"  "2759707"
+[22] "703"     "672"     "2735563" "2840468" "2979324" "2886938" "1872084"
+[29] "511"     "3022676" "376805"  "673"     "171"     "45656"   "630"    
+[36] "2743"    "252514"  "252307"  "204042"  "576610"  "454601"  "1917421"
+[43] "328812"  "2570911" "81682"   "370111"  "1664069" "3043332" "857417" 
+[1] "Sorghum_bicolor_Rhizosphere_keystone"
+
+	Spearman's rank correlation rho
+
+data:  product_of_abundance and composition_change
+S = 491039972, p-value < 2.2e-16
+alternative hypothesis: true rho is less than 0
+sample estimates:
+       rho 
+-0.6027291 
+
+ [1] "1016"    "1218801" "1620816" "2681766" "2592345" "938406"  "400092" 
+ [8] "2694930" "291644"  "308865"  "1769012" "2058175" "196013"  "970"    
+[15] "1637869" "651822"  "388950"  "332999"  "894"     "897"     "2604537"
+[22] "1827195" "3033386" "2251"    "239759"  "189691"  "2961595" "130049" 
+[29] "881"     "2961599" "2743090" "2850561" "1729695" "370038"  "3031126"
+[36] "475662"  "2841594" "2795215" "2079227" "190721"  "46913"   "267128" 
+[43] "1920"    "3033808" "2991075" "3069708" "187137"  "1894"    "2865673"
+[1] "Triticum_aestivum_Rhizosphere_keystone"
+
+	Spearman's rank correlation rho
+
+data:  product_of_abundance and composition_change
+S = 15378356, p-value = 1.306e-15
+alternative hypothesis: true rho is less than 0
+sample estimates:
+       rho 
+-0.3787505 
+
+ [1] "226"     "1481665" "568386"  "1882918" "2685834" "246"     "1909699"
+ [8] "838"     "1134405" "2596890" "28072"   "40576"   "2724191" "264686" 
+[15] "95641"   "2728023" "3015983" "2608982" "2490452" "2932251" "442"    
+[22] "1510150" "483547"  "564064"  "53246"   "1679444" "2016196" "3034024"
+[29] "307486"  "35814"   "2866311" "2698684" "758782"  "1637869" "2704463"
+[36] "2502781" "2994951" "2946555" "2358"    "1973486" "174633"  "938406" 
+[43] "2019"    "1603606" "870903"  "2771430" "1940612" "2847992" "413"    
+[1] "Zea_mays_L._hybrid_Rhizosphere_keystone"
+
+	Spearman's rank correlation rho
+
+data:  product_of_abundance and composition_change
+S = 3974248, p-value = 0.01293
+alternative hypothesis: true rho is less than 0
+sample estimates:
+      rho 
+-0.134187 
+
+Fatal error: cannot open file 'correlation_of_beta_diversity_centrality_measures.R': No such file or directory
+Fatal error: cannot open file 'correlation_of_beta_diversity_centrality_measures.R': No such file or directory
+Fatal error: cannot open file 'correlation_of_beta_diversity_centrality_measures.R': No such file or directory
+ [1] "2419771" "273677"  "1950"    "1619308" "1736046" "1911"    "156977" 
+ [8] "35621"   "2735133" "202862"  "1967"    "68200"   "67581"   "3015161"
+[15] "2059884" "2781962" "2932247" "1795630" "2665642" "40988"   "1389020"
+[22] "53437"   "2035"    "2676871" "2875706" "40567"   "2837956" "2174846"
+[29] "3002640" "42197"   "2962047" "84595"   "53451"   "1690221" "1460244"
+[36] "3015149" "2760083" "66892"   "67345"   "2609253" "904291"  "743009" 
+[43] "47312"   "1648182" "234612"  "1268041" "1069221"
+[1] "Arachis_hypogaea_Rhizosphere_keystone"
+
+	Spearman's rank correlation rho
+
+data:  product_of_abundance and composition_change
+S = 4986, p-value = 0.02862
+alternative hypothesis: true rho is less than 0
+sample estimates:
+      rho 
+-0.364532 
+
+ [1] "2709302" "379097"  "919"     "155978"  "3073902" "1485"    "226"    
+ [8] "1642646" "2259595" "551989"  "1758730" "916"     "1096"    "630"    
+[15] "1675036" "2596890" "55206"   "641"     "1674922" "2172098" "2571030"
+[22] "3073092" "82976"   "92942"   "1295642" "186814"  "199"     "2820280"
+[29] "546367"  "110662"  "1628059" "2875962" "98228"   "2507935" "2929494"
+[36] "376805"  "380393"  "1618022" "2814294" "2861765" "82801"   "1499687"
+[43] "490759"  "69221"   "86170"   "1643685" "146786"  "174633"  "198119" 
+[1] "Arachis_hypogaea_Rhizosphere_keystone"
+
+	Spearman's rank correlation rho
+
+data:  product_of_abundance and composition_change
+S = 3134, p-value = 0.7667
+alternative hypothesis: true rho is less than 0
+sample estimates:
+      rho 
+0.1423098 
+
+ [1] "1612551" "2798577" "905"     "2983219" "291990"  "61434"   "37482"  
+ [8] "3050324" "417574"  "13769"   "2714934" "2725563" "1796613" "42255"  
+[15] "544580"  "2811108" "2956707" "1498228" "2831896" "3042300" "2763062"
+[22] "1485"    "1758730" "630"     "186814"  "2937774" "2864203" "2814294"
+[29] "72361"   "2059875" "2109593" "28231"   "1292359" "3050243" "234827" 
+[36] "312285"  "2768834" "2320"    "69221"   "1400865" "2528007" "66228"  
+[43] "29311"   "2486855" "2656554" "2864206" "2177"    "1710539" "2094021"
+[1] "Arachis_hypogaea_Rhizosphere_keystone"
+
+	Spearman's rank correlation rho
+
+data:  product_of_abundance and composition_change
+S = 5116, p-value = 0.01789
+alternative hypothesis: true rho is less than 0
+sample estimates:
+       rho 
+-0.4001095 
+
+[1] "Capsicum_annuum_Rhizosphere_keystone"
+
+	Spearman's rank correlation rho
+
+data:  product_of_abundance and composition_change
+S = 337386, p-value = 0.03053
+alternative hypothesis: true rho is less than 0
+sample estimates:
+       rho 
+-0.1715605 
+
+[1] "Glycine_max_Rhizosphere_keystone"
+
+	Spearman's rank correlation rho
+
+data:  product_of_abundance and composition_change
+S = 11644, p-value = 1
+alternative hypothesis: true rho is less than 0
+sample estimates:
+      rho 
+0.5799423 
+
+[1] "Lactuca_sativa_L_Rhizosphere_keystone"
+
+	Spearman's rank correlation rho
+
+data:  product_of_abundance and composition_change
+S = 309784, p-value < 2.2e-16
+alternative hypothesis: true rho is less than 0
+sample estimates:
+      rho 
+-0.605764 
+
+[1] "Malus_domestica_Rhizosphere_keystone"
+
+	Spearman's rank correlation rho
+
+data:  product_of_abundance and composition_change
+S = 222508, p-value = 0.05909
+alternative hypothesis: true rho is less than 0
+sample estimates:
+       rho 
+-0.1533693 
+
+[1] "Oryza_sativa_Rhizosphere_keystone"
+
+	Spearman's rank correlation rho
+
+data:  product_of_abundance and composition_change
+S = 60512494, p-value = 1
+alternative hypothesis: true rho is less than 0
+sample estimates:
+      rho 
+0.6258109 
+
+[1] "Panax_ginseng_Rhizosphere_keystone"
+
+	Spearman's rank correlation rho
+
+data:  product_of_abundance and composition_change
+S = 876, p-value = 0.9742
+alternative hypothesis: true rho is less than 0
+sample estimates:
+      rho 
+0.4311688 
+
+[1] "Panax_notoginseng_Rhizosphere_keystone"
+
+	Spearman's rank correlation rho
+
+data:  product_of_abundance and composition_change
+S = 176304, p-value = 0.8092
+alternative hypothesis: true rho is less than 0
+sample estimates:
+       rho 
+0.08612897 
+
+[1] "Persea_americana_Mill_Rhizosphere_keystone"
+
+	Spearman's rank correlation rho
+
+data:  product_of_abundance and composition_change
+S = 9902, p-value = 0.0527
+alternative hypothesis: true rho is less than 0
+sample estimates:
+       rho 
+-0.2743887 
+
+[1] "Sorghum_bicolor_Rhizosphere_keystone"
+
+	Spearman's rank correlation rho
+
+data:  product_of_abundance and composition_change
+S = 4.75e+08, p-value < 2.2e-16
+alternative hypothesis: true rho is less than 0
+sample estimates:
+       rho 
+-0.5503714 
+
+[1] "Triticum_aestivum_Rhizosphere_keystone"
+
+	Spearman's rank correlation rho
+
+data:  product_of_abundance and composition_change
+S = 15117946, p-value = 1.067e-13
+alternative hypothesis: true rho is less than 0
+sample estimates:
+       rho 
+-0.3554034 
+
+[1] "Zea_mays_L._hybrid_Rhizosphere_keystone"
+
+	Spearman's rank correlation rho
+
+data:  product_of_abundance and composition_change
+S = 4834340, p-value = 4.745e-11
+alternative hypothesis: true rho is less than 0
+sample estimates:
+       rho 
+-0.3796436 
+
+[1] "Arachis_hypogaea_Rhizosphere_keystone"
+
+	Spearman's rank correlation rho
+
+data:  product_of_abundance and composition_change
+S = 2392, p-value = 0.964
+alternative hypothesis: true rho is less than 0
+sample estimates:
+      rho 
+0.3453749 
+
