@@ -18,6 +18,7 @@ present <- c()
 
 for(i in 1:dim(community)[1]){
   if(sum(community[i ,]) > 0){
+  #if(length(community[i ,][ community[i , ] > 1 ]) > 1){
     present <- c(present , i)
 }
 }
@@ -31,7 +32,7 @@ community <- community[present, ]
 
 key_otus <- paste0( "../results/central_otus/" , args[1] , "_" , args[2] ,"_keystone_otus.csv" )
 key_otus <- read.csv(key_otus , row.names = 1)
-#print(row.names(key_otus))
+print(row.names(key_otus))
 key_otus <- community[ row.names(key_otus) ,   ]
   
 
@@ -40,7 +41,7 @@ key_otus <- community[ row.names(key_otus) ,   ]
 
 
 abundace_key_otus <- colSums(key_otus)
-#print(abundace_key_otus)
+print(abundace_key_otus)
 #random <- list()
 
 #for ( i in 1:10000){
