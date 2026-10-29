@@ -9,10 +9,10 @@ args = commandArgs(trailingOnly=TRUE)
 
 
 
-#Datos de comunidad y normalizacion
-community <- paste0( "./KeystoneOtus/data/tables/" , args[1] , "_" , args[2] , ".tsv" )
+########Datos de comunidad y normalizacion#########
+community <- paste0( "../data/tables/" , args[1] , "_" , args[2] , ".tsv" )
 community <- read.table(community , header = 1, row.names = 1 , sep = "\t")
-#community <- paste0( "./KeystoneOtus/data/tables/" , args[1] , "_" , args[2] , ".csv" )
+#community <- paste0( "../data/tables/" , args[1] , "_" , args[2] , ".csv" )
 #community <- read.csv(community , header = 1, row.names = 1 )
 
 for (i in 1:dim(community)[2]){
@@ -33,6 +33,10 @@ for(i in 1:dim(community)[1]){
 community <- community[present, ]
 
 
+######Fijar la diversidad ecológica de los datos ######
+
+#vector de alpha-diversidad
+
 alpha_diversity_community <- c()
 
 for (i in 1:dim(community)[2]){
@@ -41,9 +45,15 @@ for (i in 1:dim(community)[2]){
   alpha_diversity_community <- c(alpha_diversity_community , diversity_i)
 }
 
+
+#matriz de beta-diversidad
+
+
 beta_diversity_community <- vegdist(as.matrix(t(community)) , method = "bray")
 beta_diversity_community <- as.matrix(beta_diversity_community)
 
+
+#vectorizacion
 composition_change <- c()
  
 for (i in 1:(length(alpha_diversity_community) - 1)){
@@ -55,13 +65,25 @@ for (i in 1:(length(alpha_diversity_community) - 1)){
   }
 }
   
+#eleccion de centroide
+
+excentricidad <- c()
+
+for (i in 1:(length(alpha_diversity_community))){
+  excen_i <- sum(beta_diversity_community[  , i ])
+  excentricidad <- c(excentricidad , excen_i)
+}
+
+centroide <- which(excentricidad == min(excentricidad))
+centroide <- centroide[1]
+
+convergence <- beta_diversity_community[ , centroide]
 
 
 
+########carga de medidas de centralidad que provienen de las redes de correlacion###########
 
-#medidas de centralidad
-
-c_measures <- paste0("./KeystoneOtus/results/otus_by_centrality/" , args[1] , "_" , args[2] , "_centrality_measures.csv")
+c_measures <- paste0("../results/otus_by_centrality/" , args[1] , "_" , args[2] , "_centrality_measures.csv")
 c_measures <- read.csv(c_measures , header = 1, row.names = 1)
 
 
@@ -141,12 +163,14 @@ product_of_abundance <- function(df){
 
 
 cor_beta <- function(df){
-  
+  abundance_df <- colSums(df)
+  change <- convergence 
 #  change <- composition_change(df)
-  product <- product_of_abundance(df)
-  cv_beta <- cv(product)
+ # product <- product_of_abundance(df)
+  cv_beta <- cv(abundance_df)
   #dif_b <- max(product) - min(product)
-  res <- cor.test(product , composition_change , alternative = "less" , method = "spearman")
+#  res <- cor.test(product , composition_change , alternative = "less" , method = "spearman")
+  res <- cor.test(abundance_df , convergence , alternative = "less" , method = "spearman")
   return(c(res$estimate , res$p.value , cv_beta))
 }
 
@@ -190,7 +214,10 @@ percentil_b <- function(n){
   X <- row.names(c_measures)[X]
   return(X)
 }
-#proceso para buscar alto y bajo en las medidas de centralidad 
+
+
+
+#######proceso para buscar alto y bajo en las medidas de centralidad, PIPELINE##########
 
 for ( i in 1:999){
   K <- percentil_k(i)
@@ -246,8 +273,11 @@ ggsave(paste0("./correlation_alpha_diversity_" , args[1] , "_" , args[2] , "_key
 
 
 df_K1 <- data.frame(
-  x_var = product_of_abundance(data_K),
-  y_var = composition_change
+  x_var = abundance_key_otus,
+  y_var = convergence
+
+#  x_var = product_of_abundance(data_K),
+#  y_var = composition_change
 )
 
 
