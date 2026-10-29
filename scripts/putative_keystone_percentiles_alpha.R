@@ -269,7 +269,7 @@ df_K <- data.frame(
 ggplot(data = df_K, aes(x = x_var, y = y_var)) +
   geom_point(size = 5)
 
-ggsave(paste0("./correlation_alpha_diversity_" , args[1] , "_" , args[2] , "_keystone.png") , plot = last_plot() , width = 7 , height = 7 , units = "in" ,  device = "png")
+ggsave(paste0("../results/figures/correlation_alpha_diversity_" , args[1] , "_" , args[2] , "_keystone.png") , plot = last_plot() , width = 7 , height = 7 , units = "in" ,  device = "png")
 
 
 df_K1 <- data.frame(
@@ -284,7 +284,7 @@ df_K1 <- data.frame(
 ggplot(data = df_K1, aes(x = x_var, y = y_var)) +
   geom_point(size = 5)
 
-ggsave(paste0("./correlation_beta_diversity_" , args[1] , "_" , args[2] , "_keystone.png") , plot = last_plot() , width = 7 , height = 7 , units = "in" , device = "png")
+ggsave(paste0("../results/figures/correlation_beta_diversity_" , args[1] , "_" , args[2] , "_keystone.png") , plot = last_plot() , width = 7 , height = 7 , units = "in" , device = "png")
 
 cv_K <- cv_X(K)
 
@@ -297,7 +297,7 @@ plot <- ggplot() +
                        theme(axis.text.x = element_text(angle = 45, hjust = 1) )
 
 
-ggsave(paste0("./coefficient_of_variation_" , args[1] , "_" , args[2] , "_keystone_otus" , ".png") , plot = plot , width = 7 , height = 7 , units = "in" ,  device = "png")
+ggsave(paste0("../results/figures/coefficient_of_variation_" , args[1] , "_" , args[2] , "_keystone_otus" , ".png") , plot = plot , width = 7 , height = 7 , units = "in" ,  device = "png")
 
 
 test_cv <- c()
@@ -319,7 +319,7 @@ if ( t_K$p.value < 0.05 ){
 }
 
 
-write.csv(keystone , paste0(args[1] , "_" , args[2] , "_keystone_otus.csv" ) , row.names = TRUE)
+write.csv(keystone , paste0("../results/central_otus/" , args[1] , "_" , args[2] , "_keystone_otus.csv" ) , row.names = TRUE)
 
 cat(paste0(args[1] , "," , as.character(k) , ","  , as.character(test_cv[1]) , "," , as.character(test_cv[2]) , ","  ))
 cat(paste0( as.character(cor_alpha(data_K)[1]) ,"," , as.character(cor_alpha(data_K)[1]/cor_alpha(data_K)[3]) ,"," , as.character(cor_alpha(data_K)[2]) ,"," ) )
@@ -382,20 +382,20 @@ df_D <- data.frame(
 ggplot(data = df_D, aes(x = x_var, y = y_var)) +
   geom_point(size = 5)
 
-ggsave(paste0("./correlation_diversity_" , args[1] , "_" , args[2] , "_high_degree.png") , plot = last_plot() , width = 7 , height = 7 , units = "in" , device = "png")
+ggsave(paste0("../results/figures/correlation_diversity_" , args[1] , "_" , args[2] , "_high_degree.png") , plot = last_plot() , width = 7 , height = 7 , units = "in" , device = "png")
 
 
 
 df_D1 <- data.frame(
-  x_var = product_of_abundance(data_D),
-  y_var = composition_change
+  x_var = abundance_high_degree,
+  y_var = convergence
 )
 
 
 ggplot(data = df_D1, aes(x = x_var, y = y_var)) +
   geom_point(size = 5)
 
-ggsave(paste0("./correlation_beta_diversity_" , args[1] , "_" , args[2] , "_high_degree.png") , plot = last_plot() , width = 7 , height = 7 , units = "in" ,  device = "png")
+ggsave(paste0("../results/figures/correlation_beta_diversity_" , args[1] , "_" , args[2] , "_high_degree.png") , plot = last_plot() , width = 7 , height = 7 , units = "in" ,  device = "png")
 
 
 cv_D <- cv_X(D)
@@ -409,7 +409,7 @@ plot <- ggplot() +
                        theme(axis.text.x = element_text(angle = 45, hjust = 1) )
 
 
-ggsave(paste0("./coefficient_of_variation_" , args[1] , "_" , args[2] , "_high_degree" , ".png") , plot = plot , width = 7 , height = 7 , units = "in" , device = "png")
+ggsave(paste0("../results/figures/coefficient_of_variation_" , args[1] , "_" , args[2] , "_high_degree" , ".png") , plot = plot , width = 7 , height = 7 , units = "in" , device = "png")
 
 
 
@@ -434,7 +434,7 @@ if ( t_D$p.value < 0.05 ){
 
 
 
-write.csv(high_degree , paste0(args[1] , "_" , args[2] , "_high_degree_otus.csv" ) , row.names = TRUE)
+write.csv(high_degree , paste0( "../results/central_otus/" , args[1] , "_" , args[2] , "_high_degree_otus.csv" ) , row.names = TRUE)
 
 
 cat(paste0(as.character(d) , ","  , as.character(test_cv[1]) , "," , as.character(test_cv[2]) , ","   ))
@@ -496,20 +496,20 @@ df_C <- data.frame(
 ggplot(data = df_C, aes(x = x_var, y = y_var)) +
   geom_point(size = 5)
 
-ggsave(paste0("./correlation_diversity_" , args[1] , "_" , args[2] , "_high_closeness.png") , plot = last_plot() , width = 7 , height = 7 , units = "in" , device = "png")
+ggsave(paste0("../results/figures/correlation_diversity_" , args[1] , "_" , args[2] , "_high_closeness.png") , plot = last_plot() , width = 7 , height = 7 , units = "in" , device = "png")
 
 
 
 df_C1 <- data.frame(
-  x_var = product_of_abundance(data_C),
-  y_var = composition_change
+  x_var = abundance_high_closeness,
+  y_var = convergence
 )
 
 
 ggplot(data = df_C1, aes(x = x_var, y = y_var)) +
   geom_point(size = 5)
 
-ggsave(paste0("./correlation_beta_diversity_" , args[1] , "_" , args[2] , "_high_closeness.png") , plot = last_plot() , width = 7 , height = 7 , units = "in" ,  device = "png")
+ggsave(paste0("../results/figures/correlation_beta_diversity_" , args[1] , "_" , args[2] , "_high_closeness.png") , plot = last_plot() , width = 7 , height = 7 , units = "in" ,  device = "png")
 
 
 
@@ -524,7 +524,7 @@ plot <- ggplot() +
                        theme(axis.text.x = element_text(angle = 45, hjust = 1) )
 
 
-ggsave(paste0("./coefficient_of_variation_" , args[1] , "_" , args[2] , "_high_closeness" , ".png") , plot = plot , width = 7 , height = 7 , units = "in" ,  device = "png")
+ggsave(paste0("../results/figures/coefficient_of_variation_" , args[1] , "_" , args[2] , "_high_closeness" , ".png") , plot = plot , width = 7 , height = 7 , units = "in" ,  device = "png")
 
 
 
@@ -547,7 +547,7 @@ if ( t_C$p.value < 0.05 ){
 }
 
 
-write.csv(high_closeness , paste0(args[1] , "_" , args[2] , "_high_closeness_otus.csv" ) , row.names = TRUE)
+write.csv(high_closeness , paste0("../results/central_otus/" , args[1] , "_" , args[2] , "_high_closeness_otus.csv" ) , row.names = TRUE)
 
 
 
@@ -610,20 +610,20 @@ df_B <- data.frame(
 ggplot(data = df_B, aes(x = x_var, y = y_var)) +
   geom_point(size = 5)
 
-ggsave(paste0("./correlation_diversity_" , args[1] , "_" , args[2] , "_high_betweenness.png") , plot = last_plot() , width = 7 , height = 7 , units = "in" ,  device = "png")
+ggsave(paste0("../results/figures/correlation_diversity_" , args[1] , "_" , args[2] , "_high_betweenness.png") , plot = last_plot() , width = 7 , height = 7 , units = "in" ,  device = "png")
 
 
 
 df_B1 <- data.frame(
-  x_var = product_of_abundance(data_B),
-  y_var = composition_change
+  x_var = abundance_high_betweenness,
+  y_var = convergence
 )
 
 
 ggplot(data = df_B1, aes(x = x_var, y = y_var)) +
   geom_point(size = 5)
 
-ggsave(paste0("./correlation_beta_diversity_" , args[1] , "_" , args[2] , "_high_betweenness.png") , plot = last_plot() , width = 7 , height = 7 , units = "in" , device = "png")
+ggsave(paste0("../results/figures/correlation_beta_diversity_" , args[1] , "_" , args[2] , "_high_betweenness.png") , plot = last_plot() , width = 7 , height = 7 , units = "in" , device = "png")
 
 
 
@@ -639,7 +639,7 @@ plot <- ggplot() +
 
 
 
-ggsave(paste0("./coefficient_of_variation_" , args[1] , "_" , args[2] , "_high_betweenness" , ".png") , plot = plot , width = 7 , height = 7 , units = "in" ,  device = "png")
+ggsave(paste0("../results/figures/coefficient_of_variation_" , args[1] , "_" , args[2] , "_high_betweenness" , ".png") , plot = plot , width = 7 , height = 7 , units = "in" ,  device = "png")
 
 
 
@@ -663,7 +663,7 @@ if ( t_B$p.value < 0.05 ){
 
 
 
-write.csv(high_betweenness , paste0(args[1] , "_" , args[2] , "_high_betweenness_otus.csv" ) , row.names = TRUE)
+write.csv(high_betweenness , paste0( "../results/central_otus/" , args[1] , "_" , args[2] , "_high_betweenness_otus.csv" ) , row.names = TRUE)
 
 
 cat(paste0(as.character(b) , "," , as.character(test_cv[1]) , "," , as.character(test_cv[2]) , "," ))
